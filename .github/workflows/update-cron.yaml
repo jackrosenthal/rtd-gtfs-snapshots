@@ -13,8 +13,8 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y curl protobuf-compiler bsdtar
-    - name: Configure Git
+        sudo apt-get install -y curl protobuf-compiler libarchive-tools
+    - name: Configure GiT
       run: |
         git config --global user.name "GTFS Updater Bot"
         git config --global user.email "actions@github.com"
