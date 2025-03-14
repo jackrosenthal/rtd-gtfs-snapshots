@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1741979110
+  timestamp: 1741979409
 }
 entity {
   id: "54361"
@@ -545,13 +545,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -6478,6 +6478,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nMarket St & 16th Street Mall (#17756) (eastbound)\r\n18th St & Blake St (#17834) (eastbound)\r\n17th St & Market St (#20745) (westbound)\r\n\nFor eastbound Route 9 get on/off buses at:\r\n15th St & Larimer St (#17707)\r\nUnion Station Gate B5 (#34324)\r\n\nFor westbound Route 9 get on/off buses at:\r\nUnion Station Gate B5 (#34324)\r\n17th St & Lawrence St (#17717)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57412"
+  alert {
+    active_period {
+      start: 1741979100
+      end: 1741981320
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "92"
+      route_type: 3
+      trip {
+        trip_id: "115200266"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 92 Trip 12:41 pm from Wadsworth Blvd & W 88th Ave to Original Thornton & 88th Station Gate B experiencing up to 30 minute delays today due to disabled bus."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
