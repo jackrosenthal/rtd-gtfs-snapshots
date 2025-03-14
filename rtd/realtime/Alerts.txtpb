@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1741983609
+  timestamp: 1741983909
 }
 entity {
   id: "54361"
@@ -545,13 +545,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -4744,6 +4744,37 @@ entity {
   }
 }
 entity {
+  id: "57416"
+  alert {
+    active_period {
+      start: 1741983660
+      end: 1741986780
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "0"
+      route_type: 3
+      trip {
+        trip_id: "115184156"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 0 Trip 2:06 pm from Union Station Gate B7 to Englewood Station Gate C experiencing up to 10 minute delays today due to no operator available."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "56859"
   alert {
     active_period {
@@ -5131,6 +5162,37 @@ entity {
     description_text {
       translation {
         text: "Affected westbound trips:\r\n12:15 pm from Colfax Ave & Billings St to Decatur / Federal Station Gate C\r\n\nAffected eastbound trips:\r\n1:24 pm from Decatur / Federal Station Gate D to Aurora Metro Center Stn Gate E"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57417"
+  alert {
+    active_period {
+      start: 1741985640
+      end: 1741990860
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192195"
+      }
+    }
+    cause: ACCIDENT
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 15L Trip 2:54 pm from Aurora Metro Center Stn Gate E to Decatur / Federal Station Gate C cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
