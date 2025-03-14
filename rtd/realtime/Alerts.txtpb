@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1741939748
+  timestamp: 1741943950
 }
 entity {
   id: "54361"
@@ -4583,39 +4583,6 @@ entity {
     header_text {
       translation {
         text: "Real-time information for A Line, B Line and G Line not available."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57247"
-  alert {
-    active_period {
-      start: 1741720860
-      end: 1741942740
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101E"
-      route_type: 0
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101H"
-      route_type: 0
-    }
-    cause: MAINTENANCE
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Real-time information for E Line and H Line may not be accurate due to maintenance."
         language: "en"
       }
     }
