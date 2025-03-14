@@ -4,8 +4,6 @@ This is a git repo with GTFS (realtime and schedules) data updated on a cron job
 running every 5 minutes.  It could be useful for the purpose of analyzing data
 over time, or recalling historical data.
 
-At the moment it just has RTD data, but this may change later.
-
 Structure:
 
 ```
@@ -21,5 +19,10 @@ Structure:
 │   └── update.sh     # Agency-specific script to download GTFS data.
 └── ...
 ```
+
+Agencies:
+
+* `rtd`: RTD Denver
+* `via`: Via Mobility Boulder (HOP and Lyons Flyer)
 
 Have fun!
