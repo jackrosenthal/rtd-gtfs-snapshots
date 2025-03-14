@@ -1,0 +1,23 @@
+name: Update GTFS data cron job
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+jobs:
+  update-cron:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y curl protobuf-compiler bsdtar
+    - name: Configure Git
+      run: |
+        git config --global user.name "GTFS Updater Bot"
+        git config --global user.email "actions@github.com"
+    - name: Update GTFS data
+      run: ./update_all_and_commit.sh
+    - name: Push changes
+      run: git push
