@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1741976709
+  timestamp: 1741977010
 }
 entity {
   id: "54361"
@@ -4592,6 +4592,45 @@ entity {
   }
 }
 entity {
+  id: "57409"
+  alert {
+    active_period {
+      start: 1741985400
+      end: 1741993200
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "NB1"
+      route_type: 3
+      trip {
+        trip_id: "115207443"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "NB1"
+      route_type: 3
+      trip {
+        trip_id: "115207444"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "NB1 Trip 2:50 pm from Downtown Boulder Station Gate 4 to Eldora Mountain Resort and 1 other trip experiencing up to 15 minute delays today due to no operator available."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected westbound trips:\r\n2:50 pm from Downtown Boulder Station Gate 4 to Eldora Mountain Resort\r\n\nAffected eastbound trips:\r\n3:51 pm from Eldora Mountain Resort to Downtown Boulder Station (Ar)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "44626"
   alert {
     active_period {
@@ -4948,6 +4987,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nMississippi Ave & S Leyden St (#15397) (eastbound)\r\nMississippi Ave & S Monaco Pkwy (#15410) (eastbound)\r\nMississippi Ave & S Leyden St (#15398) (westbound)\r\nMississippi Ave & S Monaco Pkwy (#15411) (westbound)\r\nMississippi Ave & S Oneida St (#15417) (westbound)\r\n\nFor eastbound Route 11 get on/off buses at:\r\nTennessee Ave & S Jersey St (#16741)\r\nMississippi Ave & S Oneida St (#15416)\r\n\nFor westbound Route 11 get on/off buses at:\r\nMississippi Ave & S Quebec St (#15428)\r\nTennessee Ave & S Jersey St (#16742)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57408"
+  alert {
+    active_period {
+      start: 1741976700
+      end: 1741979400
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189645"
+      }
+    }
+    cause: ACCIDENT
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 12 Trip 12:02 pm from 38th & Blake Station to Englewood Station Gate D cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
