@@ -2,6 +2,7 @@ name: Update GTFS data cron job
 on:
   schedule:
     - cron: "*/5 * * * *"
+  workflow_dispatch:
 jobs:
   update-cron:
     runs-on: ubuntu-24.04
