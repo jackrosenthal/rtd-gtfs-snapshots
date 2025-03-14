@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1741946649
+  timestamp: 1741946949
 }
 entity {
   id: "54361"
@@ -545,13 +545,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -4314,6 +4314,53 @@ entity {
     description_text {
       translation {
         text: "Affected direction: Northbound\r\n\nAffected northbound trips:\r\n4:40 am from Florida Station to 18th & California Station\r\n5:10 am from Florida Station to 18th & California Station\r\n5:40 am from Florida Station to 18th & California Station\r\n5:55 am from Florida Station to 18th & California Station\r\n6:10 am from Florida Station to 18th & California Station\r\n6:25 am from Florida Station to 18th & California Station\r\n6:40 am from Florida Station to 18th & California Station\r\n6:55 am from Florida Station to 18th & California Station\r\n7:10 am from Florida Station to 18th & California Station\r\n7:25 am from Florida Station to 18th & California Station\r\n7:40 am from Florida Station to 18th & California Station\r\n7:55 am from Florida Station to 18th & California Station\r\n8:10 am from Florida Station to 18th & California Station\r\n8:25 am from Florida Station to 18th & California Station\r\n8:40 am from Florida Station to 18th & California Station\r\n8:55 am from Florida Station to 18th & California Station\r\n9:10 am from Florida Station to 18th & California Station\r\n9:25 am from Florida Station to 18th & California Station\r\n9:40 am from Florida Station to 18th & California Station\r\n9:55 am from Florida Station to 18th & California Station\r\n10:10 am from Florida Station to 18th & California Station\r\n10:25 am from Florida Station to 18th & California Station\r\n10:40 am from Florida Station to 18th & California Station\r\n10:55 am from Florida Station to 18th & California Station\r\n11:10 am from Florida Station to 18th & California Station\r\n11:25 am from Florida Station to 18th & California Station\r\n11:40 am from Florida Station to 18th & California Station\r\n11:55 am from Florida Station to 18th & California Station\r\n12:10 pm from Florida Station to 18th & California Station\r\n12:25 pm from Florida Station to 18th & California Station\r\n\nAffected stops:\r\nYale Station (#34012)\r\nColorado Station (#34013)\r\nUniversity of Denver Station (#34014)\r\nLouisiana & Pearl Station (#34015)\r\nI-25 & Broadway Station (#23041)\r\nAlameda Station (#23042)\r\n10th & Osage Station (#23043)\r\nColfax at Auraria Station (#23044)\r\nTheatre District / Convention Center Station (#29104)\r\n16th & California Station (#23046)\r\n18th & California Station (#23047)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57395"
+  alert {
+    active_period {
+      start: 1741949100
+      end: 1741959180
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101H"
+      route_type: 0
+      trip {
+        trip_id: "115184897"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101H"
+      route_type: 0
+      trip {
+        trip_id: "115185161"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101H"
+      route_type: 0
+      trip {
+        trip_id: "115185082"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "H Line Trip 4:45 am from Evans Station to Florida Station and 2 other trips cancelled today due to no operator available. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected southbound trips:\r\n4:45 am from Evans Station to Florida Station\r\n6:30 am from 18th & Stout Station to Florida Station\r\n\nAffected northbound trips:\r\n5:40 am from Florida Station to 18th & California Station"
         language: "en"
       }
     }
