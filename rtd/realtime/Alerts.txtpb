@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1741961709
+  timestamp: 1741963210
 }
 entity {
   id: "54361"
@@ -5065,6 +5065,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nSable Blvd & 23rd Ave (#18798) (northbound)\r\nSable Blvd & 25th Ave (#18799) (northbound)\r\nSable Blvd & 28th Ave (#22343) (northbound)\r\nSable Blvd & 28th Ave (#18751) (southbound)\r\nSable Blvd & 25th Ave (#18752) (southbound)\r\nSable Blvd & 23rd Ave (#18753) (southbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57401"
+  alert {
+    active_period {
+      start: 1741962540
+      end: 1741965960
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192272"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 15L Trip 8:19 am from Colfax Ave & Billings St to Decatur / Federal Station Gate C experiencing up to 10 minute delays today due to no operator available."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
