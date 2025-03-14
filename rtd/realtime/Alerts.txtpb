@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1741990208
+  timestamp: 1741990509
 }
 entity {
   id: "54361"
@@ -648,13 +648,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -6287,37 +6287,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nPark Ave West & Lawrence St (#23223) (northbound)\r\nPark Ave West & Blake St (#23224) (northbound)\r\n\nAvailable alternate stops:\r\nCurtis St & 20th St (#22701)\r\nLincoln St & 46th Ave (#33344)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57420"
-  alert {
-    active_period {
-      start: 1741986780
-      end: 1741990200
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "88"
-      route_type: 3
-      trip {
-        trip_id: "115199975"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Route 88 Trip 3:13 pm from Central Park Station Gate D1 to Commerce City & 72nd Station Gate C experiencing up to 30 minute delays today due to disabled bus."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
