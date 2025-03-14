@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1741986608
+  timestamp: 1741986909
 }
 entity {
   id: "54361"
@@ -567,6 +567,109 @@ entity {
   }
 }
 entity {
+  id: "57419"
+  alert {
+    active_period {
+      start: 1741992000
+      end: 1742025180
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115184996"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115185002"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115185007"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115185045"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115185097"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115185130"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115185156"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115184977"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115185195"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115185199"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "D Line Trip 4:40 pm from Littleton / Mineral Ave Station to 18th & California Station and 9 other trips cancelled today due to no operator available. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected northbound trips:\r\n4:40 pm from Littleton / Mineral Ave Station to 18th & California Station\r\n6:25 pm from Littleton / Mineral Ave Station to 18th & California Station\r\n8:25 pm from Littleton / Mineral Ave Station to 18th & California Station\r\n10:25 pm from Littleton / Mineral Ave Station to 18th & California Station\r\n12:25 am from Littleton / Mineral Ave Station to 18th & California Station\r\n\nAffected southbound trips:\r\n5:18 pm from 18th & Stout Station to Littleton / Mineral Ave Station\r\n7:03 pm from 18th & Stout Station to Littleton / Mineral Ave Station\r\n9:03 pm from 18th & Stout Station to Littleton / Mineral Ave Station\r\n11:03 pm from 18th & Stout Station to Littleton / Mineral Ave Station\r\n1:03 am from 18th & Stout Station to Littleton / Mineral Ave Station"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "48577"
   alert {
     active_period {
@@ -576,13 +679,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -4721,37 +4824,6 @@ entity {
   }
 }
 entity {
-  id: "57416"
-  alert {
-    active_period {
-      start: 1741983660
-      end: 1741986780
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "0"
-      route_type: 3
-      trip {
-        trip_id: "115184156"
-      }
-    }
-    cause: OTHER_CAUSE
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Route 0 Trip 2:06 pm from Union Station Gate B7 to Englewood Station Gate C experiencing up to 10 minute delays today due to no operator available."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "56859"
   alert {
     active_period {
@@ -6246,6 +6318,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nPark Ave West & Lawrence St (#23223) (northbound)\r\nPark Ave West & Blake St (#23224) (northbound)\r\n\nAvailable alternate stops:\r\nCurtis St & 20th St (#22701)\r\nLincoln St & 46th Ave (#33344)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57420"
+  alert {
+    active_period {
+      start: 1741986780
+      end: 1741990200
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "88"
+      route_type: 3
+      trip {
+        trip_id: "115199975"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 88 Trip 3:13 pm from Central Park Station Gate D1 to Commerce City & 72nd Station Gate C experiencing up to 30 minute delays today due to disabled bus."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
