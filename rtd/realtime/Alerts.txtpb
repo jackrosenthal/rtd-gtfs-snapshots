@@ -1,290 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1741916469
-}
-entity {
-  id: "57292"
-  alert {
-    active_period {
-      start: 1742032800
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "44"
-      route_type: 3
-      stop_id: "17766"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "44"
-      route_type: 3
-      stop_id: "20745"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 44 detoured from 4:00 AM to 3:00 PM on Sat Mar 15 due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nWazee St & 16th Street Mall (#17766) (eastbound)\r\n17th St & Market St (#20745) (eastbound)\r\n\nAvailable alternate stops:\r\n15th St & Wynkoop St (#22574)\r\n17th St & Lawrence St (#17717)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57232"
-  alert {
-    active_period {
-      start: 1742032800
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "0"
-      route_type: 3
-      stop_id: "17834"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "0"
-      route_type: 3
-      stop_id: "17752"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 0 detoured from 4:00 AM to 3:00 PM on Sat Mar 15 due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nLawrence St & 16th Street Mall (#17752) (northbound)\r\n18th St & Blake St (#17834) (northbound)\r\n\nFor northbound Route 0 get on/off buses at:\r\n15th St & Champa St [ Z Stop ] (#17704)\r\nUnion Station Gate B7 (#34326)\r\n\nFor southbound Route 0 get on/off buses at:\r\nUnion Station Gate B7 (#34326)\r\n17th St & Curtis St [ Z Stop ] (#17715)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "49932"
-  alert {
-    active_period {
-      start: 1725542640
-      end: 1748595540
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "11"
-      route_type: 3
-      stop_id: "15398"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "11"
-      route_type: 3
-      stop_id: "15411"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "11"
-      route_type: 3
-      stop_id: "15417"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "11"
-      route_type: 3
-      stop_id: "15397"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "11"
-      route_type: 3
-      stop_id: "15410"
-    }
-    cause: CONSTRUCTION
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 11 detoured from 7:24 AM today through Thu May 29 due to construction."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nMississippi Ave & S Leyden St (#15397) (eastbound)\r\nMississippi Ave & S Monaco Pkwy (#15410) (eastbound)\r\nMississippi Ave & S Leyden St (#15398) (westbound)\r\nMississippi Ave & S Monaco Pkwy (#15411) (westbound)\r\nMississippi Ave & S Oneida St (#15417) (westbound)\r\n\nFor eastbound Route 11 get on/off buses at:\r\nTennessee Ave & S Jersey St (#16741)\r\nMississippi Ave & S Oneida St (#15416)\r\n\nFor westbound Route 11 get on/off buses at:\r\nMississippi Ave & S Quebec St (#15428)\r\nTennessee Ave & S Jersey St (#16742)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "48577"
-  alert {
-    active_period {
-      start: 1721776860
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101D"
-      route_type: 0
-      stop_id: "24894"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101D"
-      route_type: 0
-      stop_id: "25438"
-    }
-    cause: UNKNOWN_CAUSE
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "D Line experiencing up to 15 minute delays due to speed restrictions. Train travel speeds will be slower in affected areas."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "For additional details, please visit: https://rtdden.co/4aUFNDn"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "53810"
-  alert {
-    active_period {
-      start: 1736178480
-      end: 1742201940
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "73"
-      route_type: 3
-      stop_id: "25272"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "73"
-      route_type: 3
-      stop_id: "25222"
-    }
-    cause: CONSTRUCTION
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "The following stops are closed through Sun Mar 16 due to construction: Quebec St & Colfax Ave (#25222) (southbound) and Quebec St & Colfax Ave (#25272) (northbound)."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected routes:\r\n73\r\n\nFor northbound Route 73 get on/off buses at:\r\nQuebec St & 13th Ave (#16115)\r\nQuebec St & 17th Ave (#25273)\r\n\nFor southbound Route 73 get on/off buses at:\r\nQuebec St & Montview Blvd (#25220)\r\nQuebec St & 17th Ave (#25221)\r\nQuebec St & 13th Ave (#16116)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57233"
-  alert {
-    active_period {
-      start: 1742029200
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "1"
-      route_type: 3
-      stop_id: "17835"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 1 detoured on Sat Mar 15 until 3:00 PM due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected direction: Westbound\r\n\nAffected stops:\r\nBlake St & 17th St (#17835)\r\n\nAvailable alternate stops:\r\n18th St & Arapahoe St (#17723)\r\nBlake St & 14th St (#21375)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "55726"
-  alert {
-    active_period {
-      start: 1740736800
-      end: 1742029140
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "205"
-      route_type: 3
-      stop_id: "25673"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "205"
-      route_type: 3
-      stop_id: "25674"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 205 detoured from Fri Feb 28 through Fri Mar 14 due to road closure on CO 119 at Jay Rd."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nJay Rd & 47th St (#25673) (eastbound)\r\nJay Rd & 51st St (#25674) (eastbound)\r\n\nAvailable alternate stops:\r\nJay Rd & Lonetree Ct (#33698)\r\nJay Rd & CO 119 (#14648)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "47058"
-  alert {
-    active_period {
-      start: 1717530900
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101E"
-      route_type: 0
-    }
-    cause: UNKNOWN_CAUSE
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "E Line experiencing greater than 10 minute delays due to speed restrictions. Train travel speeds will be slower in affected areas."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "For additional details, please visit: https://rtdden.co/4aUFNDn"
-        language: "en"
-      }
-    }
-  }
+  timestamp: 1741916528
 }
 entity {
   id: "56857"
@@ -768,629 +485,6 @@ entity {
     description_text {
       translation {
         text: "Affected routes:\r\n7\r\n\nAvailable alternate stops:\r\nTemporary bus stop located south of 47th Ave near DenCol Building\r\nWashington St & 45th Ave (#17167)\r\nWashington St & 49th Ave (#22041)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "56464"
-  alert {
-    active_period {
-      start: 1740444120
-      end: 1740463565
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "FF5"
-      route_type: 3
-      stop_id: "12509"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "FF5"
-      route_type: 3
-      stop_id: "12478"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "FF5"
-      route_type: 3
-      stop_id: "16680"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "FF5"
-      route_type: 3
-      stop_id: "12479"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "FF5"
-      route_type: 3
-      stop_id: "12512"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "FF5"
-      route_type: 3
-      stop_id: "12604"
-    }
-    cause: POLICE_ACTIVITY
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "FF5 detoured due to police activity."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nBroadway & Baseline Rd (#12478) (eastbound)\r\nS Broadway & Dartmouth Ave (#12509) (eastbound)\r\nTable Mesa Dr & 39th St (#16680) (eastbound)\r\nS Broadway & Table Mesa Dr (#12604) (westbound)\r\nBroadway & Dartmouth PnR (#12512) (westbound)\r\nBroadway & Baseline Rd (#12479) (westbound)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "56463"
-  alert {
-    active_period {
-      start: 1740444060
-      end: 1740463565
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "FF2"
-      route_type: 3
-      stop_id: "16680"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "FF2"
-      route_type: 3
-      stop_id: "12509"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "FF2"
-      route_type: 3
-      stop_id: "12478"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "FF2"
-      route_type: 3
-      stop_id: "12479"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "FF2"
-      route_type: 3
-      stop_id: "12512"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "FF2"
-      route_type: 3
-      stop_id: "12604"
-    }
-    cause: POLICE_ACTIVITY
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "FF2 detoured due to police activity."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nBroadway & Baseline Rd (#12478) (eastbound)\r\nS Broadway & Dartmouth Ave (#12509) (eastbound)\r\nTable Mesa Dr & 39th St (#16680) (eastbound)\r\nS Broadway & Table Mesa Dr (#12604) (westbound)\r\nBroadway & Dartmouth PnR (#12512) (westbound)\r\nBroadway & Baseline Rd (#12479) (westbound)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "51743"
-  alert {
-    active_period {
-      start: 1730490900
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "7"
-      route_type: 3
-      stop_id: "17193"
-    }
-    cause: CONSTRUCTION
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "The following stop is closed due to construction: Washington St & 73rd Ave (#17193) (northbound)."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected routes:\r\n7\r\n\nAvailable alternate stops:\r\nWashington St & Hwy 224 (#17191)\r\nWashington St & 76th Ave (#23724)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "51826"
-  alert {
-    active_period {
-      start: 1731319200
-      end: 1743444060
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "76"
-      route_type: 3
-      stop_id: "17085"
-    }
-    cause: UNKNOWN_CAUSE
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "The following stop is closed from Mon Nov 11 to Mon Mar 31, 2025: S Wadsworth Blvd & Morrison Rd (#17085) (southbound)."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected routes:\r\n76\r\n\nAvailable alternate stops:\r\nS Wadsworth Blvd & W Woodard Dr (#17108)\r\nS Wadsworth Blvd & W Vassar Ave (#17107)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "56458"
-  alert {
-    active_period {
-      start: 1740443340
-      end: 1740463867
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15626"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "16680"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "16682"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15628"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15622"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15623"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15614"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15615"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15618"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15620"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15612"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "21103"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15613"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15611"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15621"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15619"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15616"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15617"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15624"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15625"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "204"
-      route_type: 3
-      stop_id: "15629"
-    }
-    cause: POLICE_ACTIVITY
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 204 detoured beginning at 5:21 PM due to police activity."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nTable Mesa Dr & 39th St (#16680) (northbound)\r\nTable Mesa Dr & S 43rd St (#16682) (northbound)\r\nTable Mesa Dr & Tantra Dr (#21103) (northbound)\r\nMoorhead Ave & Table Mesa Dr (#15628) (northbound)\r\nMoorhead Ave & Hamilton Ct (#15623) (northbound)\r\nMoorhead Ave & Fuller Ct (#15622) (northbound)\r\nMoorhead Ave & Davidson Pl (#15620) (northbound)\r\nMoorhead Ave & S 36th St (#15615) (northbound)\r\nMoorhead Ave & Ash Ave (#15618) (northbound)\r\nMoorhead Ave & Martin Dr (#15626) (northbound)\r\nMoorhead Ave & 29th St (#15614) (northbound)\r\nMoorhead Ave & 27th Way (#15612) (northbound)\r\nMoorhead Ave & 27th Way (#15611) (southbound)\r\nMoorhead Ave & 29th St (#15613) (southbound)\r\nMoorhead Ave & Martin Dr (#15625) (southbound)\r\nMoorhead Ave & Ash Ave (#15617) (southbound)\r\nMoorhead Ave & S 36th St (#15616) (southbound)\r\nMoorhead Ave & Davidson Pl (#15619) (southbound)\r\nMoorhead Ave & Fuller Ct (#15621) (southbound)\r\nMoorhead Ave & Hamilton Ct (#15624) (southbound)\r\nMoorhead Ave & Table Mesa Dr (#15629) (southbound)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "55522"
-  alert {
-    active_period {
-      start: 1738878600
-      end: 1767175140
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "24"
-      route_type: 3
-      stop_id: "22676"
-    }
-    cause: CONSTRUCTION
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "The following stop is closed through Tue Dec 30 due to construction: S University Blvd & Dad Clark Dr (#22676) (northbound)."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected routes:\r\n24\r\n\nAvailable alternate stops:\r\nC-470 & University PnR Gate B (#21326)\r\nS University Blvd & County Line Rd (#22080)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "49284"
-  alert {
-    active_period {
-      start: 1723640400
-      end: 1743469200
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "9"
-      route_type: 3
-      stop_id: "24371"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "9"
-      route_type: 3
-      stop_id: "21441"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "9"
-      route_type: 3
-      stop_id: "25600"
-    }
-    cause: CONSTRUCTION
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 9 detoured daily 7:00 AM - 7:00 PM through Mon Mar 31 2025 due to construction on 8th Ave bridge."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nW 8th Ave & Wyandot St (#25600) (eastbound)\r\nMariposa St & W 8th Ave (#24371) (eastbound)\r\nW 8th Ave & Wyandot St (#21441) (westbound)\r\n\nFor eastbound Route 9 get on/off buses at:\r\nW 8th Ave & Bryant St (#20508)\r\nW 9th Ave & Mariposa St (#20124)\r\n\nFor westbound Route 9 get on/off buses at:\r\nW 8th Ave & Bryant St (#25409)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "50738"
-  alert {
-    active_period {
-      start: 1728637200
-      end: 1746003540
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "38"
-      route_type: 3
-      stop_id: "10993"
-    }
-    cause: CONSTRUCTION
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "The following stop is closed from Fri Oct 11 through Tue Apr 29 due to construction: W 38th Ave & High Ct (#10993) (westbound)."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected routes:\r\n38\r\n\nAvailable alternate stop:\r\nW 38th Ave & Pierce St (#11039)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "53985"
-  alert {
-    active_period {
-      start: 1736371860
-      end: 1742547540
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "228A"
-      route_type: 3
-      stop_id: "25076"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "228A"
-      route_type: 3
-      stop_id: "25077"
-    }
-    cause: CONSTRUCTION
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 228A detoured through Thu Mar 20 due to construction."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nFlatiron Crossing Mall Ring Rd & Interlocken Blvd (#25076) (northbound)\r\nFlatiron Crossing Mall Ring Rd & Interlocken Blvd (#25077) (southbound)\r\n\nFor northbound Route 228A get on/off buses at:\r\nUS 36 & Flatiron Station Gate F (#35242)\r\nCoalton Rd & W Flatirons Crossing Dr (#25820)\r\n\nFor southbound Route 228A get on/off buses at:\r\nCoalton Rd & Summit Blvd (#25072)\r\nUS 36 & Flatiron Station Gate F (#35242)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57371"
-  alert {
-    active_period {
-      start: 1741900200
-      end: 1741933380
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101D"
-      route_type: 0
-      trip {
-        trip_id: "115205049"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101D"
-      route_type: 0
-      trip {
-        trip_id: "115205043"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101D"
-      route_type: 0
-      trip {
-        trip_id: "115205045"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101D"
-      route_type: 0
-      trip {
-        trip_id: "115205070"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101D"
-      route_type: 0
-      trip {
-        trip_id: "115205114"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101D"
-      route_type: 0
-      trip {
-        trip_id: "115205242"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101D"
-      route_type: 0
-      trip {
-        trip_id: "115205243"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101D"
-      route_type: 0
-      trip {
-        trip_id: "115205247"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101D"
-      route_type: 0
-      trip {
-        trip_id: "115205269"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101D"
-      route_type: 0
-      trip {
-        trip_id: "115205312"
-      }
-    }
-    cause: OTHER_CAUSE
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "D Line Trip 3:10 pm from Littleton / Mineral Ave Station to 18th & California Station and 9 other trips cancelled today due to no operator available. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected northbound trips:\r\n3:10 pm from Littleton / Mineral Ave Station to 18th & California Station\r\n4:55 pm from Littleton / Mineral Ave Station to 18th & California Station\r\n6:55 pm from Littleton / Mineral Ave Station to 18th & California Station\r\n8:55 pm from Littleton / Mineral Ave Station to 18th & California Station\r\n10:55 pm from Littleton / Mineral Ave Station to 18th & California Station\r\n\nAffected southbound trips:\r\n3:48 pm from 18th & Stout Station to Littleton / Mineral Ave Station\r\n5:33 pm from 18th & Stout Station to Littleton / Mineral Ave Station\r\n7:33 pm from 18th & Stout Station to Littleton / Mineral Ave Station\r\n9:33 pm from 18th & Stout Station to Littleton / Mineral Ave Station\r\n11:33 pm from 18th & Stout Station to Littleton / Mineral Ave Station"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "54281"
-  alert {
-    active_period {
-      start: 1736868660
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15"
-      route_type: 3
-      stop_id: "12882"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15L"
-      route_type: 3
-      stop_id: "12882"
-    }
-    cause: CONSTRUCTION
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "The following stop is closed daily 8:00 AM - 8:00 PM due to construction: Colfax Ave & Glencoe St (#12882) (westbound)."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected routes:\r\n15\r\n15L\r\n\nAvailable alternate stops:\r\nColfax Ave & Hudson St (#12900) (westbound)\r\nColfax Ave & Elm St (#12875) (westbound)\r\nColfax Ave & Krameria St (#12922) (westbound)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "50399"
-  alert {
-    active_period {
-      start: 1726877400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "16"
-      route_type: 3
-      stop_id: "12956"
-    }
-    cause: CONSTRUCTION
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "The following stop is closed due to construction: W Colfax Ave & Perry St (#12956) (eastbound)."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected routes:\r\n16\r\n\nAvailable alternate stops:\r\nW Colfax Ave & Tennyson St (#12990)\r\nW Colfax Ave & Meade St (#12928)"
         language: "en"
       }
     }
@@ -5725,161 +4819,6 @@ entity {
   }
 }
 entity {
-  id: "54030"
-  alert {
-    active_period {
-      start: 1736935200
-      end: 1761901140
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "BOLT"
-      route_type: 3
-      stop_id: "24826"
-    }
-    cause: CONSTRUCTION
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "The following stop is closed from Wed Jan 15 through Thu Oct 30 due to construction: CO 119 & Monarch Rd (#24826) (southbound)."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected routes:\r\nBOLT\r\n\nAvailable alternate stops:\r\nTemporary stop north of Monarch Rd\r\nCO 119 & Niwot Rd PnR (#18095)\r\nCO 119 & 63rd St (#18010)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "56850"
-  alert {
-    active_period {
-      start: 1741119180
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "113B"
-      route_type: 2
-      stop_id: "34782"
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Board and alight B Line on track 6 due to mechanical problem."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nUnion Station Track 8"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "56777"
-  alert {
-    active_period {
-      start: 1741770000
-      end: 1747126740
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "51"
-      route_type: 3
-      stop_id: "16480"
-    }
-    cause: CONSTRUCTION
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "The following stop is closed from Wed Mar 12 through Mon May 12 due to construction: Sheridan Blvd & W 5th Ave (#16480) (northbound)."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected routes:\r\n51\r\n\nAvailable alternate stop:\r\nSheridan Blvd & W 2nd Ave (#16473)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57285"
-  alert {
-    active_period {
-      start: 1742032800
-      end: 1742076000
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "10"
-      route_type: 3
-      stop_id: "17766"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "10"
-      route_type: 3
-      stop_id: "20745"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 10 detoured from 4:00 AM to 4:00 PM on Sat Mar 15 due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nWazee St & 16th Street Mall (#17766) (eastbound)\r\n17th St & Market St (#20745) (eastbound)\r\n\nAvailable alternate stops:\r\n15th St & Wynkoop St (#22574)\r\n17th St & Lawrence St (#17717)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "51608"
-  alert {
-    active_period {
-      start: 1730194620
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "16"
-      route_type: 3
-      stop_id: "12989"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "16"
-      route_type: 3
-      stop_id: "12929"
-    }
-    cause: CONSTRUCTION
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "The following stops are closed due to construction: W Colfax Ave & Tennyson St (#12989) (westbound) and W Colfax Ave & Meade St (#12929) (westbound)."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected routes:\r\n16\r\n\nAvailable alternate stop:\r\nW Colfax Ave & Perry St (#12991)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "54280"
   alert {
     active_period {
@@ -7715,6 +6654,429 @@ entity {
   }
 }
 entity {
+  id: "56464"
+  alert {
+    active_period {
+      start: 1740444120
+      end: 1740463565
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "FF5"
+      route_type: 3
+      stop_id: "12509"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "FF5"
+      route_type: 3
+      stop_id: "12478"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "FF5"
+      route_type: 3
+      stop_id: "16680"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "FF5"
+      route_type: 3
+      stop_id: "12479"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "FF5"
+      route_type: 3
+      stop_id: "12512"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "FF5"
+      route_type: 3
+      stop_id: "12604"
+    }
+    cause: POLICE_ACTIVITY
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "FF5 detoured due to police activity."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nBroadway & Baseline Rd (#12478) (eastbound)\r\nS Broadway & Dartmouth Ave (#12509) (eastbound)\r\nTable Mesa Dr & 39th St (#16680) (eastbound)\r\nS Broadway & Table Mesa Dr (#12604) (westbound)\r\nBroadway & Dartmouth PnR (#12512) (westbound)\r\nBroadway & Baseline Rd (#12479) (westbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "56463"
+  alert {
+    active_period {
+      start: 1740444060
+      end: 1740463565
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "FF2"
+      route_type: 3
+      stop_id: "16680"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "FF2"
+      route_type: 3
+      stop_id: "12509"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "FF2"
+      route_type: 3
+      stop_id: "12478"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "FF2"
+      route_type: 3
+      stop_id: "12479"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "FF2"
+      route_type: 3
+      stop_id: "12512"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "FF2"
+      route_type: 3
+      stop_id: "12604"
+    }
+    cause: POLICE_ACTIVITY
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "FF2 detoured due to police activity."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nBroadway & Baseline Rd (#12478) (eastbound)\r\nS Broadway & Dartmouth Ave (#12509) (eastbound)\r\nTable Mesa Dr & 39th St (#16680) (eastbound)\r\nS Broadway & Table Mesa Dr (#12604) (westbound)\r\nBroadway & Dartmouth PnR (#12512) (westbound)\r\nBroadway & Baseline Rd (#12479) (westbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "51743"
+  alert {
+    active_period {
+      start: 1730490900
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "7"
+      route_type: 3
+      stop_id: "17193"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop is closed due to construction: Washington St & 73rd Ave (#17193) (northbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n7\r\n\nAvailable alternate stops:\r\nWashington St & Hwy 224 (#17191)\r\nWashington St & 76th Ave (#23724)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "51826"
+  alert {
+    active_period {
+      start: 1731319200
+      end: 1743444060
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "76"
+      route_type: 3
+      stop_id: "17085"
+    }
+    cause: UNKNOWN_CAUSE
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop is closed from Mon Nov 11 to Mon Mar 31, 2025: S Wadsworth Blvd & Morrison Rd (#17085) (southbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n76\r\n\nAvailable alternate stops:\r\nS Wadsworth Blvd & W Woodard Dr (#17108)\r\nS Wadsworth Blvd & W Vassar Ave (#17107)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "56458"
+  alert {
+    active_period {
+      start: 1740443340
+      end: 1740463867
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15626"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "16680"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "16682"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15628"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15622"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15623"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15614"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15615"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15618"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15620"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15612"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "21103"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15613"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15611"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15621"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15619"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15616"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15617"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15624"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15625"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "204"
+      route_type: 3
+      stop_id: "15629"
+    }
+    cause: POLICE_ACTIVITY
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Route 204 detoured beginning at 5:21 PM due to police activity."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nTable Mesa Dr & 39th St (#16680) (northbound)\r\nTable Mesa Dr & S 43rd St (#16682) (northbound)\r\nTable Mesa Dr & Tantra Dr (#21103) (northbound)\r\nMoorhead Ave & Table Mesa Dr (#15628) (northbound)\r\nMoorhead Ave & Hamilton Ct (#15623) (northbound)\r\nMoorhead Ave & Fuller Ct (#15622) (northbound)\r\nMoorhead Ave & Davidson Pl (#15620) (northbound)\r\nMoorhead Ave & S 36th St (#15615) (northbound)\r\nMoorhead Ave & Ash Ave (#15618) (northbound)\r\nMoorhead Ave & Martin Dr (#15626) (northbound)\r\nMoorhead Ave & 29th St (#15614) (northbound)\r\nMoorhead Ave & 27th Way (#15612) (northbound)\r\nMoorhead Ave & 27th Way (#15611) (southbound)\r\nMoorhead Ave & 29th St (#15613) (southbound)\r\nMoorhead Ave & Martin Dr (#15625) (southbound)\r\nMoorhead Ave & Ash Ave (#15617) (southbound)\r\nMoorhead Ave & S 36th St (#15616) (southbound)\r\nMoorhead Ave & Davidson Pl (#15619) (southbound)\r\nMoorhead Ave & Fuller Ct (#15621) (southbound)\r\nMoorhead Ave & Hamilton Ct (#15624) (southbound)\r\nMoorhead Ave & Table Mesa Dr (#15629) (southbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "55522"
+  alert {
+    active_period {
+      start: 1738878600
+      end: 1767175140
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "24"
+      route_type: 3
+      stop_id: "22676"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop is closed through Tue Dec 30 due to construction: S University Blvd & Dad Clark Dr (#22676) (northbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n24\r\n\nAvailable alternate stops:\r\nC-470 & University PnR Gate B (#21326)\r\nS University Blvd & County Line Rd (#22080)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "49284"
+  alert {
+    active_period {
+      start: 1723640400
+      end: 1743469200
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "9"
+      route_type: 3
+      stop_id: "24371"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "9"
+      route_type: 3
+      stop_id: "21441"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "9"
+      route_type: 3
+      stop_id: "25600"
+    }
+    cause: CONSTRUCTION
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Route 9 detoured daily 7:00 AM - 7:00 PM through Mon Mar 31 2025 due to construction on 8th Ave bridge."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nW 8th Ave & Wyandot St (#25600) (eastbound)\r\nMariposa St & W 8th Ave (#24371) (eastbound)\r\nW 8th Ave & Wyandot St (#21441) (westbound)\r\n\nFor eastbound Route 9 get on/off buses at:\r\nW 8th Ave & Bryant St (#20508)\r\nW 9th Ave & Mariposa St (#20124)\r\n\nFor westbound Route 9 get on/off buses at:\r\nW 8th Ave & Bryant St (#25409)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "50738"
+  alert {
+    active_period {
+      start: 1728637200
+      end: 1746003540
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "38"
+      route_type: 3
+      stop_id: "10993"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop is closed from Fri Oct 11 through Tue Apr 29 due to construction: W 38th Ave & High Ct (#10993) (westbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n38\r\n\nAvailable alternate stop:\r\nW 38th Ave & Pierce St (#11039)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "57227"
   alert {
     active_period {
@@ -7980,6 +7342,161 @@ entity {
   }
 }
 entity {
+  id: "54030"
+  alert {
+    active_period {
+      start: 1736935200
+      end: 1761901140
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "BOLT"
+      route_type: 3
+      stop_id: "24826"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop is closed from Wed Jan 15 through Thu Oct 30 due to construction: CO 119 & Monarch Rd (#24826) (southbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\nBOLT\r\n\nAvailable alternate stops:\r\nTemporary stop north of Monarch Rd\r\nCO 119 & Niwot Rd PnR (#18095)\r\nCO 119 & 63rd St (#18010)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "56850"
+  alert {
+    active_period {
+      start: 1741119180
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "113B"
+      route_type: 2
+      stop_id: "34782"
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Board and alight B Line on track 6 due to mechanical problem."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nUnion Station Track 8"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "56777"
+  alert {
+    active_period {
+      start: 1741770000
+      end: 1747126740
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "51"
+      route_type: 3
+      stop_id: "16480"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop is closed from Wed Mar 12 through Mon May 12 due to construction: Sheridan Blvd & W 5th Ave (#16480) (northbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n51\r\n\nAvailable alternate stop:\r\nSheridan Blvd & W 2nd Ave (#16473)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57285"
+  alert {
+    active_period {
+      start: 1742032800
+      end: 1742076000
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "10"
+      route_type: 3
+      stop_id: "17766"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "10"
+      route_type: 3
+      stop_id: "20745"
+    }
+    cause: OTHER_CAUSE
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Route 10 detoured from 4:00 AM to 4:00 PM on Sat Mar 15 due to parade."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nWazee St & 16th Street Mall (#17766) (eastbound)\r\n17th St & Market St (#20745) (eastbound)\r\n\nAvailable alternate stops:\r\n15th St & Wynkoop St (#22574)\r\n17th St & Lawrence St (#17717)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "51608"
+  alert {
+    active_period {
+      start: 1730194620
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      stop_id: "12989"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      stop_id: "12929"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stops are closed due to construction: W Colfax Ave & Tennyson St (#12989) (westbound) and W Colfax Ave & Meade St (#12929) (westbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n16\r\n\nAvailable alternate stop:\r\nW Colfax Ave & Perry St (#12991)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "56103"
   alert {
     active_period {
@@ -8143,6 +7660,489 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nMarket St & 16th Street Mall (#17756) (eastbound)\r\n18th St & Blake St (#17834) (eastbound)\r\n17th St & Market St (#20745) (westbound)\r\n\nFor eastbound Route 9 get on/off buses at:\r\n15th St & Larimer St (#17707)\r\nUnion Station Gate B5 (#34324)\r\n\nFor westbound Route 9 get on/off buses at:\r\nUnion Station Gate B5 (#34324)\r\n17th St & Lawrence St (#17717)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57292"
+  alert {
+    active_period {
+      start: 1742032800
+      end: 1742072400
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "44"
+      route_type: 3
+      stop_id: "17766"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "44"
+      route_type: 3
+      stop_id: "20745"
+    }
+    cause: OTHER_CAUSE
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Route 44 detoured from 4:00 AM to 3:00 PM on Sat Mar 15 due to parade."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nWazee St & 16th Street Mall (#17766) (eastbound)\r\n17th St & Market St (#20745) (eastbound)\r\n\nAvailable alternate stops:\r\n15th St & Wynkoop St (#22574)\r\n17th St & Lawrence St (#17717)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57232"
+  alert {
+    active_period {
+      start: 1742032800
+      end: 1742072400
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "0"
+      route_type: 3
+      stop_id: "17834"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "0"
+      route_type: 3
+      stop_id: "17752"
+    }
+    cause: OTHER_CAUSE
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Route 0 detoured from 4:00 AM to 3:00 PM on Sat Mar 15 due to parade."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nLawrence St & 16th Street Mall (#17752) (northbound)\r\n18th St & Blake St (#17834) (northbound)\r\n\nFor northbound Route 0 get on/off buses at:\r\n15th St & Champa St [ Z Stop ] (#17704)\r\nUnion Station Gate B7 (#34326)\r\n\nFor southbound Route 0 get on/off buses at:\r\nUnion Station Gate B7 (#34326)\r\n17th St & Curtis St [ Z Stop ] (#17715)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "49932"
+  alert {
+    active_period {
+      start: 1725542640
+      end: 1748595540
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "15398"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "15411"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "15417"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "15397"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "15410"
+    }
+    cause: CONSTRUCTION
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Route 11 detoured from 7:24 AM today through Thu May 29 due to construction."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nMississippi Ave & S Leyden St (#15397) (eastbound)\r\nMississippi Ave & S Monaco Pkwy (#15410) (eastbound)\r\nMississippi Ave & S Leyden St (#15398) (westbound)\r\nMississippi Ave & S Monaco Pkwy (#15411) (westbound)\r\nMississippi Ave & S Oneida St (#15417) (westbound)\r\n\nFor eastbound Route 11 get on/off buses at:\r\nTennessee Ave & S Jersey St (#16741)\r\nMississippi Ave & S Oneida St (#15416)\r\n\nFor westbound Route 11 get on/off buses at:\r\nMississippi Ave & S Quebec St (#15428)\r\nTennessee Ave & S Jersey St (#16742)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "48577"
+  alert {
+    active_period {
+      start: 1721776860
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      stop_id: "24894"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      stop_id: "25438"
+    }
+    cause: UNKNOWN_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "D Line experiencing up to 15 minute delays due to speed restrictions. Train travel speeds will be slower in affected areas."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "For additional details, please visit: https://rtdden.co/4aUFNDn"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "53810"
+  alert {
+    active_period {
+      start: 1736178480
+      end: 1742201940
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "73"
+      route_type: 3
+      stop_id: "25272"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "73"
+      route_type: 3
+      stop_id: "25222"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stops are closed through Sun Mar 16 due to construction: Quebec St & Colfax Ave (#25222) (southbound) and Quebec St & Colfax Ave (#25272) (northbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n73\r\n\nFor northbound Route 73 get on/off buses at:\r\nQuebec St & 13th Ave (#16115)\r\nQuebec St & 17th Ave (#25273)\r\n\nFor southbound Route 73 get on/off buses at:\r\nQuebec St & Montview Blvd (#25220)\r\nQuebec St & 17th Ave (#25221)\r\nQuebec St & 13th Ave (#16116)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57233"
+  alert {
+    active_period {
+      start: 1742029200
+      end: 1742072400
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "1"
+      route_type: 3
+      stop_id: "17835"
+    }
+    cause: OTHER_CAUSE
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Route 1 detoured on Sat Mar 15 until 3:00 PM due to parade."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected direction: Westbound\r\n\nAffected stops:\r\nBlake St & 17th St (#17835)\r\n\nAvailable alternate stops:\r\n18th St & Arapahoe St (#17723)\r\nBlake St & 14th St (#21375)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "55726"
+  alert {
+    active_period {
+      start: 1740736800
+      end: 1742029140
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "205"
+      route_type: 3
+      stop_id: "25673"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "205"
+      route_type: 3
+      stop_id: "25674"
+    }
+    cause: OTHER_CAUSE
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Route 205 detoured from Fri Feb 28 through Fri Mar 14 due to road closure on CO 119 at Jay Rd."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nJay Rd & 47th St (#25673) (eastbound)\r\nJay Rd & 51st St (#25674) (eastbound)\r\n\nAvailable alternate stops:\r\nJay Rd & Lonetree Ct (#33698)\r\nJay Rd & CO 119 (#14648)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "47058"
+  alert {
+    active_period {
+      start: 1717530900
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101E"
+      route_type: 0
+    }
+    cause: UNKNOWN_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "E Line experiencing greater than 10 minute delays due to speed restrictions. Train travel speeds will be slower in affected areas."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "For additional details, please visit: https://rtdden.co/4aUFNDn"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "53985"
+  alert {
+    active_period {
+      start: 1736371860
+      end: 1742547540
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "228A"
+      route_type: 3
+      stop_id: "25076"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "228A"
+      route_type: 3
+      stop_id: "25077"
+    }
+    cause: CONSTRUCTION
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Route 228A detoured through Thu Mar 20 due to construction."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nFlatiron Crossing Mall Ring Rd & Interlocken Blvd (#25076) (northbound)\r\nFlatiron Crossing Mall Ring Rd & Interlocken Blvd (#25077) (southbound)\r\n\nFor northbound Route 228A get on/off buses at:\r\nUS 36 & Flatiron Station Gate F (#35242)\r\nCoalton Rd & W Flatirons Crossing Dr (#25820)\r\n\nFor southbound Route 228A get on/off buses at:\r\nCoalton Rd & Summit Blvd (#25072)\r\nUS 36 & Flatiron Station Gate F (#35242)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57371"
+  alert {
+    active_period {
+      start: 1741900200
+      end: 1741933380
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115205049"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115205043"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115205045"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115205070"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115205114"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115205242"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115205243"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115205247"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115205269"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      trip {
+        trip_id: "115205312"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "D Line Trip 3:10 pm from Littleton / Mineral Ave Station to 18th & California Station and 9 other trips cancelled today due to no operator available. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected northbound trips:\r\n3:10 pm from Littleton / Mineral Ave Station to 18th & California Station\r\n4:55 pm from Littleton / Mineral Ave Station to 18th & California Station\r\n6:55 pm from Littleton / Mineral Ave Station to 18th & California Station\r\n8:55 pm from Littleton / Mineral Ave Station to 18th & California Station\r\n10:55 pm from Littleton / Mineral Ave Station to 18th & California Station\r\n\nAffected southbound trips:\r\n3:48 pm from 18th & Stout Station to Littleton / Mineral Ave Station\r\n5:33 pm from 18th & Stout Station to Littleton / Mineral Ave Station\r\n7:33 pm from 18th & Stout Station to Littleton / Mineral Ave Station\r\n9:33 pm from 18th & Stout Station to Littleton / Mineral Ave Station\r\n11:33 pm from 18th & Stout Station to Littleton / Mineral Ave Station"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "54281"
+  alert {
+    active_period {
+      start: 1736868660
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15"
+      route_type: 3
+      stop_id: "12882"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      stop_id: "12882"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop is closed daily 8:00 AM - 8:00 PM due to construction: Colfax Ave & Glencoe St (#12882) (westbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n15\r\n15L\r\n\nAvailable alternate stops:\r\nColfax Ave & Hudson St (#12900) (westbound)\r\nColfax Ave & Elm St (#12875) (westbound)\r\nColfax Ave & Krameria St (#12922) (westbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "50399"
+  alert {
+    active_period {
+      start: 1726877400
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      stop_id: "12956"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop is closed due to construction: W Colfax Ave & Perry St (#12956) (eastbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n16\r\n\nAvailable alternate stops:\r\nW Colfax Ave & Tennyson St (#12990)\r\nW Colfax Ave & Meade St (#12928)"
         language: "en"
       }
     }
