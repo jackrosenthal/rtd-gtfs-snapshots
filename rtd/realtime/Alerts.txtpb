@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1741980970
+  timestamp: 1741981209
 }
 entity {
   id: "54361"
@@ -6105,6 +6105,37 @@ entity {
     header_text {
       translation {
         text: "Route 6 Trip 2:22 pm from 11th St & Auraria Pkwy to Aurora Metro Center Stn Gate H experiencing up to 45 minute eastbound delays today due to police activity."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57413"
+  alert {
+    active_period {
+      start: 1741981020
+      end: 1741982940
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "76"
+      route_type: 3
+      trip {
+        trip_id: "115199481"
+      }
+    }
+    cause: MEDICAL_EMERGENCY
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 76 Trip 12:18 pm from 7400 Block W Long Dr to US 36 & Broomfield Station Gate D experiencing up to 20 minute delays today due to medical emergency."
         language: "en"
       }
     }
