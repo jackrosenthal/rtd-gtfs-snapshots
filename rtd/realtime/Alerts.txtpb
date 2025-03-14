@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1741961409
+  timestamp: 1741961709
 }
 entity {
   id: "54361"
@@ -5006,6 +5006,65 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\n15th St & Wynkoop St (#22574) (eastbound)\r\nWazee St & 16th Street Mall (#17766) (eastbound)\r\n17th St & Market St (#20745) (eastbound)\r\nLawrence St & 16th Street Mall (#17752) (westbound)\r\n18th St & Blake St (#17834) (westbound)\r\nUnion Station (#34343) (westbound)\r\n\nFor eastbound Route 15 get on/off buses at:\r\nUnion Station Gate B8 (#34327)\r\n17th St & Lawrence St (#17717)\r\n\nFor westbound Route 15 get on/off buses at:\r\nWewatta St & 17th St (#34385)\r\n15th St & Curtis St [ X Stop ] (#17705)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57400"
+  alert {
+    active_period {
+      start: 1741961580
+      end: 1742806740
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "153"
+      route_type: 3
+      stop_id: "22343"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "153"
+      route_type: 3
+      stop_id: "18798"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "153"
+      route_type: 3
+      stop_id: "18799"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "153"
+      route_type: 3
+      stop_id: "18751"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "153"
+      route_type: 3
+      stop_id: "18752"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "153"
+      route_type: 3
+      stop_id: "18753"
+    }
+    cause: CONSTRUCTION
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Route 153 detoured through Sun Mar 23 due to construction."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nSable Blvd & 23rd Ave (#18798) (northbound)\r\nSable Blvd & 25th Ave (#18799) (northbound)\r\nSable Blvd & 28th Ave (#22343) (northbound)\r\nSable Blvd & 28th Ave (#18751) (southbound)\r\nSable Blvd & 25th Ave (#18752) (southbound)\r\nSable Blvd & 23rd Ave (#18753) (southbound)"
         language: "en"
       }
     }
