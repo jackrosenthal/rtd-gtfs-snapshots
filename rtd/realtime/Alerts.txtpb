@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1741952113
+  timestamp: 1741952409
 }
 entity {
   id: "54361"
@@ -4899,37 +4899,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nHampden Ave & S Sherman St (#20173) (northbound)\r\nHampden Ave & S. Pearl St (#14168) (northbound)\r\nHampden Ave & S Clarkson St (#14134) (northbound)\r\nHampden Ave & S Emerson St (#34368) (southbound)\r\nHampden Ave & S Pennsylvania St (#14169) (southbound)\r\n\nFor northbound Route 12 get on/off buses at:\r\nGirard Ave & S Lincoln St (#20728)\r\nS Downing St & Hampden Ave (#13406)\r\n\nFor southbound Route 12 get on/off buses at:\r\nHampden Ave & S Downing St (#14142)\r\nHampden Ave & S Sherman St (#25212)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57396"
-  alert {
-    active_period {
-      start: 1741950180
-      end: 1741952220
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "120X"
-      route_type: 3
-      trip {
-        trip_id: "115189938"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Route 120X Trip 5:03 am from Wagon Road PnR Gate D to Union Station experiencing up to 30 minute southbound delays today due to mechanical issue."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
