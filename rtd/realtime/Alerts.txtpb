@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1741932848
+  timestamp: 1741933148
 }
 entity {
   id: "54361"
@@ -323,53 +323,6 @@ entity {
     header_text {
       translation {
         text: "Board G Line on track 2 beginning Wed Feb 14 at 6:45 AM due to maintenance."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\n60th / Sheridan - Arvada Gold Strike Station\r\nClear Creek / Federal Station"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57348"
-  alert {
-    active_period {
-      start: 1741928400
-      end: 1741932900
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "113G"
-      route_type: 2
-      stop_id: "34529"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "113G"
-      route_type: 2
-      stop_id: "34526"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "113G"
-      route_type: 2
-      stop_id: "34525"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "113G"
-      route_type: 2
-      stop_id: "34530"
-    }
-    cause: MAINTENANCE
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Board G Line on track 2 from 11:00 PM to 12:15 AM due to maintenance."
         language: "en"
       }
     }
@@ -1221,37 +1174,6 @@ entity {
     description_text {
       translation {
         text: "Affected lines:\r\nA Line\r\nB Line\r\nE Line\r\nG Line\r\nN Line\r\nW Line\r\nMALLRIDE\r\nFF1\r\nFF2\r\nFF3\r\nLD1\r\n0\r\n9\r\n10\r\n15\r\n19\r\n20\r\n32\r\n120X"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57390"
-  alert {
-    active_period {
-      start: 1741929000
-      end: 1741932840
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101E"
-      route_type: 0
-      trip {
-        trip_id: "115204950"
-      }
-    }
-    cause: OTHER_CAUSE
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "E Line Trip 11:10 pm from Ridgegate Parkway Station to Union Station Track 11 cancelled today due to no operator available. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
