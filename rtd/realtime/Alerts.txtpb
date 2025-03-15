@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742073370
+  timestamp: 1742073609
 }
 entity {
   id: "54361"
@@ -4582,7 +4582,7 @@ entity {
   alert {
     active_period {
       start: 1742061420
-      end: 1742079965
+      end: 1742080678
     }
     informed_entity {
       agency_id: "RTD"
@@ -4972,7 +4972,7 @@ entity {
   alert {
     active_period {
       start: 1742052660
-      end: 1742079965
+      end: 1742080678
     }
     informed_entity {
       agency_id: "RTD"
@@ -5813,6 +5813,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\n16200 Block Green Valley Ranch Blvd (#24828) (eastbound)\r\nKittredge St & 48th Ave (#25504) (westbound)\r\nKittredge St & 53rd Ave (#25505) (westbound)\r\nKittredge St & 51st Ave (#25814) (eastbound)\r\nKittredge St & 51st Ave (#25815) (westbound)\r\n16200 Block Green Valley Ranch Blvd (#33419) (westbound)\r\n\nFor eastbound Route 45 get on/off buses at:\r\n53rd Ave & Kittredge St (#25510)\r\nGreen Valley Ranch Blvd & Memphis St (#33611)\r\n\nFor westbound Route 45 get on/off buses at:\r\nGreen Valley Ranch Blvd & Memphis St (#24829)\r\n53rd Ave & 51st Pl (#25506)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57455"
+  alert {
+    active_period {
+      start: 1742073420
+      end: 1742075520
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "48"
+      route_type: 3
+      trip {
+        trip_id: "115197704"
+      }
+    }
+    cause: DEMONSTRATION
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 48 Trip 2:56 pm from Civic Center Station Gate 3 to 60th Ave & Dahlia St experiencing up to 30 minute eastbound delays today due to demonstration."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
