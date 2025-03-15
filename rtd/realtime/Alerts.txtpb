@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742073009
+  timestamp: 1742073370
 }
 entity {
   id: "54361"
@@ -1321,6 +1321,53 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nBroadway & Baseline Rd (#12478) (eastbound)\r\nS Broadway & Dartmouth Ave (#12509) (eastbound)\r\nTable Mesa Dr & 39th St (#16680) (eastbound)\r\nS Broadway & Table Mesa Dr (#12604) (westbound)\r\nBroadway & Dartmouth PnR (#12512) (westbound)\r\nBroadway & Baseline Rd (#12479) (westbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57454"
+  alert {
+    active_period {
+      start: 1742099520
+      end: 1742110320
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101H"
+      route_type: 0
+      trip {
+        trip_id: "115205823"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101H"
+      route_type: 0
+      trip {
+        trip_id: "115205455"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101H"
+      route_type: 0
+      trip {
+        trip_id: "115205821"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "H Line Trip 10:32 pm from 18th & Stout Station to Florida Station and 2 other trips cancelled today due to no operator available. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected southbound trips:\r\n10:32 pm from 18th & Stout Station to Florida Station\r\n12:32 am from 18th & Stout Station to Florida Station\r\n\nAffected northbound trips:\r\n11:44 pm from Florida Station to 18th & California Station"
         language: "en"
       }
     }
@@ -4410,61 +4457,6 @@ entity {
     description_text {
       translation {
         text: "Affected routes:\r\n38"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57451"
-  alert {
-    active_period {
-      start: 1742066040
-      end: 1742073060
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "MALL"
-      route_type: 3
-      trip {
-        trip_id: "115202801"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "MALL"
-      route_type: 3
-      trip {
-        trip_id: "115202925"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "MALL"
-      route_type: 3
-      trip {
-        trip_id: "115202837"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "MALL"
-      route_type: 3
-      trip {
-        trip_id: "115203016"
-      }
-    }
-    cause: MAINTENANCE
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "MALLRIDE Trip 1:14 pm from Union Station to Civic Center Mall Loop and 3 other trips cancelled today due to maintenance. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected Civic Ctr trips:\r\n1:14 pm from Union Station to Civic Center Mall Loop\r\n2:08 pm from Union Station to Civic Center Mall Loop\r\n\nAffected Union Stn trips:\r\n1:38 pm from Civic Center Mall Loop to Union Station\r\n2:32 pm from Civic Center Mall Loop to Union Station"
         language: "en"
       }
     }
