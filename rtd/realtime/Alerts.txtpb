@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742074269
+  timestamp: 1742074510
 }
 entity {
   id: "54361"
@@ -4820,6 +4820,37 @@ entity {
     header_text {
       translation {
         text: "Route 0 Trip 2:43 pm from Englewood Station Gate C to Union Station cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57458"
+  alert {
+    active_period {
+      start: 1742074380
+      end: 1742076780
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "0"
+      route_type: 3
+      trip {
+        trip_id: "115183872"
+      }
+    }
+    cause: DEMONSTRATION
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 0 Trip 3:06 pm from Union Station Gate B7 to Englewood Station Gate C experiencing up to 30 minute southbound delays today due to demonstration."
         language: "en"
       }
     }
