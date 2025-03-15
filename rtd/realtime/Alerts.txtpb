@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742072409
+  timestamp: 1742072709
 }
 entity {
   id: "54361"
@@ -545,13 +545,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -4776,70 +4776,6 @@ entity {
   }
 }
 entity {
-  id: "57232"
-  alert {
-    active_period {
-      start: 1742032800
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "0"
-      route_type: 3
-      stop_id: "17834"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "0"
-      route_type: 3
-      stop_id: "17752"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 0 detoured from 4:00 AM to 3:00 PM on Sat Mar 15 due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nLawrence St & 16th Street Mall (#17752) (northbound)\r\n18th St & Blake St (#17834) (northbound)\r\n\nFor northbound Route 0 get on/off buses at:\r\n15th St & Champa St [ Z Stop ] (#17704)\r\nUnion Station Gate B7 (#34326)\r\n\nFor southbound Route 0 get on/off buses at:\r\nUnion Station Gate B7 (#34326)\r\n17th St & Curtis St [ Z Stop ] (#17715)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57233"
-  alert {
-    active_period {
-      start: 1742029200
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "1"
-      route_type: 3
-      stop_id: "17835"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 1 detoured on Sat Mar 15 until 3:00 PM due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected direction: Westbound\r\n\nAffected stops:\r\nBlake St & 17th St (#17835)\r\n\nAvailable alternate stops:\r\n18th St & Arapahoe St (#17723)\r\nBlake St & 14th St (#21375)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "57285"
   alert {
     active_period {
@@ -4981,65 +4917,6 @@ entity {
   }
 }
 entity {
-  id: "57286"
-  alert {
-    active_period {
-      start: 1742032800
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15"
-      route_type: 3
-      stop_id: "22574"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15"
-      route_type: 3
-      stop_id: "20745"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15"
-      route_type: 3
-      stop_id: "17766"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15"
-      route_type: 3
-      stop_id: "17834"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15"
-      route_type: 3
-      stop_id: "17752"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15"
-      route_type: 3
-      stop_id: "34343"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 15 detoured from 4:00 AM to 3:00 PM on Sat Mar 15 due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\n15th St & Wynkoop St (#22574) (eastbound)\r\nWazee St & 16th Street Mall (#17766) (eastbound)\r\n17th St & Market St (#20745) (eastbound)\r\nLawrence St & 16th Street Mall (#17752) (westbound)\r\n18th St & Blake St (#17834) (westbound)\r\nUnion Station (#34343) (westbound)\r\n\nFor eastbound Route 15 get on/off buses at:\r\nUnion Station Gate B8 (#34327)\r\n17th St & Lawrence St (#17717)\r\n\nFor westbound Route 15 get on/off buses at:\r\nWewatta St & 17th St (#34385)\r\n15th St & Curtis St [ X Stop ] (#17705)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "57400"
   alert {
     active_period {
@@ -5162,64 +5039,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\n15th St & Wynkoop St (#22574) (southbound)\r\nWazee St & 16th Street Mall (#17766) (southbound)\r\n17th St & Market St (#20745) (southbound)\r\n\nAvailable alternate stops:\r\nWewatta St & 17th St (#34384)\r\n17th St & Lawrence St (#17717)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57295"
-  alert {
-    active_period {
-      start: 1742032800
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "20"
-      route_type: 3
-      stop_id: "20745"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 20 detoured from 4:00 AM to 3:00 PM on Sat Mar 15 due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected direction: Eastbound\r\n\nAffected stops:\r\n17th St & Market St (#20745)\r\n\nAvailable alternate stops:\r\nUnion Station Gate B6 (#34325)\r\n17th St & Lawrence St (#17717)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57296"
-  alert {
-    active_period {
-      start: 1742032800
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "20"
-      route_type: 3
-      stop_id: "17834"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 20 detoured from 4:00 AM to 3:00 PM on Sat Mar 15 due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected direction: Westbound\r\n\nAffected stops:\r\n18th St & Blake St (#17834)\r\n\nAvailable alternate stops:\r\n18th St & Arapahoe St (#17723)\r\nUnion Station Gate B6 (#34325)"
         language: "en"
       }
     }
@@ -5565,41 +5384,6 @@ entity {
   }
 }
 entity {
-  id: "57289"
-  alert {
-    active_period {
-      start: 1742032800
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "28"
-      route_type: 3
-      stop_id: "17766"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "28"
-      route_type: 3
-      stop_id: "20745"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 28 detoured from 4:00 AM to 3:00 PM on Sat Mar 15 due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nWazee St & 16th Street Mall (#17766) (eastbound)\r\n17th St & Market St (#20745) (eastbound)\r\n\nAvailable alternate stops:\r\n15th St & Wynkoop St (#22574)\r\n17th St & Lawrence St (#17717)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "45036"
   alert {
     active_period {
@@ -5927,77 +5711,6 @@ entity {
   }
 }
 entity {
-  id: "57291"
-  alert {
-    active_period {
-      start: 1742032800
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "38"
-      route_type: 3
-      stop_id: "23221"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "38"
-      route_type: 3
-      stop_id: "17750"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "38"
-      route_type: 3
-      stop_id: "20522"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "38"
-      route_type: 3
-      stop_id: "23222"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "38"
-      route_type: 3
-      stop_id: "23223"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "38"
-      route_type: 3
-      stop_id: "23224"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "38"
-      route_type: 3
-      stop_id: "17752"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "38"
-      route_type: 3
-      stop_id: "17753"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 38 detoured from 4:00 AM to 3:00 PM on Sat Mar 15 due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\n22nd St & Larimer St (#23221) (eastbound)\r\nLarimer St & 21st St (#20522) (eastbound)\r\nLarimer St & 19th St (#17750) (eastbound)\r\nLawrence St & 16th Street Mall (#17752) (westbound)\r\nLawrence St & 18th St (#17753) (westbound)\r\nLawrence St & 20th St (#23222) (westbound)\r\nPark Ave West & Lawrence St (#23223) (westbound)\r\nPark Ave West & Blake St (#23224) (westbound)\r\n\nFor eastbound Route 38 get on/off buses at:\r\nPark Ave West & Wewatta St (#23955)\r\n17th St & Lawrence St (#17717)\r\n\nFor westbound Route 38 get on/off buses at:\r\n15th St & Stout St [ Y Stop ] (#17703)\r\nPark Ave W & Delgany St (#23956)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "49109"
   alert {
     active_period {
@@ -6056,41 +5769,6 @@ entity {
   }
 }
 entity {
-  id: "57292"
-  alert {
-    active_period {
-      start: 1742032800
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "44"
-      route_type: 3
-      stop_id: "17766"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "44"
-      route_type: 3
-      stop_id: "20745"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 44 detoured from 4:00 AM to 3:00 PM on Sat Mar 15 due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nWazee St & 16th Street Mall (#17766) (eastbound)\r\n17th St & Market St (#20745) (eastbound)\r\n\nAvailable alternate stops:\r\n15th St & Wynkoop St (#22574)\r\n17th St & Lawrence St (#17717)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "40074"
   alert {
     active_period {
@@ -6143,100 +5821,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\n16200 Block Green Valley Ranch Blvd (#24828) (eastbound)\r\nKittredge St & 48th Ave (#25504) (westbound)\r\nKittredge St & 53rd Ave (#25505) (westbound)\r\nKittredge St & 51st Ave (#25814) (eastbound)\r\nKittredge St & 51st Ave (#25815) (westbound)\r\n16200 Block Green Valley Ranch Blvd (#33419) (westbound)\r\n\nFor eastbound Route 45 get on/off buses at:\r\n53rd Ave & Kittredge St (#25510)\r\nGreen Valley Ranch Blvd & Memphis St (#33611)\r\n\nFor westbound Route 45 get on/off buses at:\r\nGreen Valley Ranch Blvd & Memphis St (#24829)\r\n53rd Ave & 51st Pl (#25506)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57298"
-  alert {
-    active_period {
-      start: 1742032800
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "48"
-      route_type: 3
-      stop_id: "12420"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "48"
-      route_type: 3
-      stop_id: "33349"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "48"
-      route_type: 3
-      stop_id: "33350"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "48"
-      route_type: 3
-      stop_id: "22250"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 48 detoured from 4:00 AM to 3:00 PM on Sat Mar 15 due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nBroadway & Blake St (#33349) (eastbound)\r\nBrighton Blvd & 29th St (#12420) (eastbound)\r\nBrighton Blvd & 29th St (#22250) (westbound)\r\nBroadway & Blake St (#33350) (westbound)\r\n\nFor eastbound Route 48 get on/off buses at:\r\nBroadway & Larimer St (#12548)\r\nBrighton Blvd & 31st St (#21779)\r\n\nFor westbound Route 48 get on/off buses at:\r\nBrighton Blvd & 31st St (#12421)\r\nBroadway & Walnut St (#12614)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57294"
-  alert {
-    active_period {
-      start: 1742032800
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "52"
-      route_type: 3
-      stop_id: "17753"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "52"
-      route_type: 3
-      stop_id: "17750"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "52"
-      route_type: 3
-      stop_id: "17752"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "52"
-      route_type: 3
-      stop_id: "10550"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 52 detoured from 4:00 AM to 3:00 PM on Sat Mar 15 due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nLarimer St & 19th St (#17750) (eastbound)\r\nLawrence St & 16th Street Mall (#17752) (westbound)\r\nLawrence St & 18th St (#17753) (westbound)\r\n20th St & Larimer St (#10550) (westbound)\r\n\nFor eastbound Route 52 get on/off buses at:\r\n20th St & Chestnut St (#23400)\r\n17th St & Lawrence St (#17717)\r\n\nFor westbound Route 52 get on/off buses at:\r\n15th St & Champa St [ Z Stop ] (#17704)\r\n20th St & Chestnut St (#23402)"
         language: "en"
       }
     }
@@ -6411,41 +5995,6 @@ entity {
   }
 }
 entity {
-  id: "57237"
-  alert {
-    active_period {
-      start: 1742029200
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "8"
-      route_type: 3
-      stop_id: "23223"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "8"
-      route_type: 3
-      stop_id: "23224"
-    }
-    cause: UNKNOWN_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 8 detoured on Sat Mar 15 until 3:00 PM."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nPark Ave West & Lawrence St (#23223) (northbound)\r\nPark Ave West & Blake St (#23224) (northbound)\r\n\nAvailable alternate stops:\r\nCurtis St & 20th St (#22701)\r\nLincoln St & 46th Ave (#33344)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "49284"
   alert {
     active_period {
@@ -6515,47 +6064,6 @@ entity {
     description_text {
       translation {
         text: "Affected direction: Eastbound\r\n\nAffected stops:\r\nW 14th Ave & Vance St (#34612)\r\nW 14th Ave & Reed St (#34613)\r\n\nAvailable alternate stops:\r\nWadsworth Blvd & W 13th Ave (#33971)\r\nW 14th Ave & Pierce St (#10238)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57244"
-  alert {
-    active_period {
-      start: 1742029200
-      end: 1742072400
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "9"
-      route_type: 3
-      stop_id: "20745"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "9"
-      route_type: 3
-      stop_id: "17834"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "9"
-      route_type: 3
-      stop_id: "17756"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 9 detoured on Sat Mar 15 until 3:00 PM due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nMarket St & 16th Street Mall (#17756) (eastbound)\r\n18th St & Blake St (#17834) (eastbound)\r\n17th St & Market St (#20745) (westbound)\r\n\nFor eastbound Route 9 get on/off buses at:\r\n15th St & Larimer St (#17707)\r\nUnion Station Gate B5 (#34324)\r\n\nFor westbound Route 9 get on/off buses at:\r\nUnion Station Gate B5 (#34324)\r\n17th St & Lawrence St (#17717)"
         language: "en"
       }
     }
