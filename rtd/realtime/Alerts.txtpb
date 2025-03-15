@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742081709
+  timestamp: 1742082009
 }
 entity {
   id: "54361"
@@ -370,6 +370,45 @@ entity {
     description_text {
       translation {
         text: "Bus shuttles are available to replace bridge access to station."
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57462"
+  alert {
+    active_period {
+      start: 1742081700
+      end: 1742087940
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "A"
+      route_type: 2
+      trip {
+        trip_id: "115200811"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "A"
+      route_type: 2
+      trip {
+        trip_id: "115200888"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "A Line Trip 5:30 pm from Union Station Track 1 to Denver Airport Station and 1 other trip cancelled today due to trespasser on tracks. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected eastbound trips:\r\n5:30 pm from Union Station Track 1 to Denver Airport Station\r\n\nAffected westbound trips:\r\n6:27 pm from Denver Airport Station to Union Station Track 1"
         language: "en"
       }
     }
@@ -4799,7 +4838,7 @@ entity {
   alert {
     active_period {
       start: 1742061420
-      end: 1742088425
+      end: 1742089144
     }
     informed_entity {
       agency_id: "RTD"
@@ -5154,7 +5193,7 @@ entity {
   alert {
     active_period {
       start: 1742052660
-      end: 1742088425
+      end: 1742089144
     }
     informed_entity {
       agency_id: "RTD"
