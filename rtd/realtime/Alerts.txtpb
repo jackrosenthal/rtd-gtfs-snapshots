@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742006709
+  timestamp: 1742007009
 }
 entity {
   id: "54361"
@@ -4999,6 +4999,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nSable Blvd & 23rd Ave (#18798) (northbound)\r\nSable Blvd & 25th Ave (#18799) (northbound)\r\nSable Blvd & 28th Ave (#22343) (northbound)\r\nSable Blvd & 28th Ave (#18751) (southbound)\r\nSable Blvd & 25th Ave (#18752) (southbound)\r\nSable Blvd & 23rd Ave (#18753) (southbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57430"
+  alert {
+    active_period {
+      start: 1742006880
+      end: 1742009940
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "19"
+      route_type: 3
+      trip {
+        trip_id: "115193227"
+      }
+    }
+    cause: ACCIDENT
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 19 Trip 8:22 pm from 106th & Melody Transfer Center Gate C to 15th St & Champa St [ Z Stop ] cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected direction: Southbound"
         language: "en"
       }
     }
