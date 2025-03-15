@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742080509
+  timestamp: 1742080809
 }
 entity {
   id: "54361"
@@ -227,7 +227,7 @@ entity {
   alert {
     active_period {
       start: 1742077140
-      end: 1742087165
+      end: 1742087885
     }
     informed_entity {
       agency_id: "RTD"
@@ -4799,7 +4799,7 @@ entity {
   alert {
     active_period {
       start: 1742061420
-      end: 1742086985
+      end: 1742087705
     }
     informed_entity {
       agency_id: "RTD"
@@ -5154,7 +5154,7 @@ entity {
   alert {
     active_period {
       start: 1742052660
-      end: 1742086985
+      end: 1742087705
     }
     informed_entity {
       agency_id: "RTD"
@@ -5599,37 +5599,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nHampden Ave & S Sherman St (#20173) (eastbound)\r\nHampden Ave & S. Pearl St (#14168) (eastbound)\r\nHampden Ave & S Clarkson St (#14134) (eastbound)\r\nHampden Ave & S Pearl St (#14180) (westbound)\r\nHampden Ave & S Emerson St (#34368) (westbound)\r\nHampden Ave & S Pennsylvania St (#14169) (westbound)\r\n\nFor eastbound Route 35 get on/off buses at:\r\nGirard Ave & S Lincoln St (#20728)\r\nS Downing St & Hampden Ave (#25209)\r\n\nFor westbound Route 35 get on/off buses at:\r\nHampden Ave & S Downing St (#14142)\r\nHampden Ave & S Sherman St (#25212)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57461"
-  alert {
-    active_period {
-      start: 1742078520
-      end: 1742080680
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "38"
-      route_type: 3
-      trip {
-        trip_id: "115195901"
-      }
-    }
-    cause: OTHER_CAUSE
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Route 38 Trip 3:35 pm from Central Park Station Gate C2 to Lutheran Hospital Wheat Ridge experiencing up to 20 minute westbound delays today due to security issue."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
