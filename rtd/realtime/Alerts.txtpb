@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742060709
+  timestamp: 1742061008
 }
 entity {
   id: "54361"
@@ -545,13 +545,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -564,6 +564,92 @@ entity {
     description_text {
       translation {
         text: "For additional details, please visit: https://rtdden.co/4aUFNDn"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57447"
+  alert {
+    active_period {
+      start: 1742060820
+      end: 1742061720
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "DASH"
+      route_type: 3
+      trip {
+        trip_id: "115201806"
+      }
+      stop_id: "12470"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "DASH"
+      route_type: 3
+      trip {
+        trip_id: "115201806"
+      }
+      stop_id: "12585"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "DASH"
+      route_type: 3
+      trip {
+        trip_id: "115201806"
+      }
+      stop_id: "12432"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "DASH"
+      route_type: 3
+      trip {
+        trip_id: "115201806"
+      }
+      stop_id: "12608"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "DASH"
+      route_type: 3
+      trip {
+        trip_id: "115201806"
+      }
+      stop_id: "17892"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "DASH"
+      route_type: 3
+      trip {
+        trip_id: "115201806"
+      }
+      stop_id: "24591"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "DASH"
+      route_type: 3
+      trip {
+        trip_id: "115201806"
+      }
+      stop_id: "25444"
+    }
+    cause: OTHER_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "DASH Trip 11:07 am from Lafayette PnR Gate A to Downtown Boulder Station Gate F experiencing up to 10 minute westbound delays today due to traffic."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nBroadway & Regent Dr (#12585)\r\nBroadway & Euclid Ave (#12432)\r\nBroadway & Pleasant St (#17892)\r\nBroadway & University Ave (#12608)\r\nBroadway & Marine St (#25444)\r\nBroadway & Canyon Blvd (#12470)\r\nDowntown Boulder Station Gate F (#24591)"
         language: "en"
       }
     }
@@ -4525,6 +4611,37 @@ entity {
     description_text {
       translation {
         text: "RTD is performing repairs to the parking garage at the Table Mesa Park-n-Ride through August 2024. There will be partial closures of the parking garage as crews remove and replace concrete joint sealant and make minor concrete repairs in various locations throughout the parking structure. \r\n\nThe work will be completed in phases. Areas of the parking garage will be closed off during the work and customers will be directed to available parking. The work is not expected to impact transit service.\r\n\nThe work at Table Mesa Park-n-Ride is the first part of a larger project to replace concrete joint sealant in four RTD parking garages throughout the district. Other locations include Park-n-Rides at US 36 & Sheridan, Lincoln Station and University Station.\r\n"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57446"
+  alert {
+    active_period {
+      start: 1742060640
+      end: 1742064300
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "107R"
+      route_type: 0
+      trip {
+        trip_id: "115187786"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "R Line Trip 11:38 am from Peoria Station to Lincoln Station experiencing up to 15 minute delays today due to no operator available."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
