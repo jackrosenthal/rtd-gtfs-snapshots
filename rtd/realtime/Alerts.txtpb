@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742076009
+  timestamp: 1742076308
 }
 entity {
   id: "54361"
@@ -4722,7 +4722,7 @@ entity {
   alert {
     active_period {
       start: 1742061420
-      end: 1742082725
+      end: 1742083385
     }
     informed_entity {
       agency_id: "RTD"
@@ -4939,41 +4939,6 @@ entity {
   }
 }
 entity {
-  id: "57285"
-  alert {
-    active_period {
-      start: 1742032800
-      end: 1742076000
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "10"
-      route_type: 3
-      stop_id: "17766"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "10"
-      route_type: 3
-      stop_id: "20745"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 10 detoured from 4:00 AM to 4:00 PM on Sat Mar 15 due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\nWazee St & 16th Street Mall (#17766) (eastbound)\r\n17th St & Market St (#20745) (eastbound)\r\n\nAvailable alternate stops:\r\n15th St & Wynkoop St (#22574)\r\n17th St & Lawrence St (#17717)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "49932"
   alert {
     active_period {
@@ -5143,7 +5108,7 @@ entity {
   alert {
     active_period {
       start: 1742052660
-      end: 1742082725
+      end: 1742083385
     }
     informed_entity {
       agency_id: "RTD"
@@ -5161,47 +5126,6 @@ entity {
     description_text {
       translation {
         text: "Affected direction: Westbound"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57287"
-  alert {
-    active_period {
-      start: 1742032800
-      end: 1742076000
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "19"
-      route_type: 3
-      stop_id: "17766"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "19"
-      route_type: 3
-      stop_id: "20745"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "19"
-      route_type: 3
-      stop_id: "22574"
-    }
-    cause: OTHER_CAUSE
-    effect: DETOUR
-    header_text {
-      translation {
-        text: "Route 19 detoured from 4:00 AM to 4:00 PM on Sat Mar 15 due to parade."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected stops:\r\n15th St & Wynkoop St (#22574) (southbound)\r\nWazee St & 16th Street Mall (#17766) (southbound)\r\n17th St & Market St (#20745) (southbound)\r\n\nAvailable alternate stops:\r\nWewatta St & 17th St (#34384)\r\n17th St & Lawrence St (#17717)"
         language: "en"
       }
     }
