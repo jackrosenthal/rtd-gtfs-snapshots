@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742061008
+  timestamp: 1742061310
 }
 entity {
   id: "54361"
@@ -545,13 +545,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -5157,7 +5157,7 @@ entity {
   alert {
     active_period {
       start: 1742052660
-      end: 1742067669
+      end: 1742068444
     }
     informed_entity {
       agency_id: "RTD"
@@ -6005,37 +6005,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nBroadway & Blake St (#33349) (eastbound)\r\nBrighton Blvd & 29th St (#12420) (eastbound)\r\nBrighton Blvd & 29th St (#22250) (westbound)\r\nBroadway & Blake St (#33350) (westbound)\r\n\nFor eastbound Route 48 get on/off buses at:\r\nBroadway & Larimer St (#12548)\r\nBrighton Blvd & 31st St (#21779)\r\n\nFor westbound Route 48 get on/off buses at:\r\nBrighton Blvd & 31st St (#12421)\r\nBroadway & Walnut St (#12614)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57444"
-  alert {
-    active_period {
-      start: 1742059920
-      end: 1742061000
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "52"
-      route_type: 3
-      trip {
-        trip_id: "115198218"
-      }
-    }
-    cause: OTHER_CAUSE
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Route 52 Trip 10:12 am from W 63rd Ave & Wright St to Alameda Station Gate B experiencing up to 20 minute delays today due to traffic."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
