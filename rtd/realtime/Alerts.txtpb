@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742039409
+  timestamp: 1742039769
 }
 entity {
   id: "54361"
@@ -5724,6 +5724,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\n22nd St & Larimer St (#23221) (eastbound)\r\nLarimer St & 21st St (#20522) (eastbound)\r\nLarimer St & 19th St (#17750) (eastbound)\r\nLawrence St & 16th Street Mall (#17752) (westbound)\r\nLawrence St & 18th St (#17753) (westbound)\r\nLawrence St & 20th St (#23222) (westbound)\r\nPark Ave West & Lawrence St (#23223) (westbound)\r\nPark Ave West & Blake St (#23224) (westbound)\r\n\nFor eastbound Route 38 get on/off buses at:\r\nPark Ave West & Wewatta St (#23955)\r\n17th St & Lawrence St (#17717)\r\n\nFor westbound Route 38 get on/off buses at:\r\n15th St & Stout St [ Y Stop ] (#17703)\r\nPark Ave W & Delgany St (#23956)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57439"
+  alert {
+    active_period {
+      start: 1742039460
+      end: 1742041560
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "40"
+      route_type: 3
+      trip {
+        trip_id: "115196192"
+      }
+    }
+    cause: MEDICAL_EMERGENCY
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 40 Trip 5:30 am from 40th & Colorado Station Gate D to Southmoor Station Gate F experiencing up to 30 minute southbound delays today due to medical emergency."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
