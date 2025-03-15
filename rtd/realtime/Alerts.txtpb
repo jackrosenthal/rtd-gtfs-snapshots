@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742004009
+  timestamp: 1742004309
 }
 entity {
   id: "54361"
@@ -4881,6 +4881,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nHampden Ave & S Sherman St (#20173) (northbound)\r\nHampden Ave & S. Pearl St (#14168) (northbound)\r\nHampden Ave & S Clarkson St (#14134) (northbound)\r\nHampden Ave & S Emerson St (#34368) (southbound)\r\nHampden Ave & S Pennsylvania St (#14169) (southbound)\r\n\nFor northbound Route 12 get on/off buses at:\r\nGirard Ave & S Lincoln St (#20728)\r\nS Downing St & Hampden Ave (#13406)\r\n\nFor southbound Route 12 get on/off buses at:\r\nHampden Ave & S Downing St (#14142)\r\nHampden Ave & S Sherman St (#25212)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57429"
+  alert {
+    active_period {
+      start: 1742004240
+      end: 1742004780
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15"
+      route_type: 3
+      trip {
+        trip_id: "115208936"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 15 Trip 6:47 pm from Union Station Gate B8 to Colfax Ave & Tower Rd cancelled today due to disabled bus. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected direction: Eastbound"
         language: "en"
       }
     }
