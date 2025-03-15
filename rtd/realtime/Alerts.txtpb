@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742063409
+  timestamp: 1742063770
 }
 entity {
   id: "54361"
@@ -4630,7 +4630,7 @@ entity {
   alert {
     active_period {
       start: 1742061420
-      end: 1742070064
+      end: 1742070689
     }
     informed_entity {
       agency_id: "RTD"
@@ -4874,37 +4874,6 @@ entity {
     description_text {
       translation {
         text: "Affected direction: Westbound\r\n\nAffected stops:\r\nBlake St & 17th St (#17835)\r\n\nAvailable alternate stops:\r\n18th St & Arapahoe St (#17723)\r\nBlake St & 14th St (#21375)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57445"
-  alert {
-    active_period {
-      start: 1742060400
-      end: 1742063640
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "10"
-      route_type: 3
-      trip {
-        trip_id: "115184601"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Route 10 Trip 11:19 am from Colfax Ave & Billings St to Union Station experiencing up to 10 minute westbound delays today due to disabled bus."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
@@ -6022,6 +5991,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nBroadway & Blake St (#33349) (eastbound)\r\nBrighton Blvd & 29th St (#12420) (eastbound)\r\nBrighton Blvd & 29th St (#22250) (westbound)\r\nBroadway & Blake St (#33350) (westbound)\r\n\nFor eastbound Route 48 get on/off buses at:\r\nBroadway & Larimer St (#12548)\r\nBrighton Blvd & 31st St (#21779)\r\n\nFor westbound Route 48 get on/off buses at:\r\nBrighton Blvd & 31st St (#12421)\r\nBroadway & Walnut St (#12614)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57449"
+  alert {
+    active_period {
+      start: 1742063460
+      end: 1742068200
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "52"
+      route_type: 3
+      trip {
+        trip_id: "115198207"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 52 Trip 12:12 pm from W 63rd Ave & Wright St to Alameda Station Gate B experiencing up to 10 minute delays today due to disabled bus."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
