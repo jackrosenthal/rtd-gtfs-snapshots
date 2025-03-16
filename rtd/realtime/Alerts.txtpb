@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742160609
+  timestamp: 1742160910
 }
 entity {
   id: "54361"
@@ -1126,37 +1126,6 @@ entity {
     description_text {
       translation {
         text: "Affected northbound trips:\r\n2:30 pm from Ridgegate Parkway Station to Union Station Track 11\r\n4:45 pm from Ridgegate Parkway Station to Union Station Track 11\r\n\nAffected southbound trips:\r\n3:28 pm from Union Station Track 12 to Ridgegate Parkway Station\r\n5:43 pm from Union Station Track 12 to Ridgegate Parkway Station"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57484"
-  alert {
-    active_period {
-      start: 1742159280
-      end: 1742160840
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101E"
-      route_type: 0
-      trip {
-        trip_id: "115206235"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "E Line Trip 2:30 pm from Ridgegate Parkway Station to Union Station Track 11 experiencing up to 15 minute delays today due to mechanical issue."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
