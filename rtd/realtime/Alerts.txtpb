@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742127969
+  timestamp: 1742128209
 }
 entity {
   id: "54361"
@@ -4729,37 +4729,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nMississippi Ave & S Leyden St (#15397) (eastbound)\r\nMississippi Ave & S Monaco Pkwy (#15410) (eastbound)\r\nMississippi Ave & S Leyden St (#15398) (westbound)\r\nMississippi Ave & S Monaco Pkwy (#15411) (westbound)\r\nMississippi Ave & S Oneida St (#15417) (westbound)\r\n\nFor eastbound Route 11 get on/off buses at:\r\nTennessee Ave & S Jersey St (#16741)\r\nMississippi Ave & S Oneida St (#15416)\r\n\nFor westbound Route 11 get on/off buses at:\r\nMississippi Ave & S Quebec St (#15428)\r\nTennessee Ave & S Jersey St (#16742)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57477"
-  alert {
-    active_period {
-      start: 1742125860
-      end: 1742128140
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "12"
-      route_type: 3
-      trip {
-        trip_id: "115189497"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Route 12 Trip 5:30 am from Englewood Station Gate D to 38th & Blake Station experiencing up to 20 minute delays today due to disabled bus."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
