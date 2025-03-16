@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742108409
+  timestamp: 1742108708
 }
 entity {
   id: "54361"
@@ -1321,45 +1321,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nBroadway & Baseline Rd (#12478) (eastbound)\r\nS Broadway & Dartmouth Ave (#12509) (eastbound)\r\nTable Mesa Dr & 39th St (#16680) (eastbound)\r\nS Broadway & Table Mesa Dr (#12604) (westbound)\r\nBroadway & Dartmouth PnR (#12512) (westbound)\r\nBroadway & Baseline Rd (#12479) (westbound)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57473"
-  alert {
-    active_period {
-      start: 1742102040
-      end: 1742108520
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101H"
-      route_type: 0
-      trip {
-        trip_id: "115205626"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101H"
-      route_type: 0
-      trip {
-        trip_id: "115205847"
-      }
-    }
-    cause: OTHER_CAUSE
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "H Line Trip 11:14 pm from Florida Station to 18th & California Station and 1 other trip cancelled today due to excessive delay. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected northbound trips:\r\n11:14 pm from Florida Station to 18th & California Station\r\n\nAffected southbound trips:\r\n12:02 am from 18th & Stout Station to Florida Station"
         language: "en"
       }
     }
