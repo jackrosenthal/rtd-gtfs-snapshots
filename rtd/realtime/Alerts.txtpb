@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742162710
+  timestamp: 1742163008
 }
 entity {
   id: "54361"
@@ -1071,61 +1071,6 @@ entity {
     description_text {
       translation {
         text: "Affected lines:\r\nA Line\r\nB Line\r\nE Line\r\nG Line\r\nN Line\r\nW Line\r\nMALLRIDE\r\nFF1\r\nFF2\r\nFF3\r\nLD1\r\n0\r\n9\r\n10\r\n15\r\n19\r\n20\r\n32\r\n120X"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57486"
-  alert {
-    active_period {
-      start: 1742160000
-      end: 1742172600
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101E"
-      route_type: 0
-      trip {
-        trip_id: "115206383"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101E"
-      route_type: 0
-      trip {
-        trip_id: "115206585"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101E"
-      route_type: 0
-      trip {
-        trip_id: "115206235"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101E"
-      route_type: 0
-      trip {
-        trip_id: "115206620"
-      }
-    }
-    cause: OTHER_CAUSE
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "E Line Trip 2:30 pm from Ridgegate Parkway Station to Union Station Track 11 and 3 other trips cancelled today due to no operator available. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected northbound trips:\r\n2:30 pm from Ridgegate Parkway Station to Union Station Track 11\r\n4:45 pm from Ridgegate Parkway Station to Union Station Track 11\r\n\nAffected southbound trips:\r\n3:28 pm from Union Station Track 12 to Ridgegate Parkway Station\r\n5:43 pm from Union Station Track 12 to Ridgegate Parkway Station"
         language: "en"
       }
     }
@@ -4843,6 +4788,37 @@ entity {
   }
 }
 entity {
+  id: "57488"
+  alert {
+    active_period {
+      start: 1742162940
+      end: 1742168340
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "153"
+      route_type: 3
+      trip {
+        trip_id: "115191723"
+      }
+    }
+    cause: ACCIDENT
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 153 Trip 4:09 pm from Arapahoe at Village Center Station Gate C to Peoria Station Gate G experiencing up to 20 minute northbound delays today due to accident."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "57400"
   alert {
     active_period {
@@ -7025,6 +7001,83 @@ entity {
     description_text {
       translation {
         text: "The?“Boulder Canyon Extra” bus service, which supplements?RTD’s NB bus route, is free to ride and runs Monday- Friday."
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57489"
+  alert {
+    active_period {
+      start: 1742162760
+      end: 1742163900
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "103W"
+      route_type: 0
+      trip {
+        trip_id: "115187051"
+      }
+      stop_id: "33562"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "103W"
+      route_type: 0
+      trip {
+        trip_id: "115187051"
+      }
+      stop_id: "33563"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "103W"
+      route_type: 0
+      trip {
+        trip_id: "115187051"
+      }
+      stop_id: "33564"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "103W"
+      route_type: 0
+      trip {
+        trip_id: "115187051"
+      }
+      stop_id: "33565"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "103W"
+      route_type: 0
+      trip {
+        trip_id: "115187051"
+      }
+      stop_id: "33566"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "103W"
+      route_type: 0
+      trip {
+        trip_id: "115187051"
+      }
+      stop_id: "33561"
+    }
+    cause: OTHER_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "W Line Trip 3:40 pm from Union Station Track 12 to Federal Center Station experiencing up to 15 minute westbound delays today due to security issue."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nSheridan Station (#33561)\r\nLamar Station (#33562)\r\nWadsworth Station (#33563)\r\nGarrison Station (#33564)\r\nOak Station (#33565)\r\nFederal Center Station (#33566)"
         language: "en"
       }
     }
