@@ -1,45 +1,23 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742156753
+  timestamp: 1742157120
 }
 entity {
   id: "1"
   vehicle {
     trip {
-      trip_id: "671041"
-    }
-    position {
-      latitude: 40.00971
-      longitude: -105.2641
-      bearing: 4.0
-      speed: 10.38
-    }
-    current_stop_sequence: 25
-    timestamp: 1742156624
-    stop_id: "161593"
-    vehicle {
-      id: "16185"
-      label: "23"
-    }
-    occupancy_status: FEW_SEATS_AVAILABLE
-  }
-}
-entity {
-  id: "2"
-  vehicle {
-    trip {
       trip_id: "671100"
     }
     position {
-      latitude: 40.019478
-      longitude: -105.27246
-      bearing: 255.0
-      speed: 6.58
+      latitude: 40.017826
+      longitude: -105.28141
+      bearing: 166.0
+      speed: 4.72
     }
-    current_stop_sequence: 1
-    timestamp: 1742156753
-    stop_id: "161607"
+    current_stop_sequence: 13
+    timestamp: 1742157117
+    stop_id: "161582"
     vehicle {
       id: "16189"
       label: "27"
@@ -48,18 +26,19 @@ entity {
   }
 }
 entity {
-  id: "3"
+  id: "2"
   vehicle {
     trip {
       trip_id: "670941"
     }
     position {
-      latitude: 40.006294
-      longitude: -105.269554
-      bearing: 177.0
+      latitude: 40.015087
+      longitude: -105.28321
+      bearing: 355.0
+      speed: 6.05
     }
     current_stop_sequence: 2
-    timestamp: 1742156747
+    timestamp: 1742157118
     stop_id: "161601"
     vehicle {
       id: "16190"
@@ -69,24 +48,23 @@ entity {
   }
 }
 entity {
-  id: "4"
+  id: "3"
   vehicle {
     trip {
-      trip_id: "670884"
+      trip_id: "670885"
     }
     position {
-      latitude: 40.022316
-      longitude: -105.25827
-      bearing: 75.0
-      speed: 6.61
+      latitude: 40.019073
+      longitude: -105.256134
+      bearing: 146.0
     }
-    current_stop_sequence: 1
-    timestamp: 1742156753
-    stop_id: "161624"
+    current_stop_sequence: 2
+    timestamp: 1742157114
+    stop_id: "161601"
     vehicle {
       id: "16191"
       label: "29"
     }
-    occupancy_status: NOT_ACCEPTING_PASSENGERS
+    occupancy_status: MANY_SEATS_AVAILABLE
   }
 }
