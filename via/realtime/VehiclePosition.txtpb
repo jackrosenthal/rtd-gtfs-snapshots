@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742131295
+  timestamp: 1742131557
 }
 entity {
   id: "1"
@@ -10,13 +10,12 @@ entity {
       trip_id: "671032"
     }
     position {
-      latitude: 40.00731
-      longitude: -105.27626
+      latitude: 40.008217
+      longitude: -105.26907
       bearing: 90.0
-      speed: 4.83
     }
     current_stop_sequence: 1
-    timestamp: 1742131293
+    timestamp: 1742131553
     stop_id: "161607"
     vehicle {
       id: "16185"
@@ -32,13 +31,14 @@ entity {
       trip_id: "671091"
     }
     position {
-      latitude: 40.0189
-      longitude: -105.25587
-      bearing: 217.0
+      latitude: 40.021545
+      longitude: -105.253685
+      bearing: 357.0
+      speed: 12.55
     }
-    current_stop_sequence: 2
-    timestamp: 1742131294
-    stop_id: "161625"
+    current_stop_sequence: 1
+    timestamp: 1742131553
+    stop_id: "161607"
     vehicle {
       id: "16189"
       label: "27"
@@ -50,15 +50,37 @@ entity {
   id: "3"
   vehicle {
     trip {
+      trip_id: "670932"
+    }
+    position {
+      latitude: 40.019062
+      longitude: -105.25611
+      bearing: 138.0
+    }
+    current_stop_sequence: 2
+    timestamp: 1742131555
+    stop_id: "161601"
+    vehicle {
+      id: "16190"
+      label: "28"
+    }
+    occupancy_status: MANY_SEATS_AVAILABLE
+  }
+}
+entity {
+  id: "4"
+  vehicle {
+    trip {
       trip_id: "670875"
     }
     position {
-      latitude: 40.016644
-      longitude: -105.28048
-      bearing: 76.0
+      latitude: 40.019405
+      longitude: -105.27254
+      bearing: 77.0
+      speed: 6.52
     }
     current_stop_sequence: 1
-    timestamp: 1742131291
+    timestamp: 1742131554
     stop_id: "161624"
     vehicle {
       id: "16191"
