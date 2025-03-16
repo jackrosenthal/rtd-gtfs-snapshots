@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742168709
+  timestamp: 1742169008
 }
 entity {
   id: "54361"
@@ -4782,6 +4782,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nHampden Ave & S Sherman St (#20173) (northbound)\r\nHampden Ave & S. Pearl St (#14168) (northbound)\r\nHampden Ave & S Clarkson St (#14134) (northbound)\r\nHampden Ave & S Emerson St (#34368) (southbound)\r\nHampden Ave & S Pennsylvania St (#14169) (southbound)\r\n\nFor northbound Route 12 get on/off buses at:\r\nGirard Ave & S Lincoln St (#20728)\r\nS Downing St & Hampden Ave (#13406)\r\n\nFor southbound Route 12 get on/off buses at:\r\nHampden Ave & S Downing St (#14142)\r\nHampden Ave & S Sherman St (#25212)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57491"
+  alert {
+    active_period {
+      start: 1742168820
+      end: 1742171220
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "133"
+      route_type: 3
+      trip {
+        trip_id: "115190665"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 133 Trip 5:37 pm from Aurora Metro Center Stn Gate B to Nine Mile Station Gate C experiencing up to 10 minute southbound delays today due to security issue."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
