@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742099468
+  timestamp: 1742099709
 }
 entity {
   id: "54361"
@@ -1321,6 +1321,45 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nBroadway & Baseline Rd (#12478) (eastbound)\r\nS Broadway & Dartmouth Ave (#12509) (eastbound)\r\nTable Mesa Dr & 39th St (#16680) (eastbound)\r\nS Broadway & Table Mesa Dr (#12604) (westbound)\r\nBroadway & Dartmouth PnR (#12512) (westbound)\r\nBroadway & Baseline Rd (#12479) (westbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57473"
+  alert {
+    active_period {
+      start: 1742102040
+      end: 1742108520
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101H"
+      route_type: 0
+      trip {
+        trip_id: "115205626"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101H"
+      route_type: 0
+      trip {
+        trip_id: "115205847"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "H Line Trip 11:14 pm from Florida Station to 18th & California Station and 1 other trip cancelled today due to excessive delay. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected northbound trips:\r\n11:14 pm from Florida Station to 18th & California Station\r\n\nAffected southbound trips:\r\n12:02 am from 18th & Stout Station to Florida Station"
         language: "en"
       }
     }
@@ -4646,7 +4685,7 @@ entity {
   alert {
     active_period {
       start: 1742061420
-      end: 1742106064
+      end: 1742106735
     }
     informed_entity {
       agency_id: "RTD"
@@ -4885,6 +4924,272 @@ entity {
   }
 }
 entity {
+  id: "57472"
+  alert {
+    active_period {
+      start: 1742099460
+      end: 1742101260
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "13398"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "13391"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "13396"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "13400"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "13402"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "13405"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "13407"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "13410"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "13412"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "13415"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "13422"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "13428"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "13433"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "13514"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "14142"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "14169"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "14180"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "14592"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "15801"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "15808"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "21467"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "20093"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "25562"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "25212"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "26176"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "33012"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189435"
+      }
+      stop_id: "34368"
+    }
+    cause: ACCIDENT
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 12 Trip 10:00 pm from 38th & Blake Station to Englewood Station Gate D cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected direction: Southbound\r\n\nAffected stops:\r\nS Downing St & Virginia Ave (#13428)\r\nS Downing St & Exposition Ave (#13402)\r\nS Downing St & Kentucky Ave (#13415)\r\nS Downing St & Mississippi Ave (#13422)\r\nLouisiana Ave & S Downing St Farside (#33012)\r\nLouisiana / Pearl Station Gate B (#21467)\r\nS Pearl St & Louisiana Ave (#15808)\r\nS Pearl St & Florida Ave (#15801)\r\nIowa Ave & S Pearl St (#14592)\r\nS Downing St & Iowa Ave (#13412)\r\nS Downing St & Colorado Ave (#13396)\r\nS Downing St & Evans Ave (#13400)\r\nS Downing St & Iliff Ave (#13410)\r\nS Downing St & Harvard Ave (#13407)\r\nS Downing St & Yale Ave (#13433)\r\nS Downing St & Bates Ave (#13391)\r\nS Downing St & Dartmouth Ave (#13398)\r\nS Downing St & Floyd Ave (#13405)\r\nHampden Ave & S Downing St (#14142)\r\nHampden Ave & S Emerson St (#34368)\r\nHampden Ave & S Pearl St (#14180)\r\nHampden Ave & S Pennsylvania St (#14169)\r\nHampden Ave & S Sherman St (#25212)\r\nS Lincoln St & Girard Ave (#25562)\r\nEnglewood Pkwy & S Acoma St (#20093)\r\nS Elati St & Englewood Pkwy (#13514)\r\nEnglewood Station Gate D (#26176)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "53811"
   alert {
     active_period {
@@ -5032,7 +5337,7 @@ entity {
   alert {
     active_period {
       start: 1742052660
-      end: 1742106064
+      end: 1742106735
     }
     informed_entity {
       agency_id: "RTD"
