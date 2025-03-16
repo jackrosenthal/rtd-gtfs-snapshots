@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742099709
+  timestamp: 1742100009
 }
 entity {
   id: "54361"
@@ -5184,6 +5184,37 @@ entity {
     description_text {
       translation {
         text: "Affected direction: Southbound\r\n\nAffected stops:\r\nS Downing St & Virginia Ave (#13428)\r\nS Downing St & Exposition Ave (#13402)\r\nS Downing St & Kentucky Ave (#13415)\r\nS Downing St & Mississippi Ave (#13422)\r\nLouisiana Ave & S Downing St Farside (#33012)\r\nLouisiana / Pearl Station Gate B (#21467)\r\nS Pearl St & Louisiana Ave (#15808)\r\nS Pearl St & Florida Ave (#15801)\r\nIowa Ave & S Pearl St (#14592)\r\nS Downing St & Iowa Ave (#13412)\r\nS Downing St & Colorado Ave (#13396)\r\nS Downing St & Evans Ave (#13400)\r\nS Downing St & Iliff Ave (#13410)\r\nS Downing St & Harvard Ave (#13407)\r\nS Downing St & Yale Ave (#13433)\r\nS Downing St & Bates Ave (#13391)\r\nS Downing St & Dartmouth Ave (#13398)\r\nS Downing St & Floyd Ave (#13405)\r\nHampden Ave & S Downing St (#14142)\r\nHampden Ave & S Emerson St (#34368)\r\nHampden Ave & S Pearl St (#14180)\r\nHampden Ave & S Pennsylvania St (#14169)\r\nHampden Ave & S Sherman St (#25212)\r\nS Lincoln St & Girard Ave (#25562)\r\nEnglewood Pkwy & S Acoma St (#20093)\r\nS Elati St & Englewood Pkwy (#13514)\r\nEnglewood Station Gate D (#26176)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57474"
+  alert {
+    active_period {
+      start: 1742101200
+      end: 1742104800
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      trip {
+        trip_id: "115189431"
+      }
+    }
+    cause: ACCIDENT
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 12 Trip 11:00 pm from Englewood Station Gate D to 38th & Blake Station cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected direction: Northbound"
         language: "en"
       }
     }
