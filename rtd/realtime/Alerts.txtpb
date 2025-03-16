@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742160009
+  timestamp: 1742160309
 }
 entity {
   id: "54361"
@@ -1071,6 +1071,61 @@ entity {
     description_text {
       translation {
         text: "Affected lines:\r\nA Line\r\nB Line\r\nE Line\r\nG Line\r\nN Line\r\nW Line\r\nMALLRIDE\r\nFF1\r\nFF2\r\nFF3\r\nLD1\r\n0\r\n9\r\n10\r\n15\r\n19\r\n20\r\n32\r\n120X"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57486"
+  alert {
+    active_period {
+      start: 1742160000
+      end: 1742172600
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101E"
+      route_type: 0
+      trip {
+        trip_id: "115206383"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101E"
+      route_type: 0
+      trip {
+        trip_id: "115206585"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101E"
+      route_type: 0
+      trip {
+        trip_id: "115206235"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101E"
+      route_type: 0
+      trip {
+        trip_id: "115206620"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "E Line Trip 2:30 pm from Ridgegate Parkway Station to Union Station Track 11 and 3 other trips cancelled today due to no operator available. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected northbound trips:\r\n2:30 pm from Ridgegate Parkway Station to Union Station Track 11\r\n4:45 pm from Ridgegate Parkway Station to Union Station Track 11\r\n\nAffected southbound trips:\r\n3:28 pm from Union Station Track 12 to Ridgegate Parkway Station\r\n5:43 pm from Union Station Track 12 to Ridgegate Parkway Station"
         language: "en"
       }
     }
