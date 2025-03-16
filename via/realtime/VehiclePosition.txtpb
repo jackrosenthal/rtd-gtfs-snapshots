@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742155560
+  timestamp: 1742155852
 }
 entity {
   id: "1"
@@ -10,35 +10,34 @@ entity {
       trip_id: "671041"
     }
     position {
-      latitude: 40.018772
-      longitude: -105.27588
-      bearing: 255.0
+      latitude: 40.017147
+      longitude: -105.28364
+      bearing: 253.0
     }
     current_stop_sequence: 1
-    timestamp: 1742155556
+    timestamp: 1742155845
     stop_id: "161607"
     vehicle {
       id: "16185"
       label: "23"
     }
-    occupancy_status: STANDING_ROOM_ONLY
+    occupancy_status: FEW_SEATS_AVAILABLE
   }
 }
 entity {
   id: "2"
   vehicle {
     trip {
-      trip_id: "671099"
+      trip_id: "671100"
     }
     position {
-      latitude: 40.017075
-      longitude: -105.25625
-      bearing: 114.0
-      speed: 0.41
+      latitude: 40.018913
+      longitude: -105.25581
+      bearing: 343.0
     }
-    current_stop_sequence: 1
-    timestamp: 1742155552
-    stop_id: "161607"
+    current_stop_sequence: 2
+    timestamp: 1742155845
+    stop_id: "161625"
     vehicle {
       id: "16189"
       label: "27"
@@ -50,15 +49,15 @@ entity {
   id: "3"
   vehicle {
     trip {
-      trip_id: "670940"
+      trip_id: "670941"
     }
     position {
-      latitude: 40.022198
-      longitude: -105.25866
-      bearing: 77.0
+      latitude: 40.01904
+      longitude: -105.2561
+      bearing: 136.0
     }
     current_stop_sequence: 2
-    timestamp: 1742155553
+    timestamp: 1742155851
     stop_id: "161601"
     vehicle {
       id: "16190"
@@ -74,13 +73,14 @@ entity {
       trip_id: "670884"
     }
     position {
-      latitude: 40.004692
-      longitude: -105.26964
-      bearing: 195.0
+      latitude: 40.00907
+      longitude: -105.282
+      bearing: 1.0
+      speed: 7.3
     }
-    current_stop_sequence: 1
-    timestamp: 1742155557
-    stop_id: "161624"
+    current_stop_sequence: 13
+    timestamp: 1742155851
+    stop_id: "161572"
     vehicle {
       id: "16191"
       label: "29"
