@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742092209
+  timestamp: 1742092508
 }
 entity {
   id: "54361"
@@ -545,13 +545,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -4425,45 +4425,6 @@ entity {
     description_text {
       translation {
         text: "Affected direction: Northbound\r\n\nAffected northbound trips:\r\n4:40 am from Florida Station to 18th & California Station\r\n5:10 am from Florida Station to 18th & California Station\r\n5:40 am from Florida Station to 18th & California Station\r\n5:55 am from Florida Station to 18th & California Station\r\n6:10 am from Florida Station to 18th & California Station\r\n6:25 am from Florida Station to 18th & California Station\r\n6:40 am from Florida Station to 18th & California Station\r\n6:55 am from Florida Station to 18th & California Station\r\n7:10 am from Florida Station to 18th & California Station\r\n7:25 am from Florida Station to 18th & California Station\r\n7:40 am from Florida Station to 18th & California Station\r\n7:55 am from Florida Station to 18th & California Station\r\n8:10 am from Florida Station to 18th & California Station\r\n8:25 am from Florida Station to 18th & California Station\r\n8:40 am from Florida Station to 18th & California Station\r\n8:55 am from Florida Station to 18th & California Station\r\n9:10 am from Florida Station to 18th & California Station\r\n9:25 am from Florida Station to 18th & California Station\r\n9:40 am from Florida Station to 18th & California Station\r\n9:55 am from Florida Station to 18th & California Station\r\n10:10 am from Florida Station to 18th & California Station\r\n10:25 am from Florida Station to 18th & California Station\r\n10:40 am from Florida Station to 18th & California Station\r\n10:55 am from Florida Station to 18th & California Station\r\n11:10 am from Florida Station to 18th & California Station\r\n11:25 am from Florida Station to 18th & California Station\r\n11:40 am from Florida Station to 18th & California Station\r\n11:55 am from Florida Station to 18th & California Station\r\n12:10 pm from Florida Station to 18th & California Station\r\n12:25 pm from Florida Station to 18th & California Station\r\n\nAffected stops:\r\nYale Station (#34012)\r\nColorado Station (#34013)\r\nUniversity of Denver Station (#34014)\r\nLouisiana & Pearl Station (#34015)\r\nI-25 & Broadway Station (#23041)\r\nAlameda Station (#23042)\r\n10th & Osage Station (#23043)\r\nColfax at Auraria Station (#23044)\r\nTheatre District / Convention Center Station (#29104)\r\n16th & California Station (#23046)\r\n18th & California Station (#23047)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57465"
-  alert {
-    active_period {
-      start: 1742085840
-      end: 1742092320
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101H"
-      route_type: 0
-      trip {
-        trip_id: "115205460"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101H"
-      route_type: 0
-      trip {
-        trip_id: "115205727"
-      }
-    }
-    cause: OTHER_CAUSE
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "H Line Trip 6:44 pm from Florida Station to 18th & California Station and 1 other trip cancelled today due to excessive delay. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected northbound trips:\r\n6:44 pm from Florida Station to 18th & California Station\r\n\nAffected southbound trips:\r\n7:32 pm from 18th & Stout Station to Florida Station"
         language: "en"
       }
     }
