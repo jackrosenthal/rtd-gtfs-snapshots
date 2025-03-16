@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742122269
+  timestamp: 1742122509
 }
 entity {
   id: "54361"
@@ -4670,37 +4670,6 @@ entity {
     header_text {
       translation {
         text: "Route 0 Trip 2:43 pm from Englewood Station Gate C to Union Station cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57475"
-  alert {
-    active_period {
-      start: 1742118780
-      end: 1742122380
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "104L"
-      route_type: 3
-      trip {
-        trip_id: "115187136"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Route 104L Trip 3:53 am from Wagon Road PnR Gate B to Denver Airport Station Gate 6 experiencing up to 15 minute eastbound delays today due to mechanical issue."
         language: "en"
       }
     }
