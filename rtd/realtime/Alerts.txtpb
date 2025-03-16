@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742160309
+  timestamp: 1742160609
 }
 entity {
   id: "54361"
@@ -1407,37 +1407,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nBroadway & Baseline Rd (#12478) (eastbound)\r\nS Broadway & Dartmouth Ave (#12509) (eastbound)\r\nTable Mesa Dr & 39th St (#16680) (eastbound)\r\nS Broadway & Table Mesa Dr (#12604) (westbound)\r\nBroadway & Dartmouth PnR (#12512) (westbound)\r\nBroadway & Baseline Rd (#12479) (westbound)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57485"
-  alert {
-    active_period {
-      start: 1742159580
-      end: 1742160480
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101H"
-      route_type: 0
-      trip {
-        trip_id: "115206396"
-      }
-    }
-    cause: OTHER_CAUSE
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "H Line Trip 2:29 pm from Florida Station to 18th & California Station experiencing up to 15 minute delays today due to excessive delay."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
@@ -4899,6 +4868,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nHampden Ave & S Sherman St (#20173) (northbound)\r\nHampden Ave & S. Pearl St (#14168) (northbound)\r\nHampden Ave & S Clarkson St (#14134) (northbound)\r\nHampden Ave & S Emerson St (#34368) (southbound)\r\nHampden Ave & S Pennsylvania St (#14169) (southbound)\r\n\nFor northbound Route 12 get on/off buses at:\r\nGirard Ave & S Lincoln St (#20728)\r\nS Downing St & Hampden Ave (#13406)\r\n\nFor southbound Route 12 get on/off buses at:\r\nHampden Ave & S Downing St (#14142)\r\nHampden Ave & S Sherman St (#25212)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57487"
+  alert {
+    active_period {
+      start: 1742160540
+      end: 1742162160
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "153"
+      route_type: 3
+      trip {
+        trip_id: "115191757"
+      }
+    }
+    cause: ACCIDENT
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 153 Trip 2:21 pm from Peoria Station Gate G to Arapahoe at Village Center Station Gate C experiencing up to 45 minute southbound delays today due to accident."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
