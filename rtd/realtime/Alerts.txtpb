@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742104809
+  timestamp: 1742105108
 }
 entity {
   id: "54361"
@@ -4918,37 +4918,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nMississippi Ave & S Leyden St (#15397) (eastbound)\r\nMississippi Ave & S Monaco Pkwy (#15410) (eastbound)\r\nMississippi Ave & S Leyden St (#15398) (westbound)\r\nMississippi Ave & S Monaco Pkwy (#15411) (westbound)\r\nMississippi Ave & S Oneida St (#15417) (westbound)\r\n\nFor eastbound Route 11 get on/off buses at:\r\nTennessee Ave & S Jersey St (#16741)\r\nMississippi Ave & S Oneida St (#15416)\r\n\nFor westbound Route 11 get on/off buses at:\r\nMississippi Ave & S Quebec St (#15428)\r\nTennessee Ave & S Jersey St (#16742)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57474"
-  alert {
-    active_period {
-      start: 1742101200
-      end: 1742104800
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "12"
-      route_type: 3
-      trip {
-        trip_id: "115189431"
-      }
-    }
-    cause: ACCIDENT
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "Route 12 Trip 11:00 pm from Englewood Station Gate D to 38th & Blake Station cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected direction: Northbound"
         language: "en"
       }
     }
