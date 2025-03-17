@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742227209
+  timestamp: 1742227569
 }
 entity {
   id: "54361"
@@ -217,37 +217,6 @@ entity {
     description_text {
       translation {
         text: "Affected routes:\r\nMALLRIDE\r\nFF1\r\nFF2\r\nFF3\r\nLD1\r\n0\r\n9\r\n10\r\n15\r\n20\r\n32\r\n120X\r\n\nAffected stops:\r\nUnion Station (#33646) (civic ctr)\r\nUnion Station (#33647) (union stn)\r\nUnion Station (#34343) (eastbound)\r\nUnion Station (#34343) (northbound)\r\nUnion Station (#34343) (southbound)\r\nUnion Station (#34343) (westbound)\r\nUnion Station (#34344) (eastbound)\r\nUnion Station (#34344) (southbound)\r\nUnion Station (#34344) (westbound)\r\nUnion Station Gate B10 (#34329) (northbound)\r\nUnion Station Gate B15 (#34313) (northbound)\r\nUnion Station Gate B16 (#34314) (eastbound)\r\nUnion Station Gate B16 (#34314) (westbound)\r\nUnion Station Gate B17 (#34312) (eastbound)\r\nUnion Station Gate B17 (#34312) (westbound)\r\nUnion Station Gate B18 (#34315) (northbound)\r\nUnion Station Gate B18 (#34315) (westbound)\r\nUnion Station Gate B5 (#34324) (eastbound)\r\nUnion Station Gate B5 (#34324) (westbound)\r\nUnion Station Gate B6 (#34325) (eastbound)\r\nUnion Station Gate B6 (#34325) (westbound)\r\nUnion Station Gate B7 (#34326) (northbound)\r\nUnion Station Gate B7 (#34326) (southbound)\r\nUnion Station Gate B8 (#34327) (eastbound)\r\nUnion Station Gate B9 (#34328) (eastbound)\r\nUnion Station Gate B9 (#34328) (westbound)\r\nUnion Station Loop (#10101) (union stn)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57512"
-  alert {
-    active_period {
-      start: 1742224620
-      end: 1742227440
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "A"
-      route_type: 2
-      trip {
-        trip_id: "115200706"
-      }
-    }
-    cause: POLICE_ACTIVITY
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "A Line Trip 9:12 am from Denver Airport Station to Union Station Track 1 cancelled today due to police activity. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
@@ -576,13 +545,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -5699,7 +5668,7 @@ entity {
   alert {
     active_period {
       start: 1742218560
-      end: 1742233684
+      end: 1742234572
     }
     informed_entity {
       agency_id: "RTD"
@@ -7047,7 +7016,7 @@ entity {
   alert {
     active_period {
       start: 1740996000
-      end: 1742288340
+      end: 1743843540
     }
     informed_entity {
       agency_id: "RTD"
@@ -7065,7 +7034,7 @@ entity {
     effect: NO_SERVICE
     header_text {
       translation {
-        text: "The following stops are closed from Mon Mar 3 through Mon Mar 17 due to construction: Sheridan Blvd & W 70th Ave (#19122) (southbound) and Sheridan Blvd & W 68th Ave (#16498) (southbound)."
+        text: "The following stops are closed from Mon Mar 3 through Fri Apr 4 due to construction: Sheridan Blvd & W 70th Ave (#19122) (southbound) and Sheridan Blvd & W 68th Ave (#16498) (southbound)."
         language: "en"
       }
     }
