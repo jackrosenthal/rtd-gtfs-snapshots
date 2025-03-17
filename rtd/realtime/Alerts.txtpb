@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742241909
+  timestamp: 1742242268
 }
 entity {
   id: "54361"
@@ -545,13 +545,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -5240,6 +5240,37 @@ entity {
     description_text {
       translation {
         text: "Affected direction: Eastbound\r\n\nAffected stops:\r\nWashington St & 20th Ave (#17166)\r\n\nAvailable alternate stops:\r\nPark Ave West & Clarkson St (#23408)\r\n22nd Ave & Clarkson St (#10557)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57529"
+  alert {
+    active_period {
+      start: 1742241900
+      end: 1742245380
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "3"
+      route_type: 3
+      trip {
+        trip_id: "115194689"
+      }
+    }
+    cause: ACCIDENT
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 3 Trip 12:56 pm from Federal Center Station Gate N to Aurora Metro Center Stn Gate F cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
