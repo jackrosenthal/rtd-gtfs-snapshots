@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742202309
+  timestamp: 1742202668
 }
 entity {
   id: "54361"
@@ -4841,6 +4841,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nSable Blvd & 23rd Ave (#18798) (northbound)\r\nSable Blvd & 25th Ave (#18799) (northbound)\r\nSable Blvd & 28th Ave (#22343) (northbound)\r\nSable Blvd & 28th Ave (#18751) (southbound)\r\nSable Blvd & 25th Ave (#18752) (southbound)\r\nSable Blvd & 23rd Ave (#18753) (southbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57496"
+  alert {
+    active_period {
+      start: 1742204460
+      end: 1742207340
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "17"
+      route_type: 3
+      trip {
+        trip_id: "115193030"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 17 Trip 3:41 am from 10th St & Washington Ave to Federal Center Station Gate D cancelled today due to no operator available. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected direction: Eastbound"
         language: "en"
       }
     }
