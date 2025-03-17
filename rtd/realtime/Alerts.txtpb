@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742246110
+  timestamp: 1742246409
 }
 entity {
   id: "54361"
@@ -4819,6 +4819,37 @@ entity {
   }
 }
 entity {
+  id: "57535"
+  alert {
+    active_period {
+      start: 1742246280
+      end: 1742247540
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15"
+      route_type: 3
+      trip {
+        trip_id: "115209044"
+      }
+    }
+    cause: POLICE_ACTIVITY
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 15 Trip 2:12 pm from Colfax Ave & Tower Rd to Union Station experiencing up to 20 minute delays today due to police activity."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "57531"
   alert {
     active_period {
@@ -5371,7 +5402,7 @@ entity {
   alert {
     active_period {
       start: 1742238180
-      end: 1742252585
+      end: 1742253305
     }
     informed_entity {
       agency_id: "RTD"
