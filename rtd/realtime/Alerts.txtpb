@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742228709
+  timestamp: 1742229009
 }
 entity {
   id: "54361"
@@ -5668,7 +5668,7 @@ entity {
   alert {
     active_period {
       start: 1742218560
-      end: 1742235304
+      end: 1742236024
     }
     informed_entity {
       agency_id: "RTD"
@@ -6153,6 +6153,35 @@ entity {
     description_text {
       translation {
         text: "Affected routes:\r\n31\r\n\nAvailable alternate stops:\r\nFederal Blvd & W 29th Ave (#13714)\r\nFederal Blvd & W 25th Ave (#13710)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57517"
+  alert {
+    active_period {
+      start: 1742310000
+      end: 1742333400
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "44"
+      route_type: 3
+      stop_id: "11144"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop is closed from 9:00 AM to 3:30 PM on Tue Mar 18 due to construction: W 44th Ave & Hooker St (#11144) (westbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n44\r\n\nAvailable alternate stops:\r\nW 44th Ave & Federal Blvd (#11133)\r\nW 44th Ave & Knox Ct (#11156)"
         language: "en"
       }
     }
