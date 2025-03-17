@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742224509
+  timestamp: 1742224808
 }
 entity {
   id: "54361"
@@ -264,6 +264,37 @@ entity {
     description_text {
       translation {
         text: "Affected eastbound trips:\r\n8:00 am from Union Station Track 1 to Denver Airport Station\r\n\nAffected westbound trips:\r\n8:12 am from Denver Airport Station to Union Station Track 1\r\n8:57 am from Denver Airport Station to Union Station Track 1"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57512"
+  alert {
+    active_period {
+      start: 1742224620
+      end: 1742227440
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "A"
+      route_type: 2
+      trip {
+        trip_id: "115200706"
+      }
+    }
+    cause: POLICE_ACTIVITY
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "A Line Trip 9:12 am from Denver Airport Station to Union Station Track 1 cancelled today due to police activity. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
