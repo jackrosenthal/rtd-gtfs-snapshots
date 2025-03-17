@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742225408
+  timestamp: 1742225709
 }
 entity {
   id: "54361"
@@ -623,13 +623,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -5912,6 +5912,41 @@ entity {
     description_text {
       translation {
         text: "Affected routes:\r\n15\r\n15L\r\n\nAvailable alternate stops:\r\nColfax Ave & Hudson St (#12900) (westbound)\r\nColfax Ave & Elm St (#12875) (westbound)\r\nColfax Ave & Krameria St (#12922) (westbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57513"
+  alert {
+    active_period {
+      start: 1742394600
+      end: 1742851800
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "15360"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "14"
+      route_type: 3
+      stop_id: "15360"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop is closed daily from 8:30 AM - 3:30 PM Wed Mar to Mon Mar 24 due to construction: W Mississippi Ave & S Galapago St (#15360) (westbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n11\r\n14\r\n\nAvailable alternate stops:\r\nW Mississippi Ave & S Broadway (#15323) (westbound)\r\nW Mississippi Ave & S Jason St (#15378) (westbound)"
         language: "en"
       }
     }
