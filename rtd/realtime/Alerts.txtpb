@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742243709
+  timestamp: 1742244009
 }
 entity {
   id: "54361"
@@ -5433,7 +5433,7 @@ entity {
   alert {
     active_period {
       start: 1742238180
-      end: 1742250425
+      end: 1742251145
     }
     informed_entity {
       agency_id: "RTD"
@@ -5567,37 +5567,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\n16200 Block Green Valley Ranch Blvd (#24828) (eastbound)\r\nKittredge St & 48th Ave (#25504) (westbound)\r\nKittredge St & 53rd Ave (#25505) (westbound)\r\nKittredge St & 51st Ave (#25814) (eastbound)\r\nKittredge St & 51st Ave (#25815) (westbound)\r\n16200 Block Green Valley Ranch Blvd (#33419) (westbound)\r\n\nFor eastbound Route 45 get on/off buses at:\r\n53rd Ave & Kittredge St (#25510)\r\nGreen Valley Ranch Blvd & Memphis St (#33611)\r\n\nFor westbound Route 45 get on/off buses at:\r\nGreen Valley Ranch Blvd & Memphis St (#24829)\r\n53rd Ave & 51st Pl (#25506)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57528"
-  alert {
-    active_period {
-      start: 1742241240
-      end: 1742243700
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "49"
-      route_type: 3
-      trip {
-        trip_id: "115205996"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Route 49 Trip 1:41 pm from 40th & Colorado Station Gate A to Commerce City & 72nd Station Gate A experiencing up to 30 minute northbound delays today due to disabled bus."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
