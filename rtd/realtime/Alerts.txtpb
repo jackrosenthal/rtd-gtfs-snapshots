@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742220909
+  timestamp: 1742221209
 }
 entity {
   id: "54361"
@@ -217,6 +217,53 @@ entity {
     description_text {
       translation {
         text: "Affected routes:\r\nMALLRIDE\r\nFF1\r\nFF2\r\nFF3\r\nLD1\r\n0\r\n9\r\n10\r\n15\r\n20\r\n32\r\n120X\r\n\nAffected stops:\r\nUnion Station (#33646) (civic ctr)\r\nUnion Station (#33647) (union stn)\r\nUnion Station (#34343) (eastbound)\r\nUnion Station (#34343) (northbound)\r\nUnion Station (#34343) (southbound)\r\nUnion Station (#34343) (westbound)\r\nUnion Station (#34344) (eastbound)\r\nUnion Station (#34344) (southbound)\r\nUnion Station (#34344) (westbound)\r\nUnion Station Gate B10 (#34329) (northbound)\r\nUnion Station Gate B15 (#34313) (northbound)\r\nUnion Station Gate B16 (#34314) (eastbound)\r\nUnion Station Gate B16 (#34314) (westbound)\r\nUnion Station Gate B17 (#34312) (eastbound)\r\nUnion Station Gate B17 (#34312) (westbound)\r\nUnion Station Gate B18 (#34315) (northbound)\r\nUnion Station Gate B18 (#34315) (westbound)\r\nUnion Station Gate B5 (#34324) (eastbound)\r\nUnion Station Gate B5 (#34324) (westbound)\r\nUnion Station Gate B6 (#34325) (eastbound)\r\nUnion Station Gate B6 (#34325) (westbound)\r\nUnion Station Gate B7 (#34326) (northbound)\r\nUnion Station Gate B7 (#34326) (southbound)\r\nUnion Station Gate B8 (#34327) (eastbound)\r\nUnion Station Gate B9 (#34328) (eastbound)\r\nUnion Station Gate B9 (#34328) (westbound)\r\nUnion Station Loop (#10101) (union stn)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57511"
+  alert {
+    active_period {
+      start: 1742220900
+      end: 1742226540
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "A"
+      route_type: 2
+      trip {
+        trip_id: "115200708"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "A"
+      route_type: 2
+      trip {
+        trip_id: "115200734"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "A"
+      route_type: 2
+      trip {
+        trip_id: "115200603"
+      }
+    }
+    cause: POLICE_ACTIVITY
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "A Line Trip 8:00 am from Union Station Track 1 to Denver Airport Station and 2 other trips cancelled today due to police activity. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected eastbound trips:\r\n8:00 am from Union Station Track 1 to Denver Airport Station\r\n\nAffected westbound trips:\r\n8:12 am from Denver Airport Station to Union Station Track 1\r\n8:57 am from Denver Airport Station to Union Station Track 1"
         language: "en"
       }
     }
@@ -5916,7 +5963,7 @@ entity {
   alert {
     active_period {
       start: 1742218560
-      end: 1742227385
+      end: 1742228105
     }
     informed_entity {
       agency_id: "RTD"
