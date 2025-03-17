@@ -1,10 +1,10 @@
 header {
   gtfs_realtime_version: "1.0"
   incrementality: FULL_DATASET
-  timestamp: 1742201431
+  timestamp: 1742201730
 }
 entity {
-  id: "1742201431_305D3C5117324648E063DD4D1FACDA4F"
+  id: "1742201730_305D3C5117324648E063DD4D1FACDA4F"
   vehicle {
     trip {
       trip_id: "115201346"
@@ -13,13 +13,13 @@ entity {
       direction_id: 0
     }
     position {
-      latitude: 39.766335
-      longitude: -104.79345
-      bearing: 113.0
+      latitude: 39.769867
+      longitude: -104.78647
+      bearing: 95.0
     }
-    current_status: IN_TRANSIT_TO
-    timestamp: 1742201409
-    stop_id: "26383"
+    current_status: STOPPED_AT
+    timestamp: 1742201716
+    stop_id: "26164"
     vehicle {
       id: "305D3C5117324648E063DD4D1FACDA4F"
       label: "1533"
@@ -28,23 +28,7 @@ entity {
   }
 }
 entity {
-  id: "1742201431_305D3C51183A4648E063DD4D1FACDA4F"
-  vehicle {
-    position {
-      latitude: 39.77135
-      longitude: -104.98425
-      bearing: 0.0
-    }
-    timestamp: 1742201396
-    vehicle {
-      id: "305D3C51183A4648E063DD4D1FACDA4F"
-      label: "6038"
-    }
-    occupancy_status: EMPTY
-  }
-}
-entity {
-  id: "1742201431_305D3C5118424648E063DD4D1FACDA4F"
+  id: "1742201730_305D3C5118424648E063DD4D1FACDA4F"
   vehicle {
     trip {
       trip_id: "115191785"
@@ -53,13 +37,13 @@ entity {
       direction_id: 0
     }
     position {
-      latitude: 39.70843
-      longitude: -104.81815
-      bearing: 283.0
+      latitude: 39.7138
+      longitude: -104.8098
+      bearing: 7.0
     }
-    current_status: STOPPED_AT
-    timestamp: 1742201404
-    stop_id: "26333"
+    current_status: IN_TRANSIT_TO
+    timestamp: 1742201705
+    stop_id: "18787"
     vehicle {
       id: "305D3C5118424648E063DD4D1FACDA4F"
       label: "6047"
@@ -68,7 +52,31 @@ entity {
   }
 }
 entity {
-  id: "1742201431_305D3C5118704648E063DD4D1FACDA4F"
+  id: "1742201730_305D3C5118644648E063DD4D1FACDA4F"
+  vehicle {
+    trip {
+      trip_id: "115210216"
+      schedule_relationship: SCHEDULED
+      route_id: "45"
+      direction_id: 0
+    }
+    position {
+      latitude: 39.7402
+      longitude: -104.822815
+      bearing: 337.0
+    }
+    current_status: IN_TRANSIT_TO
+    timestamp: 1742201712
+    stop_id: "16765"
+    vehicle {
+      id: "305D3C5118644648E063DD4D1FACDA4F"
+      label: "6081"
+    }
+    occupancy_status: EMPTY
+  }
+}
+entity {
+  id: "1742201730_305D3C5118704648E063DD4D1FACDA4F"
   vehicle {
     trip {
       trip_id: "115187503"
@@ -77,13 +85,13 @@ entity {
       direction_id: 0
     }
     position {
-      latitude: 39.732883
-      longitude: -104.86585
-      bearing: 2.0
+      latitude: 39.7475
+      longitude: -104.86965
+      bearing: 270.0
     }
     current_status: IN_TRANSIT_TO
-    timestamp: 1742201418
-    stop_id: "14224"
+    timestamp: 1742201720
+    stop_id: "15578"
     vehicle {
       id: "305D3C5118704648E063DD4D1FACDA4F"
       label: "6093"
@@ -92,22 +100,22 @@ entity {
   }
 }
 entity {
-  id: "1742201431_305D3C5118D54648E063DD4D1FACDA4F"
+  id: "1742201730_305D3C5118D54648E063DD4D1FACDA4F"
   vehicle {
     trip {
-      trip_id: "115209548"
+      trip_id: "115210243"
       schedule_relationship: SCHEDULED
-      route_id: "42"
-      direction_id: 0
+      route_id: "45"
+      direction_id: 1
     }
     position {
-      latitude: 39.78105
-      longitude: -104.74229
-      bearing: 347.0
+      latitude: 39.796684
+      longitude: -104.736786
+      bearing: 358.0
     }
     current_status: IN_TRANSIT_TO
-    timestamp: 1742201400
-    stop_id: "33441"
+    timestamp: 1742201713
+    stop_id: "34807"
     vehicle {
       id: "305D3C5118D54648E063DD4D1FACDA4F"
       label: "6194"
@@ -116,7 +124,7 @@ entity {
   }
 }
 entity {
-  id: "1742201431_305D3C5119314648E063DD4D1FACDA4F"
+  id: "1742201730_305D3C5119314648E063DD4D1FACDA4F"
   vehicle {
     trip {
       trip_id: "115209535"
@@ -125,16 +133,40 @@ entity {
       direction_id: 0
     }
     position {
-      latitude: 39.77895
-      longitude: -104.82402
-      bearing: 81.0
+      latitude: 39.77278
+      longitude: -104.79788
+      bearing: 90.0
     }
     current_status: IN_TRANSIT_TO
-    timestamp: 1742201420
-    stop_id: "19117"
+    timestamp: 1742201716
+    stop_id: "24702"
     vehicle {
       id: "305D3C5119314648E063DD4D1FACDA4F"
       label: "6286"
+    }
+    occupancy_status: EMPTY
+  }
+}
+entity {
+  id: "1742201730_305D3C5119454648E063DD4D1FACDA4F"
+  vehicle {
+    trip {
+      trip_id: "115190191"
+      schedule_relationship: SCHEDULED
+      route_id: "121"
+      direction_id: 0
+    }
+    position {
+      latitude: 39.657867
+      longitude: -104.84638
+      bearing: 208.0
+    }
+    current_status: IN_TRANSIT_TO
+    timestamp: 1742201711
+    stop_id: "15949"
+    vehicle {
+      id: "305D3C5119454648E063DD4D1FACDA4F"
+      label: "6307"
     }
     occupancy_status: EMPTY
   }
