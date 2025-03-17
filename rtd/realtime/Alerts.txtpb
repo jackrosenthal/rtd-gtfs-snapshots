@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742254749
+  timestamp: 1742255109
 }
 entity {
   id: "54361"
@@ -4682,6 +4682,37 @@ entity {
   }
 }
 entity {
+  id: "57550"
+  alert {
+    active_period {
+      start: 1742254860
+      end: 1742256060
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "0L"
+      route_type: 3
+      trip {
+        trip_id: "115184440"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 0L Trip 5:32 pm from Civic Center Station Gate 6 to I-25 & Broadway Station Gate A3 cancelled today due to mechanical issue. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "49932"
   alert {
     active_period {
@@ -4819,37 +4850,6 @@ entity {
   }
 }
 entity {
-  id: "57539"
-  alert {
-    active_period {
-      start: 1742249820
-      end: 1742254860
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15"
-      route_type: 3
-      trip {
-        trip_id: "115209088"
-      }
-    }
-    cause: POLICE_ACTIVITY
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "Route 15 Trip 4:14 pm from Colfax Ave & Tower Rd to Union Station cancelled today due to police activity. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "57400"
   alert {
     active_period {
@@ -4903,6 +4903,45 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nSable Blvd & 23rd Ave (#18798) (northbound)\r\nSable Blvd & 25th Ave (#18799) (northbound)\r\nSable Blvd & 28th Ave (#22343) (northbound)\r\nSable Blvd & 28th Ave (#18751) (southbound)\r\nSable Blvd & 25th Ave (#18752) (southbound)\r\nSable Blvd & 23rd Ave (#18753) (southbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57549"
+  alert {
+    active_period {
+      start: 1742254800
+      end: 1742259900
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      trip {
+        trip_id: "115192569"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      trip {
+        trip_id: "115192631"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 16 Trip 5:00 pm from Oak Station Gate C to Grant St & 14th Ave and 1 other trip cancelled today due to mechanical issue. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected eastbound trips:\r\n5:00 pm from Oak Station Gate C to Grant St & 14th Ave\r\n\nAffected westbound trips:\r\n6:08 pm from Colfax Ave & Broadway to Oak Station Gate C"
         language: "en"
       }
     }
@@ -5340,7 +5379,7 @@ entity {
   alert {
     active_period {
       start: 1742238180
-      end: 1742261526
+      end: 1742262304
     }
     informed_entity {
       agency_id: "RTD"
@@ -5642,6 +5681,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nPark Ave West & Blake St (#23224) (northbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57548"
+  alert {
+    active_period {
+      start: 1742254800
+      end: 1742256540
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "83L"
+      route_type: 3
+      trip {
+        trip_id: "115211070"
+      }
+    }
+    cause: MEDICAL_EMERGENCY
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 83L Trip 4:59 pm from Nine Mile Station Gate F to Civic Center Station Gate 5 cancelled today due to medical emergency. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
