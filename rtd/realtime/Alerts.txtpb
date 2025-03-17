@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742247069
+  timestamp: 1742247309
 }
 entity {
   id: "54361"
@@ -5186,6 +5186,37 @@ entity {
     description_text {
       translation {
         text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57537"
+  alert {
+    active_period {
+      start: 1742247120
+      end: 1742250960
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192243"
+      }
+    }
+    cause: MEDICAL_EMERGENCY
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 15L Trip 3:09 pm from Aurora Metro Center Stn Gate E to Decatur / Federal Station Gate C cancelled today due to medical emergency. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected direction: Westbound"
         language: "en"
       }
     }
