@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742189409
+  timestamp: 1742189709
 }
 entity {
   id: "54361"
@@ -4457,53 +4457,6 @@ entity {
     description_text {
       translation {
         text: "Affected routes:\r\n38"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57494"
-  alert {
-    active_period {
-      start: 1742185380
-      end: 1742189580
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "MALL"
-      route_type: 3
-      trip {
-        trip_id: "115203181"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "MALL"
-      route_type: 3
-      trip {
-        trip_id: "115203325"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "MALL"
-      route_type: 3
-      trip {
-        trip_id: "115203047"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "MALLRIDE Trip 9:55 pm from Civic Center Mall Loop to Union Station and 2 other trips cancelled today due to mechanical issue. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected Union Stn trips:\r\n9:55 pm from Civic Center Mall Loop to Union Station\r\n10:55 pm from Civic Center Mall Loop to Union Station\r\n\nAffected Civic Ctr trips:\r\n10:28 pm from Union Station to Civic Center Mall Loop"
         language: "en"
       }
     }
