@@ -1,5 +1,27 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742213153
+  timestamp: 1742213450
+}
+entity {
+  id: "1"
+  vehicle {
+    trip {
+      trip_id: "671166"
+    }
+    position {
+      latitude: 40.225136
+      longitude: -105.26991
+      bearing: 1.2999878
+      speed: 1e-06
+    }
+    current_stop_sequence: 2
+    timestamp: 1742213439
+    stop_id: "161641"
+    vehicle {
+      id: "16198"
+      label: "991"
+    }
+    occupancy_status: MANY_SEATS_AVAILABLE
+  }
 }
