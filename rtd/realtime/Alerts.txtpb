@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742237108
+  timestamp: 1742237410
 }
 entity {
   id: "54361"
@@ -545,13 +545,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -4866,6 +4866,37 @@ entity {
     header_text {
       translation {
         text: "Route 16 Trip 12:00 pm from Oak Station Gate C to Grant St & 14th Ave cancelled today due to no operator available. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57522"
+  alert {
+    active_period {
+      start: 1742237280
+      end: 1742239140
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "20"
+      route_type: 3
+      trip {
+        trip_id: "115193360"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 20 Trip 12:13 pm from Colfax Ave & Billings St to Union Station Gate B6 experiencing up to 30 minute westbound delays today due to security issue."
         language: "en"
       }
     }
