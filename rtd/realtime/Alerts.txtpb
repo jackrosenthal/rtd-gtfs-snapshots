@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742208609
+  timestamp: 1742208908
 }
 entity {
   id: "54361"
@@ -4788,37 +4788,6 @@ entity {
   }
 }
 entity {
-  id: "57498"
-  alert {
-    active_period {
-      start: 1742208960
-      end: 1742211480
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "130"
-      route_type: 3
-      trip {
-        trip_id: "115190453"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Route 130 Trip 4:56 am from Nine Mile Station Gate D to Aurora Metro Center Stn Gate C experiencing up to 10 minute delays today due to mechanical issue."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "57400"
   alert {
     active_period {
@@ -4872,6 +4841,137 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nSable Blvd & 23rd Ave (#18798) (northbound)\r\nSable Blvd & 25th Ave (#18799) (northbound)\r\nSable Blvd & 28th Ave (#22343) (northbound)\r\nSable Blvd & 28th Ave (#18751) (southbound)\r\nSable Blvd & 25th Ave (#18752) (southbound)\r\nSable Blvd & 23rd Ave (#18753) (southbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57499"
+  alert {
+    active_period {
+      start: 1742208840
+      end: 1742213520
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192081"
+      }
+      stop_id: "17711"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192081"
+      }
+      stop_id: "17714"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192081"
+      }
+      stop_id: "13703"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192081"
+      }
+      stop_id: "17717"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192081"
+      }
+      stop_id: "17730"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192081"
+      }
+      stop_id: "17756"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192081"
+      }
+      stop_id: "21356"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192081"
+      }
+      stop_id: "21374"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192081"
+      }
+      stop_id: "25416"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192081"
+      }
+      stop_id: "34614"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192081"
+      }
+      stop_id: "34265"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192081"
+      }
+      stop_id: "33694"
+    }
+    cause: UNKNOWN_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 15L Trip 4:53 am from Decatur / Federal Station Gate D to Aurora Metro Center Stn Gate E experiencing up to 10 minute eastbound delays today."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nDecatur / Federal Station Gate D (#33694)\r\nDecatur St & W Holden Pl (#34614)\r\nW Holden Pl & Federal Blvd (#34265)\r\nDecatur / Federal Station Gate E (#13703)\r\nAuraria Pkwy & 7th St (#25416)\r\nAuraria Pkwy & 9th St (#21356)\r\nMarket St & 14th St (#21374)\r\nMarket St & 16th Street Mall (#17756)\r\n17th St & Lawrence St (#17717)\r\n17th St & Champa St [ X Stop ] (#17714)\r\n17th St & Welton St [ X Stop ] (#17711)\r\nBroadway & Cleveland Pl (#17730)"
         language: "en"
       }
     }
