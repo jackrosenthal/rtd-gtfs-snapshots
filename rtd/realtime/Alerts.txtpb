@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742201709
+  timestamp: 1742202010
 }
 entity {
   id: "54361"
@@ -6867,41 +6867,6 @@ entity {
     description_text {
       translation {
         text: "Affected routes:\r\nBOLT\r\n\nFor northbound BOLT get on/off buses at:\r\nCO 119 & 63rd St (#13365)\r\nCO 119 & Monarch Rd (#24827)\r\n\nFor southbound BOLT get on/off buses at:\r\nCO 119 & Monarch Rd (#24826)\r\nCO 119 & 63rd St (#18010)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "53810"
-  alert {
-    active_period {
-      start: 1736178480
-      end: 1742201940
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "73"
-      route_type: 3
-      stop_id: "25272"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "73"
-      route_type: 3
-      stop_id: "25222"
-    }
-    cause: CONSTRUCTION
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "The following stops are closed through Sun Mar 16 due to construction: Quebec St & Colfax Ave (#25222) (southbound) and Quebec St & Colfax Ave (#25272) (northbound)."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected routes:\r\n73\r\n\nFor northbound Route 73 get on/off buses at:\r\nQuebec St & 13th Ave (#16115)\r\nQuebec St & 17th Ave (#25273)\r\n\nFor southbound Route 73 get on/off buses at:\r\nQuebec St & Montview Blvd (#25220)\r\nQuebec St & 17th Ave (#25221)\r\nQuebec St & 13th Ave (#16116)"
         language: "en"
       }
     }
