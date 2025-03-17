@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742249710
+  timestamp: 1742250009
 }
 entity {
   id: "54361"
@@ -545,13 +545,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -4819,6 +4819,37 @@ entity {
   }
 }
 entity {
+  id: "57539"
+  alert {
+    active_period {
+      start: 1742249820
+      end: 1742254860
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15"
+      route_type: 3
+      trip {
+        trip_id: "115209088"
+      }
+    }
+    cause: POLICE_ACTIVITY
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 15 Trip 4:14 pm from Colfax Ave & Tower Rd to Union Station cancelled today due to police activity. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "57400"
   alert {
     active_period {
@@ -4872,37 +4903,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nSable Blvd & 23rd Ave (#18798) (northbound)\r\nSable Blvd & 25th Ave (#18799) (northbound)\r\nSable Blvd & 28th Ave (#22343) (northbound)\r\nSable Blvd & 28th Ave (#18751) (southbound)\r\nSable Blvd & 25th Ave (#18752) (southbound)\r\nSable Blvd & 23rd Ave (#18753) (southbound)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57534"
-  alert {
-    active_period {
-      start: 1742245560
-      end: 1742249940
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15L"
-      route_type: 3
-      trip {
-        trip_id: "115192166"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Route 15L Trip 2:57 pm from Decatur / Federal Station Gate D to Colfax Ave & Billings St experiencing up to 15 minute delays today due to disabled bus."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
