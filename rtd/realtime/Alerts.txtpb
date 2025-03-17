@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742219109
+  timestamp: 1742219409
 }
 entity {
   id: "54361"
@@ -1108,37 +1108,6 @@ entity {
   }
 }
 entity {
-  id: "57508"
-  alert {
-    active_period {
-      start: 1742217420
-      end: 1742219340
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "101E"
-      route_type: 0
-      trip {
-        trip_id: "115205383"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "E Line Trip 6:40 am from Union Station Track 12 to Ridgegate Parkway Station experiencing up to 20 minute southbound delays today due to mechanical issue."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "47058"
   alert {
     active_period {
@@ -1206,37 +1175,6 @@ entity {
     description_text {
       translation {
         text: "Affected lines:\r\nH Line\r\nR Line"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57507"
-  alert {
-    active_period {
-      start: 1742216880
-      end: 1742219220
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "FF1"
-      route_type: 3
-      trip {
-        trip_id: "115206712"
-      }
-    }
-    cause: UNKNOWN_CAUSE
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "FF1 Trip 6:45 am from Downtown Boulder Station Gate 1 to Union Station experiencing up to 10 minute delays today."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
@@ -4645,37 +4583,6 @@ entity {
     description_text {
       translation {
         text: "For additional details, please visit: https://rtdden.co/4aUFNDn"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57505"
-  alert {
-    active_period {
-      start: 1742215680
-      end: 1742219160
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "RX"
-      route_type: 3
-      trip {
-        trip_id: "115204027"
-      }
-    }
-    cause: OTHER_CAUSE
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "RX Trip 6:48 am from US 85 & Bridge St PnR to Civic Center Station (16th Drop-Off) experiencing up to 20 minute southbound delays today due to traffic."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
