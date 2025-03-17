@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742226609
+  timestamp: 1742226909
 }
 entity {
   id: "54361"
@@ -5524,6 +5524,37 @@ entity {
     description_text {
       translation {
         text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57515"
+  alert {
+    active_period {
+      start: 1742226840
+      end: 1742227860
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "66"
+      route_type: 3
+      trip {
+        trip_id: "115198914"
+      }
+    }
+    cause: ACCIDENT
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 66 Trip 9:15 am from Arapahoe Community College to Arapahoe at Village Center Station Gate B cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected direction: Eastbound"
         language: "en"
       }
     }
