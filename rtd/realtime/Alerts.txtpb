@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742242809
+  timestamp: 1742243109
 }
 entity {
   id: "54361"
@@ -4713,6 +4713,68 @@ entity {
   }
 }
 entity {
+  id: "57532"
+  alert {
+    active_period {
+      start: 1742242800
+      end: 1742245080
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "0B"
+      route_type: 3
+      trip {
+        trip_id: "115184407"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 0B Trip 2:10 pm from Englewood Station Gate G to Highlands Ranch Town Center PnR Gate B cancelled today due to mechanical issue. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57533"
+  alert {
+    active_period {
+      start: 1742244720
+      end: 1742247900
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "0B"
+      route_type: 3
+      trip {
+        trip_id: "115184365"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 0B Trip 2:52 pm from Highlands Ranch Town Center PnR Gate B to Englewood Station Gate G cancelled today due to mechanical issue. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "49932"
   alert {
     active_period {
@@ -4813,6 +4875,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nHampden Ave & S Sherman St (#20173) (northbound)\r\nHampden Ave & S. Pearl St (#14168) (northbound)\r\nHampden Ave & S Clarkson St (#14134) (northbound)\r\nHampden Ave & S Emerson St (#34368) (southbound)\r\nHampden Ave & S Pennsylvania St (#14169) (southbound)\r\n\nFor northbound Route 12 get on/off buses at:\r\nGirard Ave & S Lincoln St (#20728)\r\nS Downing St & Hampden Ave (#13406)\r\n\nFor southbound Route 12 get on/off buses at:\r\nHampden Ave & S Downing St (#14142)\r\nHampden Ave & S Sherman St (#25212)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57531"
+  alert {
+    active_period {
+      start: 1742243100
+      end: 1742247540
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15"
+      route_type: 3
+      trip {
+        trip_id: "115208926"
+      }
+    }
+    cause: ACCIDENT
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 15 Trip 2:25 pm from Union Station Gate B8 to Colfax Ave & Billings St cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
