@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742203511
+  timestamp: 1742203869
 }
 entity {
   id: "54361"
@@ -4872,6 +4872,37 @@ entity {
     description_text {
       translation {
         text: "Affected direction: Eastbound"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57497"
+  alert {
+    active_period {
+      start: 1742204760
+      end: 1742207580
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "17"
+      route_type: 3
+      trip {
+        trip_id: "115193094"
+      }
+    }
+    cause: MAINTENANCE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 17 Trip 3:46 am from Federal Center Station Gate D to 10th St & Washington Ave experiencing up to 15 minute westbound delays today due to maintenance."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
