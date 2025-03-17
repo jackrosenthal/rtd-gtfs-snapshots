@@ -1,22 +1,22 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742227890
+  timestamp: 1742228785
 }
 entity {
   id: "1"
   vehicle {
     trip {
-      trip_id: "671055"
+      trip_id: "671056"
     }
     position {
-      latitude: 40.017353
-      longitude: -105.258705
-      bearing: 91.5
-      speed: 5.14
+      latitude: 40.02314
+      longitude: -105.253624
+      bearing: 359.0
+      speed: 1.65
     }
     current_stop_sequence: 1
-    timestamp: 1742227890
+    timestamp: 1742228785
     stop_id: "161607"
     vehicle {
       id: "16182"
@@ -29,22 +29,21 @@ entity {
   id: "2"
   vehicle {
     trip {
-      trip_id: "671113"
+      trip_id: "671114"
     }
     position {
-      latitude: 40.00827
-      longitude: -105.26732
-      bearing: 90.0
-      speed: 5.05
+      latitude: 40.018925
+      longitude: -105.25581
+      bearing: 353.0
     }
-    current_stop_sequence: 1
-    timestamp: 1742227886
-    stop_id: "161607"
+    current_stop_sequence: 2
+    timestamp: 1742228777
+    stop_id: "161625"
     vehicle {
       id: "16184"
       label: "22"
     }
-    occupancy_status: FEW_SEATS_AVAILABLE
+    occupancy_status: MANY_SEATS_AVAILABLE
   }
 }
 entity {
@@ -54,18 +53,18 @@ entity {
       trip_id: "670898"
     }
     position {
-      latitude: 40.019184
-      longitude: -105.25623
-      bearing: 156.0
+      latitude: 40.017483
+      longitude: -105.25907
+      bearing: 274.0
     }
-    current_stop_sequence: 2
-    timestamp: 1742227881
-    stop_id: "161601"
+    current_stop_sequence: 3
+    timestamp: 1742228777
+    stop_id: "161608"
     vehicle {
       id: "16185"
       label: "23"
     }
-    occupancy_status: MANY_SEATS_AVAILABLE
+    occupancy_status: FEW_SEATS_AVAILABLE
   }
 }
 entity {
@@ -75,14 +74,14 @@ entity {
       trip_id: "670989"
     }
     position {
-      latitude: 40.00828
-      longitude: -105.2678
-      bearing: 269.0
-      speed: 5.19
+      latitude: 40.01766
+      longitude: -105.275986
+      bearing: 71.0
+      speed: 3.36
     }
-    current_stop_sequence: 1
-    timestamp: 1742227888
-    stop_id: "161624"
+    current_stop_sequence: 19
+    timestamp: 1742228777
+    stop_id: "161619"
     vehicle {
       id: "16189"
       label: "27"
@@ -97,14 +96,14 @@ entity {
       trip_id: "671147"
     }
     position {
-      latitude: 40.018986
-      longitude: -105.28012
-      bearing: 232.0
-      speed: 1.63
+      latitude: 40.00826
+      longitude: -105.26641
+      bearing: 90.0
+      speed: 3.02
     }
-    current_stop_sequence: 13
-    timestamp: 1742227881
-    stop_id: "161582"
+    current_stop_sequence: 1
+    timestamp: 1742228783
+    stop_id: "161607"
     vehicle {
       id: "16190"
       label: "28"
@@ -119,13 +118,14 @@ entity {
       trip_id: "670844"
     }
     position {
-      latitude: 40.01904
-      longitude: -105.25611
-      bearing: 141.0
+      latitude: 40.00733
+      longitude: -105.27618
+      bearing: 269.0
+      speed: 4.47
     }
-    current_stop_sequence: 2
-    timestamp: 1742227888
-    stop_id: "161601"
+    current_stop_sequence: 1
+    timestamp: 1742228783
+    stop_id: "161624"
     vehicle {
       id: "16191"
       label: "29"
@@ -140,39 +140,18 @@ entity {
       trip_id: "671005"
     }
     position {
-      latitude: 40.018948
-      longitude: -105.25582
-      bearing: 346.0
+      latitude: 40.016712
+      longitude: -105.28379
+      bearing: 170.0
+      speed: 4.77
     }
-    current_stop_sequence: 2
-    timestamp: 1742227885
-    stop_id: "161625"
+    current_stop_sequence: 1
+    timestamp: 1742228781
+    stop_id: "161607"
     vehicle {
       id: "16192"
       label: "30"
     }
-    occupancy_status: STANDING_ROOM_ONLY
-  }
-}
-entity {
-  id: "8"
-  vehicle {
-    trip {
-      trip_id: "670954"
-    }
-    position {
-      latitude: 40.01692
-      longitude: -105.28377
-      bearing: 357.0
-      speed: 1.0
-    }
-    current_stop_sequence: 1
-    timestamp: 1742227889
-    stop_id: "161624"
-    vehicle {
-      id: "16193"
-      label: "31"
-    }
-    occupancy_status: NOT_ACCEPTING_PASSENGERS
+    occupancy_status: CRUSHED_STANDING_ROOM_ONLY
   }
 }
