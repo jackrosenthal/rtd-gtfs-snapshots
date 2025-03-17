@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742213409
+  timestamp: 1742213768
 }
 entity {
   id: "54361"
@@ -4878,131 +4878,31 @@ entity {
   }
 }
 entity {
-  id: "57500"
+  id: "57502"
   alert {
     active_period {
-      start: 1742209260
-      end: 1742213520
+      start: 1742213760
+      end: 1742216520
     }
     informed_entity {
       agency_id: "RTD"
-      route_id: "15L"
+      route_id: "17"
       route_type: 3
       trip {
-        trip_id: "115192081"
+        trip_id: "115193090"
       }
-      stop_id: "33694"
     }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15L"
-      route_type: 3
-      trip {
-        trip_id: "115192081"
-      }
-      stop_id: "34265"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15L"
-      route_type: 3
-      trip {
-        trip_id: "115192081"
-      }
-      stop_id: "34614"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15L"
-      route_type: 3
-      trip {
-        trip_id: "115192081"
-      }
-      stop_id: "21374"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15L"
-      route_type: 3
-      trip {
-        trip_id: "115192081"
-      }
-      stop_id: "21356"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15L"
-      route_type: 3
-      trip {
-        trip_id: "115192081"
-      }
-      stop_id: "25416"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15L"
-      route_type: 3
-      trip {
-        trip_id: "115192081"
-      }
-      stop_id: "17717"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15L"
-      route_type: 3
-      trip {
-        trip_id: "115192081"
-      }
-      stop_id: "17730"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15L"
-      route_type: 3
-      trip {
-        trip_id: "115192081"
-      }
-      stop_id: "17711"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15L"
-      route_type: 3
-      trip {
-        trip_id: "115192081"
-      }
-      stop_id: "17714"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15L"
-      route_type: 3
-      trip {
-        trip_id: "115192081"
-      }
-      stop_id: "17756"
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "15L"
-      route_type: 3
-      trip {
-        trip_id: "115192081"
-      }
-      stop_id: "13703"
-    }
-    cause: UNKNOWN_CAUSE
+    cause: OTHER_CAUSE
     effect: NO_SERVICE
     header_text {
       translation {
-        text: "Route 15L Trip 4:53 am from Decatur / Federal Station Gate D to Aurora Metro Center Stn Gate E cancelled today. Check trip status using Next Ride, https://rtdden.co/nr."
+        text: "Route 17 Trip 6:16 am from Federal Center Station Gate D to 10th St & Washington Ave cancelled today due to no operator available. Check trip status using Next Ride, https://rtdden.co/nr."
         language: "en"
       }
     }
     description_text {
       translation {
-        text: "Affected direction: Eastbound\r\n\nAffected stops:\r\nDecatur / Federal Station Gate D (#33694)\r\nDecatur St & W Holden Pl (#34614)\r\nW Holden Pl & Federal Blvd (#34265)\r\nDecatur / Federal Station Gate E (#13703)\r\nAuraria Pkwy & 7th St (#25416)\r\nAuraria Pkwy & 9th St (#21356)\r\nMarket St & 14th St (#21374)\r\nMarket St & 16th Street Mall (#17756)\r\n17th St & Lawrence St (#17717)\r\n17th St & Champa St [ X Stop ] (#17714)\r\n17th St & Welton St [ X Stop ] (#17711)\r\nBroadway & Cleveland Pl (#17730)"
+        text: "Affected direction: Westbound"
         language: "en"
       }
     }
