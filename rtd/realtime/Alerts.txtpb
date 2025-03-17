@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742169609
+  timestamp: 1742169908
 }
 entity {
   id: "54361"
@@ -323,6 +323,53 @@ entity {
     header_text {
       translation {
         text: "Board G Line on track 2 beginning Wed Feb 14 at 6:45 AM due to maintenance."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\n60th / Sheridan - Arvada Gold Strike Station\r\nClear Creek / Federal Station"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57367"
+  alert {
+    active_period {
+      start: 1742187600
+      end: 1742192100
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "113G"
+      route_type: 2
+      stop_id: "34525"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "113G"
+      route_type: 2
+      stop_id: "34530"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "113G"
+      route_type: 2
+      stop_id: "34529"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "113G"
+      route_type: 2
+      stop_id: "34526"
+    }
+    cause: MAINTENANCE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Board G Line on track 2 from 11:00 PM to 12:15 AM due to maintenance."
         language: "en"
       }
     }
