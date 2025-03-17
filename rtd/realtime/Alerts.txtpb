@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742244969
+  timestamp: 1742245209
 }
 entity {
   id: "54361"
@@ -4670,37 +4670,6 @@ entity {
     header_text {
       translation {
         text: "Route 0 Trip 2:43 pm from Englewood Station Gate C to Union Station cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57532"
-  alert {
-    active_period {
-      start: 1742242800
-      end: 1742245080
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "0B"
-      route_type: 3
-      trip {
-        trip_id: "115184407"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "Route 0B Trip 2:10 pm from Englewood Station Gate G to Highlands Ranch Town Center PnR Gate B cancelled today due to mechanical issue. Check trip status using Next Ride, https://rtdden.co/nr."
         language: "en"
       }
     }
