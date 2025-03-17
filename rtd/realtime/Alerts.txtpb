@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742227809
+  timestamp: 1742228709
 }
 entity {
   id: "54361"
@@ -545,13 +545,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -5274,6 +5274,37 @@ entity {
   }
 }
 entity {
+  id: "57516"
+  alert {
+    active_period {
+      start: 1742228160
+      end: 1742230920
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "43"
+      route_type: 3
+      trip {
+        trip_id: "115209873"
+      }
+    }
+    cause: ACCIDENT
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 43 Trip 10:11 am from 11th St & Auraria Pkwy to Central Park Station Gate B2 experiencing up to 10 minute eastbound delays today due to accident."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "49109"
   alert {
     active_period {
@@ -5499,37 +5530,6 @@ entity {
   }
 }
 entity {
-  id: "57515"
-  alert {
-    active_period {
-      start: 1742226840
-      end: 1742227860
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "66"
-      route_type: 3
-      trip {
-        trip_id: "115198914"
-      }
-    }
-    cause: ACCIDENT
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "Route 66 Trip 9:15 am from Arapahoe Community College to Arapahoe at Village Center Station Gate B cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected direction: Eastbound"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "55731"
   alert {
     active_period {
@@ -5668,7 +5668,7 @@ entity {
   alert {
     active_period {
       start: 1742218560
-      end: 1742234572
+      end: 1742235304
     }
     informed_entity {
       agency_id: "RTD"
