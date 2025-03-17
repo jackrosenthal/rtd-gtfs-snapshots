@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742238909
+  timestamp: 1742239210
 }
 entity {
   id: "54361"
@@ -4474,6 +4474,37 @@ entity {
   }
 }
 entity {
+  id: "57527"
+  alert {
+    active_period {
+      start: 1742240340
+      end: 1742244480
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "NB1"
+      route_type: 3
+      trip {
+        trip_id: "115207445"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "NB1 Trip 1:39 pm from Eldora Mountain Resort to Downtown Boulder Station Gate 4 cancelled today due to disabled bus. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "44626"
   alert {
     active_period {
@@ -4872,37 +4903,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nSable Blvd & 23rd Ave (#18798) (northbound)\r\nSable Blvd & 25th Ave (#18799) (northbound)\r\nSable Blvd & 28th Ave (#22343) (northbound)\r\nSable Blvd & 28th Ave (#18751) (southbound)\r\nSable Blvd & 25th Ave (#18752) (southbound)\r\nSable Blvd & 23rd Ave (#18753) (southbound)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57522"
-  alert {
-    active_period {
-      start: 1742237280
-      end: 1742239140
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "20"
-      route_type: 3
-      trip {
-        trip_id: "115193360"
-      }
-    }
-    cause: OTHER_CAUSE
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Route 20 Trip 12:13 pm from Colfax Ave & Billings St to Union Station Gate B6 experiencing up to 30 minute westbound delays today due to security issue."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
