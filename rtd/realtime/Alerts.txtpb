@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742225709
+  timestamp: 1742226009
 }
 entity {
   id: "54361"
@@ -5715,7 +5715,7 @@ entity {
   alert {
     active_period {
       start: 1742218560
-      end: 1742232244
+      end: 1742232964
     }
     informed_entity {
       agency_id: "RTD"
@@ -5947,6 +5947,83 @@ entity {
     description_text {
       translation {
         text: "Affected routes:\r\n11\r\n14\r\n\nAvailable alternate stops:\r\nW Mississippi Ave & S Broadway (#15323) (westbound)\r\nW Mississippi Ave & S Jason St (#15378) (westbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57514"
+  alert {
+    active_period {
+      start: 1742225940
+      end: 1742592600
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "10"
+      route_type: 3
+      stop_id: "17707"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15"
+      route_type: 3
+      stop_id: "17707"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      stop_id: "17707"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "19"
+      route_type: 3
+      stop_id: "17707"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "28"
+      route_type: 3
+      stop_id: "17707"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "43"
+      route_type: 3
+      stop_id: "17707"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "44"
+      route_type: 3
+      stop_id: "17707"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "6"
+      route_type: 3
+      stop_id: "17707"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "9"
+      route_type: 3
+      stop_id: "17707"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop is closed daily from 8:30 AM-3:30 PM Mon Mar 10 through Fri Mar 21 due to construction: 15th St & Larimer St (#17707) (eastbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n6\r\n9\r\n10\r\n15\r\n15L\r\n19\r\n28\r\n43\r\n44\r\n\nAvailable alternate stops:\r\n15th St & Blake St (#17708) (westbound)\r\n15th St & Curtis St [ X Stop ] (#17705) (westbound)\r\n15th St & Blake St (#17708) (northbound)\r\n15th St & Stout St [ Y Stop ] (#17703) (westbound)\r\n15th St & Champa St [ Z Stop ] (#17704) (westbound)\r\n15th St & Curtis St [ X Stop ] (#17705) (eastbound)"
         language: "en"
       }
     }
