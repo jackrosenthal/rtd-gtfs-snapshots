@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742245209
+  timestamp: 1742245629
 }
 entity {
   id: "54361"
@@ -4909,6 +4909,37 @@ entity {
   }
 }
 entity {
+  id: "57534"
+  alert {
+    active_period {
+      start: 1742245560
+      end: 1742249940
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192166"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 15L Trip 2:57 pm from Decatur / Federal Station Gate D to Colfax Ave & Billings St experiencing up to 15 minute delays today due to disabled bus."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "56458"
   alert {
     active_period {
@@ -5277,37 +5308,6 @@ entity {
   }
 }
 entity {
-  id: "57529"
-  alert {
-    active_period {
-      start: 1742241900
-      end: 1742245380
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "3"
-      route_type: 3
-      trip {
-        trip_id: "115194689"
-      }
-    }
-    cause: ACCIDENT
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "Route 3 Trip 12:56 pm from Federal Center Station Gate N to Aurora Metro Center Stn Gate F cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "54280"
   alert {
     active_period {
@@ -5371,7 +5371,7 @@ entity {
   alert {
     active_period {
       start: 1742238180
-      end: 1742251865
+      end: 1742252585
     }
     informed_entity {
       agency_id: "RTD"
