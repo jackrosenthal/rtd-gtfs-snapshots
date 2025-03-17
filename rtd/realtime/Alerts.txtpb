@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742182209
+  timestamp: 1742182508
 }
 entity {
   id: "54361"
@@ -592,13 +592,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -4888,6 +4888,45 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nSable Blvd & 23rd Ave (#18798) (northbound)\r\nSable Blvd & 25th Ave (#18799) (northbound)\r\nSable Blvd & 28th Ave (#22343) (northbound)\r\nSable Blvd & 28th Ave (#18751) (southbound)\r\nSable Blvd & 25th Ave (#18752) (southbound)\r\nSable Blvd & 23rd Ave (#18753) (southbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57492"
+  alert {
+    active_period {
+      start: 1742182260
+      end: 1742186820
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "169"
+      route_type: 3
+      trip {
+        trip_id: "115192741"
+      }
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "169"
+      route_type: 3
+      trip {
+        trip_id: "115192754"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 169 Trip 8:56 pm from S Lewiston Way & Mccallin Gate to 40th Ave & Airport Blvd-Gateway Park Stn Gate G and 1 other trip experiencing up to 15 minute delays today due to mechanical issue."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected northbound trips:\r\n8:56 pm from S Lewiston Way & Mccallin Gate to 40th Ave & Airport Blvd-Gateway Park Stn Gate G\r\n\nAffected southbound trips:\r\n9:50 pm from 40th Ave & Airport Blvd-Gateway Park Stn Gate G to S Lewiston Way & Mccallin Gate"
         language: "en"
       }
     }
