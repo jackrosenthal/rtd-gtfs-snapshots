@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742235009
+  timestamp: 1742235309
 }
 entity {
   id: "54361"
@@ -4880,6 +4880,128 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nSable Blvd & 23rd Ave (#18798) (northbound)\r\nSable Blvd & 25th Ave (#18799) (northbound)\r\nSable Blvd & 28th Ave (#22343) (northbound)\r\nSable Blvd & 28th Ave (#18751) (southbound)\r\nSable Blvd & 25th Ave (#18752) (southbound)\r\nSable Blvd & 23rd Ave (#18753) (southbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57521"
+  alert {
+    active_period {
+      start: 1742235120
+      end: 1742235840
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192221"
+      }
+      stop_id: "12891"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192221"
+      }
+      stop_id: "12850"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192221"
+      }
+      stop_id: "17705"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192221"
+      }
+      stop_id: "17707"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192221"
+      }
+      stop_id: "17698"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192221"
+      }
+      stop_id: "17699"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192221"
+      }
+      stop_id: "17702"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192221"
+      }
+      stop_id: "21357"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192221"
+      }
+      stop_id: "21375"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192221"
+      }
+      stop_id: "25415"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      trip {
+        trip_id: "115192221"
+      }
+      stop_id: "33693"
+    }
+    cause: POLICE_ACTIVITY
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 15L Trip 11:15 am from Colfax Ave & Billings St to Decatur / Federal Station Gate C experiencing up to 10 minute westbound delays today due to police activity."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nColfax Ave & Grant St (#12891)\r\nColfax Ave & Broadway (#12850)\r\n15th St & Cleveland Pl (#17698)\r\n15th St & Tremont Pl [ X Stop ] (#17699)\r\n15th St & California St [ X Stop ] (#17702)\r\n15th St & Curtis St [ X Stop ] (#17705)\r\n15th St & Larimer St (#17707)\r\nBlake St & 14th St (#21375)\r\nAuraria Pkwy & 9th St (#21357)\r\nAuraria Pkwy & 7th St (#25415)\r\nDecatur / Federal Station Gate C (#33693)"
         language: "en"
       }
     }
