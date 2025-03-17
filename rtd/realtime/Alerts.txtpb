@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742247910
+  timestamp: 1742248209
 }
 entity {
   id: "54361"
@@ -5009,6 +5009,37 @@ entity {
   }
 }
 entity {
+  id: "57538"
+  alert {
+    active_period {
+      start: 1742248140
+      end: 1742251740
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15"
+      route_type: 3
+      trip {
+        trip_id: "115209051"
+      }
+    }
+    cause: POLICE_ACTIVITY
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 15 Trip 3:34 pm from Colfax Ave & Billings St to Union Station cancelled today due to police activity. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "57400"
   alert {
     active_period {
@@ -5561,7 +5592,7 @@ entity {
   alert {
     active_period {
       start: 1742238180
-      end: 1742254745
+      end: 1742255387
     }
     informed_entity {
       agency_id: "RTD"
