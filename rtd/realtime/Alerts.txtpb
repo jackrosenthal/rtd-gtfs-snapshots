@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742238009
+  timestamp: 1742238909
 }
 entity {
   id: "54361"
@@ -545,13 +545,13 @@ entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "25438"
+      stop_id: "24894"
     }
     informed_entity {
       agency_id: "RTD"
       route_id: "101D"
       route_type: 0
-      stop_id: "24894"
+      stop_id: "25438"
     }
     cause: UNKNOWN_CAUSE
     effect: OTHER_EFFECT
@@ -4443,6 +4443,37 @@ entity {
   }
 }
 entity {
+  id: "57526"
+  alert {
+    active_period {
+      start: 1742238780
+      end: 1742239680
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "NB1"
+      route_type: 3
+      trip {
+        trip_id: "115207446"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "NB1 Trip 12:25 pm from Downtown Boulder Station Gate 4 to Eldora Mountain Resort cancelled today due to disabled bus. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "44626"
   alert {
     active_period {
@@ -4841,37 +4872,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nSable Blvd & 23rd Ave (#18798) (northbound)\r\nSable Blvd & 25th Ave (#18799) (northbound)\r\nSable Blvd & 28th Ave (#22343) (northbound)\r\nSable Blvd & 28th Ave (#18751) (southbound)\r\nSable Blvd & 25th Ave (#18752) (southbound)\r\nSable Blvd & 23rd Ave (#18753) (southbound)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57520"
-  alert {
-    active_period {
-      start: 1742234400
-      end: 1742238120
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "16"
-      route_type: 3
-      trip {
-        trip_id: "115192588"
-      }
-    }
-    cause: OTHER_CAUSE
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "Route 16 Trip 12:00 pm from Oak Station Gate C to Grant St & 14th Ave cancelled today due to no operator available. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
@@ -5330,6 +5330,65 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nHampden Ave & S Sherman St (#20173) (eastbound)\r\nHampden Ave & S. Pearl St (#14168) (eastbound)\r\nHampden Ave & S Clarkson St (#14134) (eastbound)\r\nHampden Ave & S Pearl St (#14180) (westbound)\r\nHampden Ave & S Emerson St (#34368) (westbound)\r\nHampden Ave & S Pennsylvania St (#14169) (westbound)\r\n\nFor eastbound Route 35 get on/off buses at:\r\nGirard Ave & S Lincoln St (#20728)\r\nS Downing St & Hampden Ave (#25209)\r\n\nFor westbound Route 35 get on/off buses at:\r\nHampden Ave & S Downing St (#14142)\r\nHampden Ave & S Sherman St (#25212)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57523"
+  alert {
+    active_period {
+      start: 1742238180
+      end: 1742246053
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "35"
+      route_type: 3
+    }
+    cause: ACCIDENT
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 35 experiencing up to 30 minute delays due to accident."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57525"
+  alert {
+    active_period {
+      start: 1742238300
+      end: 1742240040
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "43"
+      route_type: 3
+      trip {
+        trip_id: "115209939"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 43 Trip 12:40 pm from Central Park Station Gate B2 to 11th St & Auraria Pkwy cancelled today due to disabled bus. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected direction: Westbound"
         language: "en"
       }
     }
