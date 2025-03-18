@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742275449
+  timestamp: 1742275808
 }
 entity {
   id: "54361"
@@ -217,6 +217,37 @@ entity {
     description_text {
       translation {
         text: "Affected routes:\r\nMALLRIDE\r\nFF1\r\nFF2\r\nFF3\r\nLD1\r\n0\r\n9\r\n10\r\n15\r\n20\r\n32\r\n120X\r\n\nAffected stops:\r\nUnion Station (#33646) (civic ctr)\r\nUnion Station (#33647) (union stn)\r\nUnion Station (#34343) (eastbound)\r\nUnion Station (#34343) (northbound)\r\nUnion Station (#34343) (southbound)\r\nUnion Station (#34343) (westbound)\r\nUnion Station (#34344) (eastbound)\r\nUnion Station (#34344) (southbound)\r\nUnion Station (#34344) (westbound)\r\nUnion Station Gate B10 (#34329) (northbound)\r\nUnion Station Gate B15 (#34313) (northbound)\r\nUnion Station Gate B16 (#34314) (eastbound)\r\nUnion Station Gate B16 (#34314) (westbound)\r\nUnion Station Gate B17 (#34312) (eastbound)\r\nUnion Station Gate B17 (#34312) (westbound)\r\nUnion Station Gate B18 (#34315) (northbound)\r\nUnion Station Gate B18 (#34315) (westbound)\r\nUnion Station Gate B5 (#34324) (eastbound)\r\nUnion Station Gate B5 (#34324) (westbound)\r\nUnion Station Gate B6 (#34325) (eastbound)\r\nUnion Station Gate B6 (#34325) (westbound)\r\nUnion Station Gate B7 (#34326) (northbound)\r\nUnion Station Gate B7 (#34326) (southbound)\r\nUnion Station Gate B8 (#34327) (eastbound)\r\nUnion Station Gate B9 (#34328) (eastbound)\r\nUnion Station Gate B9 (#34328) (westbound)\r\nUnion Station Loop (#10101) (union stn)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57558"
+  alert {
+    active_period {
+      start: 1742275440
+      end: 1742276340
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "AB1"
+      route_type: 3
+      trip {
+        trip_id: "115207170"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "AB1 Trip 10:20 pm from Denver Airport Station Gate 8 to Downtown Boulder Station (Ar) cancelled today due to mechanical issue. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected direction: Westbound"
         language: "en"
       }
     }
@@ -1222,37 +1253,6 @@ entity {
     description_text {
       translation {
         text: "Affected lines:\r\nH Line\r\nR Line"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57556"
-  alert {
-    active_period {
-      start: 1742272380
-      end: 1742275800
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "FF1"
-      route_type: 3
-      trip {
-        trip_id: "115206757"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "FF1 Trip 10:25 pm from Union Station Gate B17 to Downtown Boulder Station (Ar) experiencing up to 20 minute westbound delays today due to disabled bus."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
