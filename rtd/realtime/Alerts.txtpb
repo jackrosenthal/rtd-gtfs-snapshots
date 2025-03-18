@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742260149
+  timestamp: 1742260509
 }
 entity {
   id: "54361"
@@ -4636,37 +4636,6 @@ entity {
   }
 }
 entity {
-  id: "57552"
-  alert {
-    active_period {
-      start: 1742256900
-      end: 1742260440
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "RX"
-      route_type: 3
-      trip {
-        trip_id: "115204022"
-      }
-    }
-    cause: OTHER_CAUSE
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "RX Trip 6:15 pm from Civic Center Station Gate 4 to US 85 & Bridge St PnR experiencing up to 15 minute delays today due to traffic."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "57415"
   alert {
     active_period {
@@ -4950,6 +4919,128 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nSable Blvd & 23rd Ave (#18798) (northbound)\r\nSable Blvd & 25th Ave (#18799) (northbound)\r\nSable Blvd & 28th Ave (#22343) (northbound)\r\nSable Blvd & 28th Ave (#18751) (southbound)\r\nSable Blvd & 25th Ave (#18752) (southbound)\r\nSable Blvd & 23rd Ave (#18753) (southbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57554"
+  alert {
+    active_period {
+      start: 1742260080
+      end: 1742261400
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      trip {
+        trip_id: "115192564"
+      }
+      stop_id: "12849"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      trip {
+        trip_id: "115192564"
+      }
+      stop_id: "18863"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      trip {
+        trip_id: "115192564"
+      }
+      stop_id: "18999"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      trip {
+        trip_id: "115192564"
+      }
+      stop_id: "13703"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      trip {
+        trip_id: "115192564"
+      }
+      stop_id: "12978"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      trip {
+        trip_id: "115192564"
+      }
+      stop_id: "33972"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      trip {
+        trip_id: "115192564"
+      }
+      stop_id: "34265"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      trip {
+        trip_id: "115192564"
+      }
+      stop_id: "23216"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      trip {
+        trip_id: "115192564"
+      }
+      stop_id: "23217"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      trip {
+        trip_id: "115192564"
+      }
+      stop_id: "21279"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "16"
+      route_type: 3
+      trip {
+        trip_id: "115192564"
+      }
+      stop_id: "34614"
+    }
+    cause: ACCIDENT
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Route 16 Trip 6:30 pm from Oak Station Gate C to Grant St & 14th Ave cancelled today due to accident. Check trip status using Next Ride, https://rtdden.co/nr."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nDecatur / Federal Station Gate G (#21279) (eastbound)\r\nDecatur / Federal Station Gate A (#33972) (eastbound)\r\nDecatur St & W Holden Pl (#34614) (eastbound)\r\nW Holden Pl & Federal Blvd (#34265) (eastbound)\r\nDecatur / Federal Station Gate E (#13703) (eastbound)\r\nW Colfax Ave & Mariposa St (#18863) (eastbound)\r\nW Colfax Ave & Elati St (#23216) (eastbound)\r\nW Colfax Ave & Bannock St (#23217) (eastbound)\r\nColfax Ave & Broadway (#12849) (eastbound)\r\nColfax Ave & Sherman St (#12978) (eastbound)\r\nGrant St & 14th Ave (#18999) (eastbound)"
         language: "en"
       }
     }
