@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742256008
+  timestamp: 1742256248
 }
 entity {
   id: "54361"
@@ -323,6 +323,53 @@ entity {
     header_text {
       translation {
         text: "Board G Line on track 2 beginning Wed Feb 14 at 6:45 AM due to maintenance."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\n60th / Sheridan - Arvada Gold Strike Station\r\nClear Creek / Federal Station"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57524"
+  alert {
+    active_period {
+      start: 1742274000
+      end: 1742278500
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "113G"
+      route_type: 2
+      stop_id: "34530"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "113G"
+      route_type: 2
+      stop_id: "34526"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "113G"
+      route_type: 2
+      stop_id: "34525"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "113G"
+      route_type: 2
+      stop_id: "34529"
+    }
+    cause: MAINTENANCE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Board G Line on track 2 from 11:00 PM to 12:15 AM due to maintenance."
         language: "en"
       }
     }
@@ -4682,37 +4729,6 @@ entity {
   }
 }
 entity {
-  id: "57550"
-  alert {
-    active_period {
-      start: 1742254860
-      end: 1742256060
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "0L"
-      route_type: 3
-      trip {
-        trip_id: "115184440"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "Route 0L Trip 5:32 pm from Civic Center Station Gate 6 to I-25 & Broadway Station Gate A3 cancelled today due to mechanical issue. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "49932"
   alert {
     active_period {
@@ -4813,37 +4829,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nHampden Ave & S Sherman St (#20173) (northbound)\r\nHampden Ave & S. Pearl St (#14168) (northbound)\r\nHampden Ave & S Clarkson St (#14134) (northbound)\r\nHampden Ave & S Emerson St (#34368) (southbound)\r\nHampden Ave & S Pennsylvania St (#14169) (southbound)\r\n\nFor northbound Route 12 get on/off buses at:\r\nGirard Ave & S Lincoln St (#20728)\r\nS Downing St & Hampden Ave (#13406)\r\n\nFor southbound Route 12 get on/off buses at:\r\nHampden Ave & S Downing St (#14142)\r\nHampden Ave & S Sherman St (#25212)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57547"
-  alert {
-    active_period {
-      start: 1742254140
-      end: 1742256120
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "121"
-      route_type: 3
-      trip {
-        trip_id: "115190293"
-      }
-    }
-    cause: OTHER_CAUSE
-    effect: OTHER_EFFECT
-    header_text {
-      translation {
-        text: "Route 121 Trip 4:39 pm from 40th Ave & Airport Blvd-Gateway Park Stn Gate D to Nine Mile Station Gate G experiencing up to 10 minute southbound delays today due to traffic."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
