@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742259849
+  timestamp: 1742260149
 }
 entity {
   id: "54361"
@@ -4956,45 +4956,6 @@ entity {
   }
 }
 entity {
-  id: "57549"
-  alert {
-    active_period {
-      start: 1742254800
-      end: 1742259900
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "16"
-      route_type: 3
-      trip {
-        trip_id: "115192569"
-      }
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "16"
-      route_type: 3
-      trip {
-        trip_id: "115192631"
-      }
-    }
-    cause: TECHNICAL_PROBLEM
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "Route 16 Trip 5:00 pm from Oak Station Gate C to Grant St & 14th Ave and 1 other trip cancelled today due to mechanical issue. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: "Affected eastbound trips:\r\n5:00 pm from Oak Station Gate C to Grant St & 14th Ave\r\n\nAffected westbound trips:\r\n6:08 pm from Colfax Ave & Broadway to Oak Station Gate C"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
   id: "56458"
   alert {
     active_period {
@@ -5426,7 +5387,7 @@ entity {
   alert {
     active_period {
       start: 1742238180
-      end: 1742266624
+      end: 1742267344
     }
     informed_entity {
       agency_id: "RTD"
