@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742256909
+  timestamp: 1742257148
 }
 entity {
   id: "54361"
@@ -4599,6 +4599,37 @@ entity {
     description_text {
       translation {
         text: "For additional details, please visit: https://rtdden.co/4aUFNDn"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57552"
+  alert {
+    active_period {
+      start: 1742256900
+      end: 1742260440
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "RX"
+      route_type: 3
+      trip {
+        trip_id: "115204022"
+      }
+    }
+    cause: OTHER_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "RX Trip 6:15 pm from Civic Center Station Gate 4 to US 85 & Bridge St PnR experiencing up to 15 minute delays today due to traffic."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
