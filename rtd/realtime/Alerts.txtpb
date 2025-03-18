@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742255649
+  timestamp: 1742256008
 }
 entity {
   id: "54361"
@@ -4850,6 +4850,37 @@ entity {
   }
 }
 entity {
+  id: "57551"
+  alert {
+    active_period {
+      start: 1742255640
+      end: 1742256900
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15"
+      route_type: 3
+      trip {
+        trip_id: "115208975"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Route 15 Trip 4:34 pm from Union Station Gate B8 to Colfax Ave & Tower Rd experiencing up to 10 minute delays today due to mechanical issue."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
   id: "57400"
   alert {
     active_period {
@@ -5379,7 +5410,7 @@ entity {
   alert {
     active_period {
       start: 1742238180
-      end: 1742262304
+      end: 1742263024
     }
     informed_entity {
       agency_id: "RTD"
