@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742272150
+  timestamp: 1742272508
 }
 entity {
   id: "54361"
@@ -1191,6 +1191,37 @@ entity {
     description_text {
       translation {
         text: "Affected lines:\r\nH Line\r\nR Line"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57556"
+  alert {
+    active_period {
+      start: 1742272380
+      end: 1742275800
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "FF1"
+      route_type: 3
+      trip {
+        trip_id: "115206757"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "FF1 Trip 10:25 pm from Union Station Gate B17 to Downtown Boulder Station (Ar) experiencing up to 20 minute westbound delays today due to disabled bus."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
@@ -5325,7 +5356,7 @@ entity {
   alert {
     active_period {
       start: 1742238180
-      end: 1742278865
+      end: 1742279584
     }
     informed_entity {
       agency_id: "RTD"
