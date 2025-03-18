@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742256248
+  timestamp: 1742256609
 }
 entity {
   id: "54361"
@@ -5395,7 +5395,7 @@ entity {
   alert {
     active_period {
       start: 1742238180
-      end: 1742263024
+      end: 1742263744
     }
     informed_entity {
       agency_id: "RTD"
@@ -5697,37 +5697,6 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nPark Ave West & Blake St (#23224) (northbound)"
-        language: "en"
-      }
-    }
-  }
-}
-entity {
-  id: "57548"
-  alert {
-    active_period {
-      start: 1742254800
-      end: 1742256540
-    }
-    informed_entity {
-      agency_id: "RTD"
-      route_id: "83L"
-      route_type: 3
-      trip {
-        trip_id: "115211070"
-      }
-    }
-    cause: MEDICAL_EMERGENCY
-    effect: NO_SERVICE
-    header_text {
-      translation {
-        text: "Route 83L Trip 4:59 pm from Nine Mile Station Gate F to Civic Center Station Gate 5 cancelled today due to medical emergency. Check trip status using Next Ride, https://rtdden.co/nr."
-        language: "en"
-      }
-    }
-    description_text {
-      translation {
-        text: ""
         language: "en"
       }
     }
