@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742258768
+  timestamp: 1742259009
 }
 entity {
   id: "54361"
@@ -251,6 +251,37 @@ entity {
     description_text {
       translation {
         text: "Affected stops:\r\nVia Varra Rd & Via Lata Dr (#34786) (westbound)\r\nVia Varra Rd & Via Lata Dr (#34785) (eastbound) \r\n\nAlternative stops:\r\n13600 Block Via Varra (#35482) (eastbound)\r\n13500 Block Via Varra (#35483) (westbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57553"
+  alert {
+    active_period {
+      start: 1742258820
+      end: 1742261280
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "ART"
+      route_type: 3
+      trip {
+        trip_id: "115211185"
+      }
+    }
+    cause: MAINTENANCE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "ART Trip 6:20 pm from Alameda Station Gate E to 40th & Colorado Station Gate C experiencing up to 20 minute delays today due to maintenance."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
         language: "en"
       }
     }
