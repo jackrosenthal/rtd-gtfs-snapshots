@@ -1,7 +1,7 @@
 header {
   gtfs_realtime_version: "2.0"
   incrementality: FULL_DATASET
-  timestamp: 1742275808
+  timestamp: 1742276049
 }
 entity {
   id: "54361"
@@ -273,6 +273,37 @@ entity {
     header_text {
       translation {
         text: "AB1 Trip 10:20 pm from Denver Airport Station Gate 8 to Downtown Boulder Station (Ar) experiencing up to 30 minute westbound delays today due to mechanical issue."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "57559"
+  alert {
+    active_period {
+      start: 1742276460
+      end: 1742282040
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "AB1"
+      route_type: 3
+      trip {
+        trip_id: "115207139"
+      }
+    }
+    cause: TECHNICAL_PROBLEM
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "AB1 Trip 11:41 pm from Downtown Boulder Station Gate 2 to Denver Airport Station Gate 6 experiencing up to 45 minute eastbound delays today due to mechanical issue."
         language: "en"
       }
     }
@@ -5387,7 +5418,7 @@ entity {
   alert {
     active_period {
       start: 1742238180
-      end: 1742282464
+      end: 1742283184
     }
     informed_entity {
       agency_id: "RTD"
