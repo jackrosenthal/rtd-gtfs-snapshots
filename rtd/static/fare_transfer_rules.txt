@@ -1,9 +1,9 @@
 from_leg_group_id,to_leg_group_id,transfer_count,duration_limit,duration_limit_type,fare_transfer_type,fare_product_id
-non_airport_fare,airport_fare,,10800,3,0,airport_transfer
-non_airport_fare,non_airport_fare,-1,10800,3,0,free_transfer
-free_service,non_airport_fare,,,,2,free_transfer
-airport_fare,non_airport_fare,,86400,3,0,free_transfer
 airport_fare,airport_fare,-1,86400,3,0,free_transfer
-non_airport_fare,free_service,,10800,3,2,three_hour
 airport_fare,free_service,,86400,3,0,free_transfer
+airport_fare,non_airport_fare,,86400,3,0,free_transfer
 free_service,airport_fare,,,,2,free_transfer
+free_service,non_airport_fare,,,,2,free_transfer
+non_airport_fare,airport_fare,,10800,3,0,airport_transfer
+non_airport_fare,free_service,,10800,3,2,three_hour
+non_airport_fare,non_airport_fare,-1,10800,3,0,free_transfer
