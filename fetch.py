@@ -6,6 +6,7 @@ import dataclasses
 import pathlib
 from typing import Annotated, Optional
 import zipfile
+import csv
 
 import aiofiles
 import aiofiles.os
@@ -20,6 +21,22 @@ import typer
 app = async_typer.AsyncTyper()
 commit_lock = asyncio.Lock()
 HERE = pathlib.Path(__file__).resolve().parent
+
+
+def csv_normalize(content: bytes) -> bytes:
+    """Sort CSV rows and clean up any quoting discrepancies."""
+    reader = csv.reader(io.StringIO(content.decode("utf-8")))
+    try:
+        header_row = next(reader)
+    except StopIteration:
+        return b""
+    rows = sorted(reader)
+    output = io.StringIO()
+    writer = csv.writer(output, lineterminator="\n")
+    writer.writerow(header_row)
+    for row in rows:
+        writer.writerow(row)
+    return output.getvalue().encode("utf-8")
 
 
 @dataclasses.dataclass
@@ -124,7 +141,9 @@ class Agency:
         with zipfile.ZipFile(io.BytesIO(zip_content)) as z:
             for file_info in z.infolist():
                 file_path = self.static_dir / file_info.filename
-                await tracker.write_if_changed(file_path, z.read(file_info.filename))
+                contents = z.read(file_info.filename)
+                new_contents = csv_normalize(contents)
+                await tracker.write_if_changed(file_path, new_contents)
 
         await tracker.remove_unseen(self.static_dir)
 
@@ -159,10 +178,7 @@ class Agency:
             feed = gtfs_realtime_pb2.FeedMessage()
             feed.ParseFromString(pb_content)
             for entity in feed.entity:
-                if (
-                    entity.HasField("vehicle")
-                    and entity.vehicle.vehicle.label
-                ):
+                if entity.HasField("vehicle") and entity.vehicle.vehicle.label:
                     await tracker.write_if_changed(
                         self.vehicles_dir / f"{entity.vehicle.vehicle.label}.txtpb",
                         text_format.MessageToString(entity.vehicle).encode(),
