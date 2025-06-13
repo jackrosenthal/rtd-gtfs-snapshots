@@ -1,6 +1,12 @@
 active_period {
-  start: 1749776940
-  end: 1749784163
+  start: 1749777360
+  end: 1749784597
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "A"
+  route_type: 2
+  stop_id: "34605"
 }
 informed_entity {
   agency_id: "RTD"
@@ -13,12 +19,6 @@ informed_entity {
   route_id: "A"
   route_type: 2
   stop_id: "34473"
-}
-informed_entity {
-  agency_id: "RTD"
-  route_id: "A"
-  route_type: 2
-  stop_id: "34605"
 }
 informed_entity {
   agency_id: "RTD"
@@ -38,11 +38,11 @@ informed_entity {
   route_type: 2
   stop_id: "34606"
 }
-cause: UNKNOWN_CAUSE
-effect: NO_SERVICE
+cause: TECHNICAL_PROBLEM
+effect: DETOUR
 header_text {
   translation {
-    text: "A Line service suspended.  A bus bridge has been set up between Peoria station and 61st and Pena."
+    text: "Shuttle buses replacing A Line due to signal problem."
     language: "en"
   }
 }
