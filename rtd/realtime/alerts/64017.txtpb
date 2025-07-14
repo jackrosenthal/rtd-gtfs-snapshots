@@ -1,6 +1,12 @@
 active_period {
-  start: 1752492540
-  end: 1752499775
+  start: 1752494820
+  end: 1752502075
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "103W"
+  route_type: 0
+  stop_id: "33955"
 }
 informed_entity {
   agency_id: "RTD"
@@ -13,12 +19,6 @@ informed_entity {
   route_id: "103W"
   route_type: 0
   stop_id: "33948"
-}
-informed_entity {
-  agency_id: "RTD"
-  route_id: "103W"
-  route_type: 0
-  stop_id: "33955"
 }
 informed_entity {
   agency_id: "RTD"
@@ -39,16 +39,16 @@ informed_entity {
   stop_id: "33568"
 }
 cause: POLICE_ACTIVITY
-effect: NO_SERVICE
+effect: DETOUR
 header_text {
   translation {
-    text: "3 Light Rail stops closed due to police activity."
+    text: "Shuttle buses replacing W Line due to police activity."
     language: "en"
   }
 }
 description_text {
   translation {
-    text: "Affected lines:\r\nW Line\r\n\nAffected stops:\r\nFederal Center Station\r\nJefferson CO Government-Golden Station\r\nRed Rocks College Station"
+    text: "Affected stops:\r\nJefferson CO Government-Golden Station\r\nRed Rocks College Station\r\nFederal Center Station"
     language: "en"
   }
 }
