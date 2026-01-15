@@ -9,6 +9,16 @@ informed_entity {
   trip {
     trip_id: "115712404"
   }
+  stop_id: "34975"
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "42"
+  route_type: 3
+  trip {
+    trip_id: "115712404"
+  }
+  stop_id: "34485"
 }
 cause: ACCIDENT
 effect: NO_SERVICE
@@ -20,7 +30,7 @@ header_text {
 }
 description_text {
   translation {
-    text: "Affected direction: Eastbound"
+    text: "Affected direction: Eastbound\r\n\nAffected stops:\r\nCentral Park Station Gate B1 (#34485)\r\nCentral Park Blvd & 46th Pl (#34975)"
     language: "en"
   }
 }
