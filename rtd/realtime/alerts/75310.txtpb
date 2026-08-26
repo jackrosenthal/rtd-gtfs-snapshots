@@ -3,9 +3,51 @@ active_period {
 }
 informed_entity {
   agency_id: "RTD"
+  route_id: "AB1"
+  route_type: 3
+  stop_id: "34195"
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "AB1"
+  route_type: 3
+  stop_id: "16342"
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "AB2"
+  route_type: 3
+  stop_id: "34195"
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "AB2"
+  route_type: 3
+  stop_id: "16342"
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "AB3"
+  route_type: 3
+  stop_id: "34195"
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "AB3"
+  route_type: 3
+  stop_id: "16342"
+}
+informed_entity {
+  agency_id: "RTD"
   route_id: "FF1"
   route_type: 3
   stop_id: "34195"
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "FF1"
+  route_type: 3
+  stop_id: "16342"
 }
 informed_entity {
   agency_id: "RTD"
@@ -15,69 +57,27 @@ informed_entity {
 }
 informed_entity {
   agency_id: "RTD"
+  route_id: "FF2"
+  route_type: 3
+  stop_id: "16342"
+}
+informed_entity {
+  agency_id: "RTD"
   route_id: "FF4"
   route_type: 3
   stop_id: "34195"
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "FF4"
+  route_type: 3
+  stop_id: "16342"
 }
 informed_entity {
   agency_id: "RTD"
   route_id: "FF5"
   route_type: 3
   stop_id: "34195"
-}
-informed_entity {
-  agency_id: "RTD"
-  route_id: "AB1"
-  route_type: 3
-  stop_id: "34195"
-}
-informed_entity {
-  agency_id: "RTD"
-  route_id: "AB2"
-  route_type: 3
-  stop_id: "34195"
-}
-informed_entity {
-  agency_id: "RTD"
-  route_id: "AB1"
-  route_type: 3
-  stop_id: "16342"
-}
-informed_entity {
-  agency_id: "RTD"
-  route_id: "AB2"
-  route_type: 3
-  stop_id: "16342"
-}
-informed_entity {
-  agency_id: "RTD"
-  route_id: "AB3"
-  route_type: 3
-  stop_id: "34195"
-}
-informed_entity {
-  agency_id: "RTD"
-  route_id: "AB3"
-  route_type: 3
-  stop_id: "16342"
-}
-informed_entity {
-  agency_id: "RTD"
-  route_id: "FF1"
-  route_type: 3
-  stop_id: "16342"
-}
-informed_entity {
-  agency_id: "RTD"
-  route_id: "FF2"
-  route_type: 3
-  stop_id: "16342"
-}
-informed_entity {
-  agency_id: "RTD"
-  route_id: "FF4"
-  route_type: 3
-  stop_id: "16342"
 }
 informed_entity {
   agency_id: "RTD"
@@ -87,6 +87,12 @@ informed_entity {
 }
 cause: UNKNOWN_CAUSE
 effect: UNKNOWN_EFFECT
+url {
+  translation {
+    text: "https://www.rtd-denver.com/community/news/rtd-to-begin-improvements-project-march-23-at-table-mesa-park-n-ride"
+    language: "en"
+  }
+}
 header_text {
   translation {
     text: "Change at Table Mesa Station beginning Mon Mar 23."
@@ -99,3 +105,4 @@ description_text {
     language: "en"
   }
 }
+severity_level: WARNING
