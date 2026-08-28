@@ -1,0 +1,39 @@
+active_period {
+  start: 1787932200
+  end: 1787935200
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "FREE"
+  route_type: 3
+  trip {
+    trip_id: "115910071"
+    route_id: "FREE"
+    direction_id: 0
+  }
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "FREE"
+  route_type: 3
+  trip {
+    trip_id: "115910370"
+    route_id: "FREE"
+    direction_id: 1
+  }
+}
+cause: TECHNICAL_PROBLEM
+effect: NO_SERVICE
+header_text {
+  translation {
+    text: "FreeRide Trip 9:50 am from Union Station and 1 other trip cancelled today due to mechanical issue. Check trip status using NextRide, https://rtdden.co/nr."
+    language: "en"
+  }
+}
+description_text {
+  translation {
+    text: "Affected Civic Ctr trips:\r\n9:50 am from Union Station\r\n\nAffected Union Stn trips:\r\n10:09 am from Civic Center Loop"
+    language: "en"
+  }
+}
+severity_level: WARNING
