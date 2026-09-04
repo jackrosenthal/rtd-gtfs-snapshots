@@ -1,0 +1,39 @@
+active_period {
+  start: 1788555300
+  end: 1788560700
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "16"
+  route_type: 3
+  trip {
+    trip_id: "115882146"
+    route_id: "16"
+    direction_id: 0
+  }
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "16"
+  route_type: 3
+  trip {
+    trip_id: "115882182"
+    route_id: "16"
+    direction_id: 1
+  }
+}
+cause: ACCIDENT
+effect: NO_SERVICE
+header_text {
+  translation {
+    text: "Route 16 Trip 2:10 pm from Oak Station Gate C and 1 other trip cancelled today due to accident. Check trip status using NextRide, https://rtdden.co/nr."
+    language: "en"
+  }
+}
+description_text {
+  translation {
+    text: "Affected eastbound trips:\r\n2:10 pm from Oak Station Gate C\r\n\nAffected westbound trips:\r\n3:21 pm from Colfax & Broadway Civic Center Station"
+    language: "en"
+  }
+}
+severity_level: WARNING
