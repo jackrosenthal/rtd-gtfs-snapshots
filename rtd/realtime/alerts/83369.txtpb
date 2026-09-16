@@ -1,0 +1,39 @@
+active_period {
+  start: 1789601640
+  end: 1789608000
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "LD1"
+  route_type: 3
+  trip {
+    trip_id: "115894021"
+    route_id: "LD1"
+    direction_id: 0
+  }
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "LD1"
+  route_type: 3
+  trip {
+    trip_id: "115894041"
+    route_id: "LD1"
+    direction_id: 1
+  }
+}
+cause: ACCIDENT
+effect: OTHER_EFFECT
+header_text {
+  translation {
+    text: "LD1 Trip 4:03 pm from Union Station Gate B16 and 1 other trip experiencing up to 45 minute delays today due to non-RTD accident."
+    language: "en"
+  }
+}
+description_text {
+  translation {
+    text: "Affected northbound trips:\r\n4:03 pm from Union Station Gate B16\r\n\nAffected southbound trips:\r\n5:48 pm from 8th & Coffman PnR Gate C"
+    language: "en"
+  }
+}
+severity_level: SEVERE
