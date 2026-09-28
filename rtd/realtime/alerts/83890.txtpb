@@ -1,0 +1,39 @@
+active_period {
+  start: 1790596020
+  end: 1790602260
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "42"
+  route_type: 3
+  trip {
+    trip_id: "116045147"
+    route_id: "42"
+    direction_id: 0
+  }
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "42"
+  route_type: 3
+  trip {
+    trip_id: "116045221"
+    route_id: "42"
+    direction_id: 1
+  }
+}
+cause: TECHNICAL_PROBLEM
+effect: NO_SERVICE
+header_text {
+  translation {
+    text: "Route 42 Trip 5:37 am from Maxwell Pl & Orleans St and 1 other trip cancelled today due to disabled bus. Check trip status using NextRide, https://rtdden.co/nr."
+    language: "en"
+  }
+}
+description_text {
+  translation {
+    text: "Affected westbound trips:\r\n5:37 am from Maxwell Pl & Orleans St\r\n\nAffected eastbound trips:\r\n6:44 am from Central Park Station Gate B1"
+    language: "en"
+  }
+}
+severity_level: WARNING
