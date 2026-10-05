@@ -1,0 +1,33 @@
+active_period {
+  start: 1791222600
+  end: 1791230061
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "15L"
+  route_type: 3
+  stop_id: "26334"
+  direction_id: 0
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "15L"
+  route_type: 3
+  stop_id: "12935"
+  direction_id: 0
+}
+cause: MEDICAL_EMERGENCY
+effect: NO_SERVICE
+header_text {
+  translation {
+    text: "Route 15L cancelled due to medical emergency. Check trip status using NextRide, https://rtdden.co/nr."
+    language: "en"
+  }
+}
+description_text {
+  translation {
+    text: "Affected direction: Eastbound\r\n\nAffected stops:\r\nColfax Ave & Monaco Pkwy (#12935)\r\nAurora Metro Center Stn Gate E (#26334)"
+    language: "en"
+  }
+}
+severity_level: WARNING
