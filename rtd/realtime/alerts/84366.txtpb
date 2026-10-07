@@ -1,0 +1,41 @@
+active_period {
+  start: 1791342540
+  end: 1791345840
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "15"
+  route_type: 3
+  trip {
+    trip_id: "116039311"
+    route_id: "15"
+    direction_id: 0
+  }
+  stop_id: "16754"
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "15"
+  route_type: 3
+  trip {
+    trip_id: "116039311"
+    route_id: "15"
+    direction_id: 0
+  }
+  stop_id: "12845"
+}
+cause: TECHNICAL_PROBLEM
+effect: NO_SERVICE
+header_text {
+  translation {
+    text: "Route 15 Trip 8:45 pm from Union Station Gate B14 cancelled today due to mechanical issue. Check trip status using NextRide, https://rtdden.co/nr."
+    language: "en"
+  }
+}
+description_text {
+  translation {
+    text: "Affected direction: Eastbound\r\n\nAffected stops:\r\nColfax Ave & Bellaire St (#12845)\r\nColfax Ave & Tower Rd (#16754)"
+    language: "en"
+  }
+}
+severity_level: WARNING
