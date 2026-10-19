@@ -1,0 +1,35 @@
+informed_entity {
+  agency_id: "RTD"
+  route_id: "FF4"
+  route_type: 3
+  trip {
+    trip_id: "116058164"
+    route_id: "FF4"
+    direction_id: 0
+  }
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "FF4"
+  route_type: 3
+  trip {
+    trip_id: "116058233"
+    route_id: "FF4"
+    direction_id: 1
+  }
+}
+cause: OTHER_CAUSE
+effect: NO_SERVICE
+header_text {
+  translation {
+    text: "FF4 Trip 7:15 am from Boulder Junction at Depot Square Station Gate B3 and 1 other trip cancelled today due to no operator available. Check trip status using NextRide, https://rtdden.co/nr."
+    language: "en"
+  }
+}
+description_text {
+  translation {
+    text: "Affected eastbound trips:\r\n7:15 am from Boulder Junction at Depot Square Station Gate B3\r\n\nAffected westbound trips:\r\n8:33 am from Civic Center Station Gate 8"
+    language: "en"
+  }
+}
+severity_level: WARNING
