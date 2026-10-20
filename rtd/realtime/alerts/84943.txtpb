@@ -1,0 +1,43 @@
+active_period {
+  start: 1792496580
+  end: 1792503788
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "15"
+  route_type: 3
+  stop_id: "35531"
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "15"
+  route_type: 3
+  stop_id: "35532"
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "15L"
+  route_type: 3
+  stop_id: "35531"
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "15L"
+  route_type: 3
+  stop_id: "35532"
+}
+cause: POLICE_ACTIVITY
+effect: DETOUR
+header_text {
+  translation {
+    text: "Routes 15 and 15L detoured due to police activity."
+    language: "en"
+  }
+}
+description_text {
+  translation {
+    text: "Affected stops:\r\nColfax & Pennsylvania Station (#35531) (eastbound)\r\nColfax & Pennsylvania Station (#35532) (westbound)"
+    language: "en"
+  }
+}
+severity_level: WARNING
