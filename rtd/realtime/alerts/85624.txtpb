@@ -1,0 +1,39 @@
+active_period {
+  start: 1793915220
+  end: 1793916780
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "120X"
+  route_type: 3
+  trip {
+    trip_id: "116055493"
+    route_id: "120X"
+    direction_id: 0
+  }
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "120X"
+  route_type: 3
+  trip {
+    trip_id: "116055541"
+    route_id: "120X"
+    direction_id: 1
+  }
+}
+cause: TECHNICAL_PROBLEM
+effect: NO_SERVICE
+header_text {
+  translation {
+    text: "Route 120X Trip 2:15 pm from Union Station Gate B10 and 1 other trip cancelled today due to mechanical issue. Check trip status using NextRide, https://rtdden.co/nr. "
+    language: "en"
+  }
+}
+description_text {
+  translation {
+    text: "Affected northbound trips:\r\n2:15 pm from Union Station Gate B10\r\n\nAffected southbound trips:\r\n2:38 pm from Wagon Road PnR Gate D"
+    language: "en"
+  }
+}
+severity_level: WARNING
