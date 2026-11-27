@@ -1,0 +1,39 @@
+active_period {
+  start: 1795822080
+  end: 1795829760
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "FF2"
+  route_type: 3
+  trip {
+    trip_id: "116058122"
+    route_id: "FF2"
+    direction_id: 0
+  }
+}
+informed_entity {
+  agency_id: "RTD"
+  route_id: "FF2"
+  route_type: 3
+  trip {
+    trip_id: "116058230"
+    route_id: "FF2"
+    direction_id: 1
+  }
+}
+cause: TECHNICAL_PROBLEM
+effect: NO_SERVICE
+header_text {
+  translation {
+    text: "FF2 Trip 4:09 pm from Downtown Boulder Station Gate 1 and 1 other trip cancelled today due to disabled bus. Check trip status using NextRide, https://rtdden.co/nr. "
+    language: "en"
+  }
+}
+description_text {
+  translation {
+    text: "Affected eastbound trips:\r\n4:09 pm from Downtown Boulder Station Gate 1\r\n\nAffected westbound trips:\r\n5:31 pm from Union Station Gate B18"
+    language: "en"
+  }
+}
+severity_level: WARNING
